@@ -1,7 +1,16 @@
+<div align="center">
+
 # Proyecto-PENSER📊📝- Reconstrucción del Índice de Impacto de Egresados (IIE)
 
-Proyecto del curso Consultoría e Investigación – Facultad de Estadística
-Equipo: [Yeimy Alarcón], [Karen Suarez], [Josue Pedraza], [Maria José Galindo], [Paula Guevara], [Kevin Baracaldo] · [Universidad Santo Tomás] · [Octavo Semestre/2025-2]
+
+Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
+<b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
+
+<br/>
+
+<b>Equipo:</b> Yeimy Alarcón · Karen Suarez · Josue Pedraza · Maria José Galindo · Paula Guevara · Kevin Baracaldo
+
+</div>
 
 > **Estado:** En progreso · **Repositorio:** _[Link Repositorio](https://github.com/ustadistica/Proyecto-PENSER.git)_ · **Última actualización:** 2025-09-16
 
@@ -9,10 +18,10 @@ Este repositorio está dedicado a la reconstrucción del Índice de Impacto de E
 
 El IIE es un indicador sintético que resume, en un solo valor, varios aspectos relevantes de la trayectoria de los egresados. En particular, integra cuatro componentes que reflejan dimensiones clave del perfil y la inserción laboral:
 
-- Formación Disciplinar (FD): conocimientos y habilidades técnicas propias de la carrera y su pertinencia en el empleo.
-- Desarrollo de Competencias Interpersonales (DCI): habilidades “blandas” como comunicación, trabajo en equipo, liderazgo, toma de decisiones y manejo de emociones.
-- Movilidad Social (MS): cambios en la posición social y económica (aporte al hogar, suficiencia de ingresos, movilidad educativa frente a los padres).
-- Percepción de Mejoramiento de la Calidad de Vida (PMCV): evaluación del egresado sobre cómo su formación universitaria ha mejorado su bienestar y oportunidades.
+- *Formación Disciplinar (FD):* conocimientos y habilidades técnicas propias de la carrera y su pertinencia en el empleo.
+- *Desarrollo de Competencias Interpersonales (DCI):* habilidades “blandas” como comunicación, trabajo en equipo, liderazgo, toma de decisiones y manejo de emociones.
+- *Movilidad Social (MS):* cambios en la posición social y económica (aporte al hogar, suficiencia de ingresos, movilidad educativa frente a los padres).
+- *Percepción de Mejoramiento de la Calidad de Vida (PMCV):* evaluación del egresado sobre cómo su formación universitaria ha mejorado su bienestar y oportunidades.
 
 La metodología original presentada por los autores construye el IIE a partir de estos cuatro componentes y los combina mediante suma ponderada. Para iniciar el trabajo, recibimos de los autores:
 - Artículos donde presentan sus resultados y explican el proceso seguido para construir el índice (metodología, ponderaciones y lecturas).

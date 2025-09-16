@@ -1,0 +1,40 @@
+# =========================
+# Ignorar archivos de datos pesados
+# =========================
+*.xlsx
+*.xls
+*.csv
+*.sav
+*.dta
+*.parquet
+
+# Permitir solo ejemplos de datos pequeños
+!data/sample/*.csv
+
+# =========================
+# Entornos virtuales
+# =========================
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Archivos temporales del sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs y temporales
+# =========================
+*.log
+*.tmp

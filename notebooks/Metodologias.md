@@ -105,6 +105,8 @@ El Índice de Impacto de Egresados (IIE) resume cuatro componentes los cuales so
 - Movilidad Social (MS)  
 - Percepción de Mejoramiento de la Calidad de Vida (PMCV)  
 
+![alt text](<figura 2.png>)
+
 La idea central es obtener, para cada persona, un puntaje por cada componente y luego un índice final que combine los cuatro mediante suma ponderada, lo que significa que cada componente se multiplica por un porcentaje (su peso) y después se suman los cuatro resultados.  
 
 La fórmula general es:  

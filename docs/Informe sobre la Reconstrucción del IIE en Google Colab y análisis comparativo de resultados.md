@@ -36,8 +36,12 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 
 </div>
 
+<div align="center">
+  
 ### Cuadro 2 presentado en el artículo – Resultados del índice de impacto de los y las egresadas
 
 ![Imagen de WhatsApp 2025-09-29 a las 14 23 43_1a610962](https://github.com/user-attachments/assets/69800b16-3279-4f74-a749-a6ba49bd94dc)
+
+</div>
 
 Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,602, equivalente a 65% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 77% de logro, muy cerca del 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,151 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,143 y 43% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 87%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.

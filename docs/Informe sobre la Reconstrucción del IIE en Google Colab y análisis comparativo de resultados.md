@@ -45,3 +45,31 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 </div>
 
 Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,602, equivalente a 65% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 77% de logro, muy cerca del 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,151 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,143 y 43% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 87%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.
+
+### Formación disciplinar (FD)
+
+<div align="center">
+
+### Cuadro 2 – Resultados del componente de formación disciplinar del IIE
+
+| Variable                                                                 | Resultado | % alcanzado |
+|--------------------------------------------------------------------------|-----------|-------------|
+| Vinculación laboral                                | 0.024     | 78.565      |
+| Tipo de cargo                                                     | 0.018     | 60.903      |
+| Premios y reconocimientos                                | 0.006     | 18.512      |
+| Vinculación a gremio, red y/o asociación científica                          | 0.002     | 5.043       |
+| Desarrollo de proyectos comunitarios                         | 0.004     | 11.692      |
+| Desarrollo de proyectos de investigación                         | 0.003     | 9.655       |
+| Desarrollo de competencias cognitivas disciplinares     | 0.024     | 79.469      |
+| Desarrollo de competencias digitales     | 0.017     | 74.695      |
+| Desarrollo de competencia en lengua extranjera inglés     | 0.019     | 62.167      |
+| Desarrollo de competencias investigativas     | 0.022     | 74.508      |
+
+<br>
+<sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>
+
+</div>
+
+Observamos similitudes en varias variables, pero también diferencias puntuales. Un caso es “Tipo de cargo”: en la base hay categorías (“Directivo”, “Profesional”, “Técnico”, “Operativo”, “Asistencial”), mientras que en el artículo el peso mostrado parece corresponder a opciones Sí/No, lo que deja dudas sobre cómo ponderaron exactamente esa variable.
+Para premios y reconocimientos, vinculación a gremios/redes, proyectos comunitarios, proyectos de investigación y pertinencia del programa, nuestros resultados difieren en algunos decimales (p. ej., en “premios” ellos reportan 0,016 y nosotros 0,006). Para validar, contamos respuestas “Sí/No” directamente en el Excel, multiplicamos por el peso y dividimos por el total de encuestados; el cálculo respalda nuestro valor.
+En las variables de logro (p. ej., Desarrollo de competencias cognitivas, digitales, inglés e investigativas), el artículo usa la escala Muy insuficiente → Muy suficiente, pero en la base aparece Muy alto → Muy bajo + No aplica, entonces lo que nuestro equipo hizo fue asociar las opciones de respuesta a las que ellos les dieron los pesos por ejemplo Muy alto lo relacionamos con Muy suficiente y asi fue como asignamos los pesos a las opciones de respuesta correspondientes a las preguntas del componente de Formación Disciplinar

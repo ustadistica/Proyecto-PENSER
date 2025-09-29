@@ -16,3 +16,32 @@ Para cada pregunta, el artículo define un peso por respuesta *(por ejemplo, “
 <p align="center">IIE = 0,30·FD + 0,30·DCI + 0,20·MS + 0,20·PMCV</p>
 
 Con este procedimiento replicamos la metodología original y dejamos anotadas las tres preguntas sin peso claro. Más adelante, el informe muestra y comenta las inconsistencias detectadas al contrastar nuestros resultados con los del artículo.
+
+## Resultados del IIE 
+Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplicando la metodología A y los pesos del Cuadro 1 del artículo Enfoque Metodológico para la Evaluación de Impacto de los y las Egresadas en el Entorno, comparamos nuestros cálculos con los reportados por el estudio. Aunque seguimos la misma lógica de cálculo, encontramos algunas diferencias en los resultados promedio de cada componente y en él % alcanzado respecto al valor esperado que serán especificadas más adelante. A continuación, se presentan nuestros resultados y, componente por componente, se señalan las principales diferencias identificadas.
+
+<div align="center">
+
+### Cuadro 1 – Resultados del índice de impacto de los y las egresadas
+
+| Componente                              | Resultado | Máximo teórico | % alcanzado |
+|-----------------------------------------|-----------|----------------|-------------|
+| Formación disciplinar                   | 0.143     | 0.33           | 43.255      |
+| Desarrollo de competencias interpersonales | 0.231  | 0.30           | 76.856      |
+| Movilidad social                        | 0.078     | 0.09           | 86.722      |
+| Percepción de la calidad de vida        | 0.151     | 0.20           | 75.394      |
+| **Resultado**                           | **0.602** | **0.92**       | **65.451**  |
+
+<br>
+<sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación de la Universidad Santo Tomás</i></sub>
+
+</div>
+
+<div align="center">
+
+<![Imagen de WhatsApp 2025-09-29 a las 14 23 43_a9ad956a](https://github.com/user-attachments/assets/85700f5e-a604-49e7-81cd-fd4540d44bbb)
+" alt="Cuadro 2 Presentado en el artículo – Resultados del índice de impacto de los y las egresadas" width="600">
+
+</div>
+
+Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,602, equivalente a 65% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 77% de logro, muy cerca del 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,151 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,143 y 43% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 87%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.

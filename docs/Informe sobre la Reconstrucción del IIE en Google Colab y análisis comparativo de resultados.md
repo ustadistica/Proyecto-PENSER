@@ -1,4 +1,4 @@
-# Informe sobre la Reconstrucción del Índice de Impacto de Egresados (IIE) implementado en Google Colab y su respectivo análisis comparativo de resultados
+![Imagen de WhatsApp 2025-09-29 a las 14 23 43_7f1e7c17](https://github.com/user-attachments/assets/435f487c-5d59-4533-8204-30a19914964f)# Informe sobre la Reconstrucción del Índice de Impacto de Egresados (IIE) implementado en Google Colab y su respectivo análisis comparativo de resultados
 
 ## Introducción
 Este informe presenta la reconstrucción del Índice de Impacto de Egresados (IIE) implementado en Google Colab a partir de la encuesta aplicada a graduados. El objetivo es medir, con una sola cifra y con cuatro subíndices, qué tanto impacto han tenido los estudios universitarios en diferentes aspectos de la vida del egresado: formación disciplinar (FD), desarrollo de competencias interpersonales (DCI), movilidad social (MS) y percepción de la calidad de vida (PMCV).
@@ -31,17 +31,16 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 | Movilidad social                        | 0.078     | 0.09           | 86.722      |
 | Percepción de la calidad de vida        | 0.151     | 0.20           | 75.394      |
 | **Resultado**                           | **0.602** | **0.92**       | **65.451**  |
-
 <br>
 <sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación de la Universidad Santo Tomás</i></sub>
 
 </div>
 
 <div align="center">
-
-<![Imagen de WhatsApp 2025-09-29 a las 14 23 43_a9ad956a](https://github.com/user-attachments/assets/85700f5e-a604-49e7-81cd-fd4540d44bbb)
-" alt="Cuadro 2 Presentado en el artículo – Resultados del índice de impacto de los y las egresadas" width="600">
-
+  <img src="![Imagen de WhatsApp 2025-09-29 a las 14 23 43_7f1e7c17](https://github.com/user-attachments/assets/4ce3fd31-ee9f-480a-be6b-fdc7512635b4)
+"
+       alt="Cuadro 2 presentado en el artículo – Resultados del índice de impacto de los y las egresadas"
+       width="600">
 </div>
 
 Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,602, equivalente a 65% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 77% de logro, muy cerca del 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,151 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,143 y 43% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 87%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.

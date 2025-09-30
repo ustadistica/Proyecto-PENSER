@@ -46,7 +46,7 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 
 Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,602, equivalente a 65% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 77% de logro, muy cerca del 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,151 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,143 y 43% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 87%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.
 
-### Formación disciplinar (FD)
+### Componente Formación disciplinar (FD)
 
 <div align="center">
 
@@ -82,7 +82,7 @@ Observamos similitudes en varias variables, pero también diferencias puntuales.
 Para premios y reconocimientos, vinculación a gremios/redes, proyectos comunitarios, proyectos de investigación y pertinencia del programa, nuestros resultados difieren en algunos decimales (p. ej., en “premios” ellos reportan 0,016 y nosotros 0,006). Para validar, contamos respuestas “Sí/No” directamente en el Excel, multiplicamos por el peso y dividimos por el total de encuestados; el cálculo respalda nuestro valor.
 En las variables de logro (p. ej., Desarrollo de competencias cognitivas, digitales, inglés e investigativas), el artículo usa la escala Muy insuficiente → Muy suficiente, pero en la base aparece Muy alto → Muy bajo + No aplica, entonces lo que nuestro equipo hizo fue asociar las opciones de respuesta a las que ellos les dieron los pesos por ejemplo Muy alto lo relacionamos con Muy suficiente y asi fue como asignamos los pesos a las opciones de respuesta correspondientes a las preguntas del componente de Formación Disciplinar.
 
-### Desarrollo de competencias interpersonales
+### Componente Desarrollo de competencias interpersonales
 
 <div align="center">
 
@@ -143,4 +143,29 @@ Los resultados son muy cercanos. Por ejemplo, en Comunicación efectiva obtuvimo
 
 
 Al comparar nuestros resultados (Cuadro 4) con los del artículo (Cuadro 5) se ven diferencias porque el estudio reporta seis variables en este componente y nosotros incluimos solo tres. Usamos: (i) responsabilidad económica en el hogar, cuya ponderación estaba claramente descrita; y (ii) nivel de escolaridad de la madre y del padre comparados con el nivel del egresado. Para estas dos últimas, como el artículo define pesos según condiciones (“inferior”, “igual” o “superior” al nivel del egresado), tomamos las preguntas III.13. Máximo nivel de estudios alcanzado, III.17. Madre y III.17. Padre, estandarizamos las etiquetas (p. ej., Magíster, Técnico), ordenamos los niveles de menor a mayor y clasificamos cada caso como Inferior, Igual o Superior; a esas categorías les asignamos los pesos 0,03, 0,017 y 0,007 y sumamos el aporte al subíndice de Movilidad Social. Por ende, en el cuadro de resultados presentado por nuestro equipo solo se observan tres preguntas, dado que aunque el artículo menciona las condiciones para asignar los pesos, no especifica con precisión qué variables del cuestionario deben combinarse para cumplirlas. En consecuencia, nuestros valores y el % alcanzado respecto al máximo teórico son parecidos a los del artículo, aunque no idénticos.
+
+### Componente de percepción del mejoramiento de la calidad de vida
+
+<div align="center">
+
+### Cuadro 5 – Resultados del componente “percepción del mejoramiento de la calidad de vida”
+
+| Variable                                                                                                                          | Resultado | % alcanzado |
+|-----------------------------------------------------------------------------------------------------------------------------------|-----------|-------------|
+| Percepción sobre la formación recibida en la universidad como un factor determinante en el mejoramiento de la calidad de vida     | 0.151     | 75.394      |
+
+<br>
+<sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>
+
+</div>
+
+<div align="center">
+  
+### Cuadro 7 presentado en el artículo – Resultados del componente “percepción del mejoramiento de la calidad de vida”
+
+<img width="625" height="203" alt="image" src="https://github.com/user-attachments/assets/b7105fb3-2c41-4fac-8e12-4baa25c17445" />
+
+</div>
+
+En este componente nuestros resultados prácticamente coinciden con los del artículo: ambos rondan un resultado de 0,15 y un 75% del valor esperado. Las pequeñas diferencias (solo unos decimales) pueden explicarse por detalles de redondeo o por cómo se tratan respuestas como “No aplica”. En general, la cercanía se debe a que las preguntas y los pesos aquí están más claros y se ajustan bien a la información del cuestionario, por eso la reconstrucción fue más directa y consistente.
 

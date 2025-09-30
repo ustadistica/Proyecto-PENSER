@@ -141,3 +141,6 @@ Los resultados son muy cercanos. Por ejemplo, en Comunicación efectiva obtuvimo
 
 </div>
 
+
+Al comparar nuestros resultados (Cuadro 4) con los del artículo (Cuadro 5) se ven diferencias porque el estudio reporta seis variables en este componente y nosotros incluimos solo tres. Usamos: (i) responsabilidad económica en el hogar, cuya ponderación estaba claramente descrita; y (ii) nivel de escolaridad de la madre y del padre comparados con el nivel del egresado. Para estas dos últimas, como el artículo define pesos según condiciones (“inferior”, “igual” o “superior” al nivel del egresado), tomamos las preguntas III.13. Máximo nivel de estudios alcanzado, III.17. Madre y III.17. Padre, estandarizamos las etiquetas (p. ej., Magíster, Técnico), ordenamos los niveles de menor a mayor y clasificamos cada caso como Inferior, Igual o Superior; a esas categorías les asignamos los pesos 0,03, 0,017 y 0,007 y sumamos el aporte al subíndice de Movilidad Social. Por ende, en el cuadro de resultados presentado por nuestro equipo solo se observan tres preguntas, dado que aunque el artículo menciona las condiciones para asignar los pesos, no especifica con precisión qué variables del cuestionario deben combinarse para cumplirlas. En consecuencia, nuestros valores y el % alcanzado respecto al máximo teórico son parecidos a los del artículo, aunque no idénticos.
+

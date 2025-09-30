@@ -52,23 +52,23 @@ Al reconstruir el índice con la metodología y ponderaciones del artículo, nue
 
 ### Cuadro 2 – Resultados del componente de formación disciplinar del IIE
 
-| Variable                                             | Resultado | % alcanzado |
-|---------------------------------------------------- -|-----------|-------------|
-| Vinculación laboral                                  | 0.024     | 78.565      |
-| Tipo de cargo                                        | 0.018     | 60.903      |
-| Premios y reconocimientos                            | 0.006     | 18.512      |
-| Vinculación a gremio, red y/o asociación científica  | 0.002     | 5.043       |
-| Desarrollo de proyectos comunitarios                 | 0.004     | 11.692      |
-| Desarrollo de proyectos de investigación             | 0.003     | 9.655       |
-| Desarrollo de competencias cognitivas disciplinares  | 0.024     | 79.469      |
-| Desarrollo de competencias digitales                 | 0.017     | 74.695      |
-| Desarrollo de competencia en lengua extranjera inglés| 0.019     | 62.167      |
-| Desarrollo de competencias investigativas            | 0.022     | 74.508      |
+| Variable                                           | Resultado | % alcanzado |
+|----------------------------------------------------|-----------|-------------|
+| Vinculación laboral                                | 0.024     | 78.565      |
+| Tipo de cargo                                      | 0.018     | 60.903      |
+| Premios y reconocimientos                          | 0.006     | 18.512      |
+| Vinculación a gremio, red y/o asociación científica| 0.002     | 5.043       |
+| Desarrollo de proyectos comunitarios               | 0.004     | 11.692      |
+| Desarrollo de proyectos de investigación           | 0.003     | 9.655       |
+| Desarrollo de competencias cognitivas disciplinares| 0.024     | 79.469      |
+| Desarrollo de competencias digitales               | 0.017     | 74.695      |
+| Desarrollo de competencia en lengua extranjera inglés| 0.019   | 62.167      |
+| Desarrollo de competencias investigativas          | 0.022     | 74.508      |
 
 <br>
 <sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>
 
-</div
+</div>
 
 <div align="center">
   

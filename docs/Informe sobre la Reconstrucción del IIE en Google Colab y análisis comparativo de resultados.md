@@ -39,10 +39,10 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 | Componente                              | Resultado | Máximo teórico | % alcanzado |
 |-----------------------------------------|-----------|----------------|-------------|
 | Formación disciplinar                   | 0.165     | 0.33           | 49.966      |
-| Desarrollo de competencias interpersonales | 0.231  | 0.30           | 76.856      |
-| Movilidad social                        | 0.078     | 0.09           | 86.722      |
-| Percepción de la calidad de vida        | 0.151     | 0.20           | 75.394      |
-| **Resultado**                           | **0.602** | **0.92**       | **65.451**  |
+| Desarrollo de competencias interpersonales | 0.231  | 0.30           | 76.315      |
+| Movilidad social                        | 0.078     | 0.09           | 86.112      |
+| Percepción de la calidad de vida        | 0.151     | 0.20           | 74.864      |
+| **Resultado**                           | **0.621** | **0.92**       | **67.506**  |
 <br>
 <sub><i>Creado por el Grupo PENSER de Consultoría e Investigación de la Universidad Santo Tomás</i></sub>
 
@@ -56,7 +56,7 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 
 </div>
 
-Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,602, equivalente a 65% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 77% de logro, muy cerca del 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,151 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,143 y 43% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 87%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.
+Al reconstruir el índice con la metodología y ponderaciones del artículo, nuestro IIE global fue 0,621, equivalente a 67% del valor esperado; el estudio reporta 0,717 y 72%. En Desarrollo de competencias interpersonales (DCI) obtuvimos 0,231 con un 76% de logro, prácticamente igual al 76% del artículo. En Percepción del mejoramiento de la calidad de vida (PMCV) el resultado fue 0,15 y 75%, prácticamente igual al 75% publicado. Las diferencias aparecen sobre todo en Formación disciplinar (FD), donde logramos 0,165 y 49% frente a 0,218 y 73% del estudio; una explicación probable es que tratamos “No aplica” como cero en lugar de excluirlo del cálculo. En Movilidad social (MS) ocurrió lo contrario: alcanzamos 0,078 y 86%, mientras el artículo presenta 0,122 y 61%; aquí influyó que solo incorporamos parte de las variables de ese componente.
 
 ---
 
@@ -66,20 +66,19 @@ Al reconstruir el índice con la metodología y ponderaciones del artículo, nue
 
 ### Cuadro 2 – Resultados del componente de formación disciplinar del IIE
 
-| Variable                                           | Resultado | % alcanzado |
-|----------------------------------------------------|-----------|-------------|
-| Vinculación laboral                                | 0.024     | 78.565      |
-| Tipo de cargo                                      | 0.018     | 60.903      |
-| Pertinencia del programa en relación con las 
-    demandas del entorno social y académico          | 0.023     | 77.168      |
-| Premios y reconocimientos                          | 0.006     | 18.512      |
-| Vinculación a gremio, red y/o asociación científica| 0.002     | 5.043       |
-| Desarrollo de proyectos comunitarios               | 0.004     | 11.692      |
-| Desarrollo de proyectos de investigación           | 0.003     | 9.655       |
-| Desarrollo de competencias cognitivas disciplinares| 0.024     | 79.469      |
-| Desarrollo de competencias digitales               | 0.017     | 74.695      |
-| Desarrollo de competencia en lengua extranjera inglés| 0.019   | 62.167      |
-| Desarrollo de competencias investigativas          | 0.022     | 74.508      |
+| Variable                                                                              | Resultado | % alcanzado |
+|---------------------------------------------------------------------------------------|-----------|-------------|
+| Vinculación laboral                                                                   | 0.023     | 78.012      |
+| Tipo de cargo                                                                         | 0.018     | 60.475      |
+| Pertinencia del programa en relación con las demandas del entorno social y académico  | 0.023     | 77.168      |
+| Premios y reconocimientos                                                             | 0.006     | 18.382      |
+| Vinculación a gremio, red y/o asociación científica                                   | 0.002     | 5.365       |
+| Desarrollo de proyectos comunitarios                                                  | 0.003     | 11.609      |
+| Desarrollo de proyectos de investigación                                              | 0.003     | 9.587       |
+| Desarrollo de competencias cognitivas disciplinares                                   | 0.024     | 78.909      |
+| Desarrollo de competencias digitales                                                  | 0.022     | 74.389      |
+| Desarrollo de competencia en lengua extranjera inglés                                 | 0.019     | 61.741      |
+| Desarrollo de competencias investigativas                                             | 0.022     | 73.984      |
 
 <br>
 <sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>
@@ -108,16 +107,16 @@ En las variables de logro (p. ej., Desarrollo de competencias cognitivas, digita
 
 | Variable                            | Resultado | % alcanzado |
 |-------------------------------------|-----------|-------------|
-| Comunicación efectiva               | 0.024     | 79.203      |
-| Relaciones interpersonales          | 0.024     | 78.512      |
-| Toma de decisiones                  | 0.024     | 79.114      |
-| Solución de problemas y conflictos  | 0.024     | 78.565      |
-| Pensamiento creativo                | 0.023     | 77.644      |
-| Pensamiento crítico                 | 0.024     | 79.008      |
-| Manejo de emociones y sentimientos  | 0.021     | 73.357      |
-| Manejo de tensiones y estrés        | 0.021     | 71.461      |
-| Multiculturales                     | 0.023     | 75.235      |
-| Interculturalidad                   | 0.023     | 76.457      |
+| Comunicación efectiva               | 0.024     | 78.646      |
+| Relaciones interpersonales          | 0.023     | 77.960      |
+| Toma de decisiones                  | 0.024     | 78.558      |
+| Solución de problemas y conflictos  | 0.023     | 78.012      |
+| Pensamiento creativo                | 0.023     | 77.098      |
+| Pensamiento crítico                 | 0.024     | 78.452      |
+| Manejo de emociones y sentimientos  | 0.022     | 72.841      |
+| Manejo de tensiones y estrés        | 0.021     | 70.959      |
+| Multiculturales                     | 0.022     | 74.705      |
+| Interculturalidad                   | 0.023     | 75.919      |
 
 <br>
 <sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>
@@ -132,7 +131,7 @@ En las variables de logro (p. ej., Desarrollo de competencias cognitivas, digita
 
 </div>
 
-Los resultados son muy cercanos. Por ejemplo, en Comunicación efectiva obtuvimos 0,024 (79%) frente a 0,023 (76,7%) del artículo y así con las demás respuestas son similares los resultados. Como en FD, la pequeña diferencia tal vez sea porque al momento de asignar los pesos a las respuestas nuestro equipo encontró que las opciones de respuestas a estas preguntas eran Muy alto, Alto, Medio, Bajo, Muy bajo, No aplica y las opciones de respuesta a las que ellos les asignaban peso en el articulo eran Muy insuficiente, Insuficiente, Ni suficiente, ni insuficiente, Suficiente y Muy suficiente, entonces lo que nuestro equipo hizo fue asociar las opciones de respuesta a las que ellos les dieron los pesos por ejemplo Muy alto lo relacionamos con Muy suficiente y asi fue como asignamos los pesos a las opciones de respuesta correspondintes a las preguntas de Desarrollo de competencias interpersonales
+Los resultados son muy cercanos. Por ejemplo, en Comunicación efectiva obtuvimos 0,024 (78.6%) frente a 0,023 (76,7%) del artículo y así con las demás respuestas son similares los resultados. Como en FD, la pequeña diferencia tal vez sea porque al momento de asignar los pesos a las respuestas nuestro equipo encontró que las opciones de respuestas a estas preguntas eran Muy alto, Alto, Medio, Bajo, Muy bajo, No aplica y las opciones de respuesta a las que ellos les asignaban peso en el articulo eran Muy insuficiente, Insuficiente, Ni suficiente, ni insuficiente, Suficiente y Muy suficiente, entonces lo que nuestro equipo hizo fue asociar las opciones de respuesta a las que ellos les dieron los pesos por ejemplo Muy alto lo relacionamos con Muy suficiente y asi fue como asignamos los pesos a las opciones de respuesta correspondintes a las preguntas de Desarrollo de competencias interpersonales
 
 ---
 
@@ -144,9 +143,9 @@ Los resultados son muy cercanos. Por ejemplo, en Comunicación efectiva obtuvimo
 
 | Variable                                        | Resultado | % alcanzado |
 |-------------------------------------------------|-----------|-------------|
-| Responsabilidad económica en el hogar           | 0.026     | 86.182      |
-| Nivel de escolaridad alcanzado por la madre     | 0.026     | 86.076      |
-| Nivel de escolaridad alcanzado por el padre     | 0.026     | 87.907      |
+| Responsabilidad económica en el hogar           | 0.026     | 85.576      |
+| Nivel de escolaridad alcanzado por la madre     | 0.026     | 85.471      |
+| Nivel de escolaridad alcanzado por el padre     | 0.026     | 87.288      |
 
 <br>
 <sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>
@@ -174,7 +173,7 @@ Al comparar nuestros resultados (Cuadro 4) con los del artículo (Cuadro 5) se v
 
 | Variable                                                                                                                          | Resultado | % alcanzado |
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------|-------------|
-| Percepción sobre la formación recibida en la universidad como un factor determinante en el mejoramiento de la calidad de vida     | 0.151     | 75.394      |
+| Percepción sobre la formación recibida en la universidad como un factor determinante en el mejoramiento de la calidad de vida     | 0.15      | 74.864      |
 
 <br>
 <sub><i>Creado por el Grupo: PENSER de Consultoría e Investigación – Universidad Santo Tomás</i></sub>

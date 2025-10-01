@@ -38,7 +38,7 @@ Durante el proceso de verificación, cuyo objetivo fue reconstruir el IIE, aplic
 
 | Componente                              | Resultado | Máximo teórico | % alcanzado |
 |-----------------------------------------|-----------|----------------|-------------|
-| Formación disciplinar                   | 0.143     | 0.33           | 43.255      |
+| Formación disciplinar                   | 0.165     | 0.33           | 49.966      |
 | Desarrollo de competencias interpersonales | 0.231  | 0.30           | 76.856      |
 | Movilidad social                        | 0.078     | 0.09           | 86.722      |
 | Percepción de la calidad de vida        | 0.151     | 0.20           | 75.394      |
@@ -70,6 +70,8 @@ Al reconstruir el índice con la metodología y ponderaciones del artículo, nue
 |----------------------------------------------------|-----------|-------------|
 | Vinculación laboral                                | 0.024     | 78.565      |
 | Tipo de cargo                                      | 0.018     | 60.903      |
+| Pertinencia del programa en relación con las 
+    demandas del entorno social y académico          | 0.023     | 77.168      |
 | Premios y reconocimientos                          | 0.006     | 18.512      |
 | Vinculación a gremio, red y/o asociación científica| 0.002     | 5.043       |
 | Desarrollo de proyectos comunitarios               | 0.004     | 11.692      |

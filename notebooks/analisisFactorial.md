@@ -7,8 +7,8 @@ En el marco del proyecto **PENSER**, cuyo propósito es **evaluar el impacto de 
 El objetivo principal fue **pasar de un modelo teórico de ponderaciones fijas** (definido en cuatro componentes:  
 - Formación Disciplinar (FD),  
 - Desarrollo de Competencias Interpersonales (DCI),  
-- Motivación y Satisfacción (MS), y  
-- Proyección y Mejora Continua del Vínculo (PMCV)),  
+- Movilidad Social (MS), y  
+- Percepción de Mejoramiento de la Calidad de Vida (PMCV)),  
 
 a una **estructura empírica** basada en las **relaciones reales entre las respuestas** de los egresados.
 

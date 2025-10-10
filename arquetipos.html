@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación: Arquetipos de Egresados - USTA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'santoto-orange': '#F5A623',
+                        'santoto-dark': '#1A202C',
+                        'santoto-grey': '#4A5568',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; overflow: hidden; }
+        .slide {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            overflow-y: auto;
+        }
+        .slide.active { opacity: 1; pointer-events: auto; z-index: 1; }
+        .slide-content { flex-grow: 1; display: flex; align-items: center; justify-content: center; }
+        .info-card { background-color: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); border-left: 5px solid #F5A623; }
+        .chart-container { max-width: 450px; margin: 0 auto; }
+    </style>
+</head>
+<body class="bg-slate-100">
+
+    <!-- Header Fijo -->
+    <header class="bg-santoto-dark shadow-lg fixed top-0 left-0 right-0 z-20">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html">
+                <img src="https://usantotomas.edu.co/hs-fs/hubfs/social-suggested-images/usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png?width=188&height=43" alt="Logo Universidad Santo Tomás" class="h-10">
+            </a>
+            <div class="space-x-4">
+                <a href="index.html" class="text-gray-300 hover:text-white transition text-sm font-medium">Inicio</a>
+                <a href="analisis_factorial.html" class="text-gray-300 hover:text-white transition text-sm font-medium">← Análisis Factorial</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SLIDE 1: Título -->
+    <section id="slide-1" class="slide active">
+        <div class="slide-content text-center">
+            <div class="max-w-4xl mx-auto p-8">
+                <h1 class="text-2xl font-bold text-santoto-orange">ETAPA 3</h1>
+                <h2 class="text-5xl font-bold text-santoto-dark mt-2">Descubrimiento de los Arquetipos</h2>
+                <p class="text-xl text-slate-600 mt-6">Utilizando el dataset analítico, se aplicaron algoritmos de clustering para segmentar a la población y revelar los perfiles de impacto de los egresados.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 2: Metodología Clustering -->
+    <section id="slide-2" class="slide">
+        <div class="slide-content">
+            <div class="max-w-4xl mx-auto p-8">
+                <h2 class="text-4xl font-bold text-santoto-dark mb-6 text-center">Metodología de Clustering</h2>
+                 <div class="info-card">
+                    <h3 class="text-xl font-bold text-santoto-dark mb-2">Proceso de Selección</h3>
+                    <p class="text-slate-700">Se realizó una comparación sistemática de tres algoritmos (K-Means, Jerárquico, GMM) evaluados con múltiples métricas de calidad (Silueta, Calinski-Harabasz, Davies-Bouldin). Este análisis multimétrico y multi-algoritmo aseguró una elección robusta.</p>
+                </div>
+                 <div class="info-card mt-6">
+                    <h3 class="text-xl font-bold text-santoto-dark mb-2">Decisión Final</h3>
+                    <p class="text-slate-700">La evidencia apuntó a una solución de <b>5 clústeres (k=5)</b> como el mejor compromiso entre calidad estadística y riqueza interpretativa, utilizando el algoritmo <b>K-Means</b> por su rendimiento superior en las métricas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 3: Resumen de Arquetipos -->
+    <section id="slide-3" class="slide">
+        <div class="slide-content">
+            <div class="max-w-4xl mx-auto p-8">
+                <h2 class="text-4xl font-bold text-santoto-dark mb-8 text-center">Los 5 Arquetipos del Egresado</h2>
+                <div class="grid grid-cols-5 gap-4 text-center">
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <p class="font-bold text-santoto-orange text-3xl">39%</p>
+                        <p class="text-sm text-santoto-dark font-semibold mt-1">Arquetipo 1</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <p class="font-bold text-santoto-orange text-3xl">17%</p>
+                        <p class="text-sm text-santoto-dark font-semibold mt-1">Arquetipo 3</p>
+                    </div>
+                     <div class="bg-white p-4 rounded-lg shadow">
+                        <p class="font-bold text-santoto-orange text-3xl">19%</p>
+                        <p class="text-sm text-santoto-dark font-semibold mt-1">Arquetipo 0</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <p class="font-bold text-santoto-orange text-3xl">12%</p>
+                        <p class="text-sm text-santoto-dark font-semibold mt-1">Arquetipo 4</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <p class="font-bold text-santoto-orange text-3xl">13%</p>
+                        <p class="text-sm text-santoto-dark font-semibold mt-1">Arquetipo 2</p>
+                    </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <p class="text-slate-600">A continuación, se detalla el perfil de cada arquetipo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Arquetipos Individuales -->
+    <section id="slide-4" class="slide">
+        <div class="slide-content">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                <div class="chart-container">
+                    <canvas id="radar-1"></canvas>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-santoto-dark">Arquetipo 1: El Profesional Exitoso y Crítico</h3>
+                    <p class="text-santoto-orange font-semibold">(39% de la muestra)</p>
+                    <p class="mt-4 text-slate-600">Es el grupo más numeroso. Han alcanzado un éxito material incuestionable, pero mantienen una perspectiva crítica sobre el impacto de su formación.</p>
+                    <ul class="mt-4 space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Fortalezas:</b> Altas competencias y éxito material total (mejora de ingresos y vivienda).</li>
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Debilidades:</b> Baja percepción del impacto en su calidad de vida y bajos logros formales (premios, proyectos).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="slide-5" class="slide">
+        <div class="slide-content">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                <div class="chart-container">
+                    <canvas id="radar-3"></canvas>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-santoto-dark">Arquetipo 3: El Profesional en Transición</h3>
+                    <p class="text-santoto-orange font-semibold">(17% de la muestra)</p>
+                    <p class="mt-4 text-slate-600">Representa a quienes ya lograron el primer hito de la movilidad social (aumento de ingresos), pero aún no lo han materializado en otras áreas.</p>
+                    <ul class="mt-4 space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Fortalezas:</b> El 100% mejoró sus ingresos. Su percepción del impacto es positiva.</li>
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Debilidades:</b> Perfil de competencias promedio y casi nula mejora en su condición de vivienda.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="slide-6" class="slide">
+        <div class="slide-content">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                <div class="chart-container">
+                    <canvas id="radar-0"></canvas>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-santoto-dark">Arquetipo 0: El Subjetivamente Satisfecho</h3>
+                    <p class="text-santoto-orange font-semibold">(19% de la muestra)</p>
+                    <p class="mt-4 text-slate-600">Su satisfacción no se correlaciona con indicadores materiales. Valoran el impacto en su bienestar general, a pesar de no reportar mejoras económicas.</p>
+                    <ul class="mt-4 space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Fortalezas:</b> Alta percepción del impacto en su calidad de vida.</li>
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Debilidades:</b> El 0% de este grupo reporta mejora de ingresos. Sus competencias están en el promedio.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="slide-7" class="slide">
+        <div class="slide-content">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                <div class="chart-container">
+                    <canvas id="radar-4"></canvas>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-santoto-dark">Arquetipo 4: El Líder de Alto Desempeño</h3>
+                    <p class="text-santoto-orange font-semibold">(12% de la muestra)</p>
+                    <p class="mt-4 text-slate-600">Representa a la élite de egresados en términos de logros y reconocimientos. Traducen sus altas competencias en acciones tangibles.</p>
+                    <ul class="mt-4 space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Fortalezas:</b> Puntaje excepcional en logros (proyectos, premios). Altas competencias y éxito material.</li>
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Debilidades:</b> Al igual que el Arquetipo 1, su percepción del impacto en la calidad de vida es crítica y por debajo del promedio.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="slide-8" class="slide">
+        <div class="slide-content">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                <div class="chart-container">
+                    <canvas id="radar-2"></canvas>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-santoto-dark">Arquetipo 2: El Egresado Agradecido</h3>
+                    <p class="text-santoto-orange font-semibold">(13% de la muestra)</p>
+                    <p class="mt-4 text-slate-600">Este perfil muestra el mayor contraste: a pesar de reportar los niveles más bajos de competencias, son quienes sienten que la educación tuvo el impacto más positivo.</p>
+                    <ul class="mt-4 space-y-2 text-sm">
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Fortalezas:</b> La más alta percepción de impacto en su calidad de vida. Movilidad social positiva (60% mejoró ingresos).</li>
+                        <li class="bg-white p-3 rounded shadow-sm"><b>Debilidades:</b> Los puntajes más bajos en todas las dimensiones de competencias y valoración del programa.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 9: Conclusiones -->
+     <section id="slide-9" class="slide">
+        <div class="slide-content">
+             <div class="max-w-4xl mx-auto p-8">
+                <h2 class="text-4xl font-bold text-santoto-dark mb-6 text-center">Implicaciones Finales</h2>
+                <p class="text-lg text-slate-600">Este análisis de arquetipos proporciona a la institución una visión multidimensional del impacto de su formación. En lugar de una métrica única, ahora se cuenta con una **segmentación estratégica** que permite diseñar acciones diferenciadas:</p>
+                 <ul class="mt-8 space-y-4 text-lg">
+                    <li class="bg-white p-4 rounded-lg shadow-sm">Comprender por qué los egresados más exitosos (Arquetipos 1 y 4) son también los más críticos.</li>
+                    <li class="bg-white p-4 rounded-lg shadow-sm">Diseñar programas de apoyo (ej. educación financiera) para el "Profesional en Transición" (Arquetipo 3).</li>
+                    <li class="bg-white p-4 rounded-lg shadow-sm">Capitalizar el alto valor percibido por el "Egresado Agradecido" (Arquetipo 2) en testimonios y programas de mentoría.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 10: Fin -->
+    <section id="slide-10" class="slide bg-santoto-dark text-white">
+        <div class="slide-content text-center">
+            <div class="p-8">
+                <h2 class="text-5xl font-bold">Gracias</h2>
+                <p class="text-xl text-slate-300 mt-6 max-w-3xl mx-auto">Esta nueva metodología de análisis proporciona una visión profunda y accionable para la mejora continua y la planificación estratégica.</p>
+                <div class="mt-8">
+                     <a href="index.html" class="bg-santoto-orange text-white px-8 py-3 rounded-lg hover:opacity-80 transition text-lg font-semibold">Volver al Inicio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Controls -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t z-20">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <button id="prevBtn" class="bg-santoto-dark text-white px-6 py-2 rounded-lg hover:bg-santoto-grey transition disabled:opacity-50">Anterior</button>
+            <div id="slide-counter" class="text-sm text-slate-600 font-semibold"></div>
+            <button id="nextBtn" class="bg-santoto-orange text-white px-6 py-2 rounded-lg hover:opacity-80 transition">Siguiente</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // --- DATA ---
+            const centroidData = {
+                'Arquetipo 0': [0.059, 0.104, -0.138, -0.209, 0.608, 0.000, 0.293],
+                'Arquetipo 1': [0.376, 0.312, 0.271, -0.249, -0.608, 0.965, 1.000],
+                'Arquetipo 2': [-1.692, -1.331, -0.786, -0.209, 0.774, 0.602, 0.398],
+                'Arquetipo 3': [0.062, 0.048, 0.020, -0.203, 0.317, 1.000, 0.018],
+                'Arquetipo 4': [0.355, 0.301, 0.199, 1.675, -0.472, 0.829, 0.739]
+            };
+            const labels = ['Comp. Transversal', 'Comp. Disciplinar', 'Valoración', 'Logros', 'Calidad de Vida', 'Mejora Ingresos', 'Mejora Vivienda'];
+
+            // --- RADAR CHART FUNCTION ---
+            function createRadarChart(canvasId, arquetipoIndex) {
+                const ctx = document.getElementById(canvasId).getContext('2d');
+                const arquetipoName = `Arquetipo ${arquetipoIndex}`;
+                const data = centroidData[arquetipoName];
+                
+                new Chart(ctx, {
+                    type: 'radar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: arquetipoName,
+                            data: data,
+                            fill: true,
+                            backgroundColor: 'rgba(245, 166, 35, 0.2)',
+                            borderColor: 'rgb(245, 166, 35)',
+                            pointBackgroundColor: 'rgb(245, 166, 35)',
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: 'rgb(245, 166, 35)'
+                        }]
+                    },
+                    options: {
+                        elements: { line: { borderWidth: 3 } },
+                        scales: {
+                            r: {
+                                angleLines: { color: 'rgba(0, 0, 0, 0.1)' },
+                                grid: { color: 'rgba(0, 0, 0, 0.1)' },
+                                pointLabels: { font: { size: 10 } },
+                                ticks: {
+                                    backdropColor: 'transparent',
+                                    color: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        },
+                        plugins: { legend: { display: false } }
+                    }
+                });
+            }
+            
+            // --- CREATE CHARTS ---
+            createRadarChart('radar-1', 1);
+            createRadarChart('radar-3', 3);
+            createRadarChart('radar-0', 0);
+            createRadarChart('radar-4', 4);
+            createRadarChart('radar-2', 2);
+
+
+            // --- SLIDE NAVIGATION ---
+            let currentSlide = 1;
+            const totalSlides = document.querySelectorAll('.slide').length;
+            const nextBtn = document.getElementById('nextBtn');
+            const prevBtn = document.getElementById('prevBtn');
+            const slideCounter = document.getElementById('slide-counter');
+
+            function updateSlides() {
+                document.querySelectorAll('.slide').forEach((slide, index) => {
+                    slide.classList.toggle('active', index + 1 === currentSlide);
+                });
+                slideCounter.textContent = `Diapositiva ${currentSlide} de ${totalSlides}`;
+                prevBtn.disabled = currentSlide === 1;
+                nextBtn.disabled = currentSlide === totalSlides;
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides) currentSlide++;
+                updateSlides();
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 1) currentSlide--;
+                updateSlides();
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') nextBtn.click();
+                if (e.key === 'ArrowLeft') prevBtn.click();
+            });
+            
+            updateSlides();
+        });
+    </script>
+</body>
+</html>
+

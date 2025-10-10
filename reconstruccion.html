@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación: Análisis Factorial - USTA</title>
+    <title>Presentación: Reconstrucción del IIE - USTA</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
+        // Configuración de colores de la marca Santo Tomás
         tailwind.config = {
             theme: {
                 extend: {
@@ -30,16 +31,17 @@
             pointer-events: none;
             display: flex;
             flex-direction: column;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
+            padding-top: 5rem; /* Space for the fixed header */
+            padding-bottom: 5rem; /* Space for the fixed footer */
         }
         .slide.active { opacity: 1; pointer-events: auto; z-index: 1; }
         .slide-content { flex-grow: 1; display: flex; align-items: center; justify-content: center; }
-        table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.875rem; }
-        th, td { padding: 0.5rem 1rem; text-align: left; border: 1px solid #ddd; }
+        .chart-container { position: relative; height: 60vh; max-height: 450px; width: 100%;}
+        .table-wrapper { max-width: 800px; margin: 1.5rem auto; overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #e5e7eb; }
         thead th { background-color: #fdeed9; color: #7c4a03; font-weight: 600; }
-        .mermaid-container { display: flex; justify-content: center; align-items: center; background-color: #fff; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
-        .info-card { background-color: white; padding: 2rem; border-radius: 0.75rem; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); border-left: 5px solid #F5A623; }
+        tbody tr:nth-child(even) { background-color: #f9fafb; }
     </style>
 </head>
 <body class="bg-slate-100">
@@ -48,180 +50,139 @@
     <header class="bg-santoto-dark shadow-lg fixed top-0 left-0 right-0 z-20">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html">
-                <img src="https://usantotomas.edu.co/hs-fs/hubfs/social-suggested-images/usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png?width=188&height=43" alt="Logo Universidad Santo Tomás" class="h-10">
+                <img src="https://usantotomas.edu.co/hs-fs/hubfs/social-suggested-images/usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png?width=188&height=43&name=usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png" alt="Logo Universidad Santo Tomás" class="h-10">
             </a>
             <div class="space-x-4">
-                <a href="index.html" class="text-gray-300 hover:text-white transition text-sm font-medium">Inicio</a>
-                <a href="reconstruccion.html" class="text-gray-300 hover:text-white transition text-sm font-medium">← Reconstrucción</a>
-                <a href="arquetipos.html" class="bg-santoto-orange text-white px-4 py-2 rounded-md hover:opacity-80 transition text-sm font-medium">Ir a Arquetipos →</a>
+                <a href="index.html" class="text-gray-300 hover:text-white transition text-sm font-medium">Volver al Inicio</a>
+                <a href="analisis_factorial.html" class="bg-santoto-orange text-white px-4 py-2 rounded-md hover:opacity-80 transition text-sm font-medium">Ir a Análisis Factorial →</a>
             </div>
         </div>
     </header>
 
-    <!-- SLIDE 1: Justificación -->
+    <!-- SLIDE 1: Introducción -->
     <section id="slide-1" class="slide active">
         <div class="slide-content text-center">
             <div class="max-w-4xl mx-auto p-8">
-                <h1 class="text-2xl font-bold text-santoto-orange">ETAPA 2</h1>
-                <h2 class="text-5xl font-bold text-santoto-dark mt-2">Un Nuevo Enfoque Metodológico</h2>
-                <p class="text-xl text-slate-600 mt-6">Dada la imposibilidad de validar el modelo original, se adoptó una metodología exploratoria y estadísticamente robusta: el <b>Análisis Factorial Exploratorio (EFA)</b>. El objetivo ya no es replicar un índice, sino descubrir la estructura latente y real del impacto en los egresados.</p>
+                <h1 class="text-2xl font-bold text-santoto-orange">ETAPA 1</h1>
+                <h2 class="text-5xl font-bold text-santoto-dark mt-2">Reconstrucción del Índice de Impacto de Egresados (IIE)</h2>
+                <p class="text-xl text-slate-600 mt-6">Este informe presenta el proceso de reconstrucción del IIE, una herramienta diseñada para medir el impacto de los estudios universitarios a través de cuatro componentes clave.</p>
             </div>
         </div>
     </section>
 
-    <!-- SLIDE 2: Qué es el Análisis Factorial -->
+    <!-- SLIDE 2: El Problema -->
     <section id="slide-2" class="slide">
-        <div class="slide-content">
+        <div class="slide-content text-center">
             <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-4xl font-bold text-santoto-dark mb-6 text-center">¿Qué es el Análisis Factorial?</h2>
-                <p class="text-lg text-slate-600">Es una técnica estadística de reducción de datos que busca identificar un número pequeño de <b>factores</b> o <b>constructos latentes</b> a partir de un conjunto grande de variables observadas.</p>
-                <div class="mt-8 space-y-6">
-                    <div class="info-card">
-                        <h3 class="text-xl font-bold text-santoto-dark mb-2">Propósito</h3>
-                        <p class="text-slate-700">En lugar de analizar docenas de preguntas de la encuesta por separado, el EFA nos permite descubrir las "super-variables" que estas preguntas miden en conjunto. Es una forma de encontrar los temas principales y ocultos en los datos.</p>
-                    </div>
-                    <div class="info-card">
-                        <h3 class="text-xl font-bold text-santoto-dark mb-2">Justificación de su Uso</h3>
-                        <p class="text-slate-700">Se eligió este método porque es ideal para validar escalas y entender la estructura subyacente de conceptos complejos como el "impacto". Proporciona una base empírica y defendible para la creación de un nuevo modelo, superando la ambigüedad del índice original.</p>
-                    </div>
+                <h1 class="text-2xl font-bold text-santoto-orange">EL PROBLEMA</h1>
+                <h2 class="text-5xl font-bold text-santoto-dark mt-2">El Desafío de la Replicabilidad</h2>
+                <p class="text-xl text-slate-600 mt-6">Al aplicar la metodología oficial, detectamos inconsistencias que impidieron replicar los resultados publicados, arrojando un **IIE global de 67.5%**, notablemente inferior al **72%** reportado originalmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 3: Objetivo -->
+    <section id="slide-3" class="slide">
+        <div class="slide-content text-center">
+            <div class="max-w-4xl mx-auto p-8">
+                <h1 class="text-2xl font-bold text-santoto-orange">EL OBJETIVO</h1>
+                <h2 class="text-5xl font-bold text-santoto-dark mt-2">Verificar y Validar</h2>
+                <div class="mt-8 bg-white p-8 rounded-xl shadow-lg border-t-4 border-santoto-orange">
+                     <p class="text-2xl text-santoto-dark font-light">El objetivo central fue <span class="font-semibold">reconstruir y verificar el IIE</span> aplicando rigurosamente la metodología original para validar los resultados, identificar inconsistencias y documentar las desviaciones.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SLIDE 3: Metodología -->
-    <section id="slide-3" class="slide">
+    <!-- SLIDE 4: Metodología -->
+     <section id="slide-4" class="slide">
+        <div class="slide-content text-center">
+            <div class="max-w-4xl mx-auto p-8">
+                <h1 class="text-2xl font-bold text-santoto-orange">METODOLOGÍA</h1>
+                <h2 class="text-5xl font-bold text-santoto-dark mt-2">Fórmula de Cálculo</h2>
+                <p class="text-xl text-slate-600 mt-6">Partimos de los datos brutos, transformamos cada respuesta en un puntaje numérico y construimos los subíndices. El IIE global se calculó como una combinación ponderada:</p>
+                <p class="text-2xl text-center font-mono bg-slate-200 p-6 rounded-lg text-santoto-dark mt-8">IIE = (0.30 * FD) + (0.30 * DCI) + (0.20 * MS) + (0.20 * PMCV)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 5: Resultados (Gráfico) -->
+    <section id="slide-5" class="slide">
         <div class="slide-content container mx-auto px-6">
             <div class="max-w-5xl mx-auto">
-                <h1 class="text-2xl font-bold text-santoto-orange text-center">METODOLOGÍA</h1>
-                <h2 class="text-5xl font-bold text-santoto-dark mt-2 text-center">Del Dato Crudo al Constructo</h2>
-                <div class="mermaid-container mt-8">
-                    <pre class="mermaid">
-                        graph TD;
-                            A["Datos Crudos"] --> B["Limpieza y Estandarización"];
-                            B --> C{"Análisis de Adecuación <br> Bartlett y KMO"};
-                            C --> D["Análisis Factorial Exploratorio EFA"];
-                            D --> E["Extracción de Factores"];
-                            E --> F["Interpretación y Nombramiento"];
-                            F --> G["Cálculo de Puntajes Factoriales"];
-                            G --> H["Dataset Analítico Final"];
-                    </pre>
+                 <h1 class="text-2xl font-bold text-santoto-orange text-center">RESULTADOS</h1>
+                <h2 class="text-5xl font-bold text-santoto-dark mt-2 text-center">Original vs. Reconstrucción</h2>
+                <div class="chart-container mt-8">
+                    <canvas id="reconstructionChart"></canvas>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SLIDE 4: Validación Metodológica -->
-    <section id="slide-4" class="slide">
-        <div class="slide-content">
-             <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-4xl font-bold text-santoto-dark mb-6 text-center">Validación Metodológica</h2>
-                <p class="text-lg text-slate-600 text-center mb-8">Antes de realizar el análisis, es crucial asegurar que los datos son adecuados. Para ello, se aplicaron dos pruebas estadísticas fundamentales:</p>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="info-card">
-                        <h3 class="text-xl font-bold text-santoto-dark mb-2">Prueba de Esfericidad de Bartlett</h3>
-                        <p class="text-slate-700"><b>¿Qué mide?</b> Verifica si las variables están suficientemente correlacionadas entre sí. Un resultado significativo (p < 0.05) es necesario para proceder.</p>
-                        <p class="mt-3 font-semibold text-green-600"><b>Resultado:</b> En todos los análisis, el p-valor fue < .001, confirmando la idoneidad de los datos.</p>
-                    </div>
-                    <div class="info-card">
-                        <h3 class="text-xl font-bold text-santoto-dark mb-2">Índice KMO</h3>
-                        <p class="text-slate-700"><b>¿Qué mide?</b> El índice Kaiser-Meyer-Olkin evalúa si la varianza de las variables puede ser explicada por factores subyacentes. Un valor > 0.80 es excelente.</p>
-                        <p class="mt-3 font-semibold text-green-600"><b>Resultado:</b> Se obtuvieron valores de 0.93, 0.86 y 0.88, calificados como "magníficos" y "meritorios".</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SLIDE 5: Interpretación 4.1.2 (Transversales) -->
-    <section id="slide-5" class="slide">
-        <div class="slide-content">
-            <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-3xl font-bold text-santoto-dark mb-4">Hallazgo: Competencias Transversales</h2>
-                <div class="info-card mb-6">
-                    <h3 class="text-xl font-bold text-santoto-dark">Estructura Unidimensional</h3>
-                    <p class="mt-2 text-slate-700">El EFA revela que los 10 ítems de esta escala no se dividen, sino que convergen para medir un único constructo latente. Esto sugiere que los egresados perciben sus habilidades blandas como un todo integral y coherente.</p>
-                </div>
-                <div>
-                    <p class="font-semibold text-santoto-dark">Extracción e Interpretación del Factor:</p>
-                    <p class="text-sm text-slate-700 mt-2">La matriz de cargas mostró que todos los ítems presentan cargas excepcionalmente altas (superiores a 0.80) en un único factor, demostrando una fuerte convergencia. Se propone denominarlo:</p>
-                    <p class="mt-3 text-center text-xl font-bold text-santoto-orange">"Factor General de Competencia Transversal"</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SLIDE 6: Interpretación 4.2.2 (Disciplinar) -->
+    <!-- SLIDE 6: Análisis Global -->
     <section id="slide-6" class="slide">
-        <div class="slide-content">
+         <div class="slide-content">
             <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-3xl font-bold text-santoto-dark mb-4">Hallazgo: Formación Disciplinar</h2>
-                <div class="info-card mb-6">
-                     <h3 class="text-xl font-bold text-santoto-dark">Estructura Trifactorial</h3>
-                    <p class="mt-2 text-slate-700">El análisis de este componente reveló una robusta estructura de tres factores, demostrando que el impacto disciplinar se compone de tres dimensiones distintas.</p>
-                </div>
-                <div>
-                    <p class="font-semibold text-santoto-dark">Interpretación de los Factores:</p>
-                    <ul class="list-disc list-inside text-slate-700 mt-2 space-y-2">
-                        <li><b>Factor 1 - Desarrollo de Competencias Académicas:</b> Agrupa la autopercepción sobre el desarrollo de habilidades (el "saber hacer").</li>
-                        <li><b>Factor 2 - Valoración de la Pertinencia:</b> Mide el juicio del egresado sobre la calidad y relevancia del programa.</li>
-                        <li><b>Factor 3 - Logros y Vinculación Profesional:</b> Consolida acciones y logros concretos post-graduación.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SLIDE 7: Interpretación 4.3.2 (Movilidad) -->
-     <section id="slide-7" class="slide">
-        <div class="slide-content">
-            <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-3xl font-bold text-santoto-dark mb-4">Hallazgo: Movilidad Social</h2>
-                 <div class="info-card mb-6">
-                     <h3 class="text-xl font-bold text-santoto-dark">Asociación Estadísticamente Significativa</h3>
-                    <p class="mt-2 text-slate-700">Un análisis de asociación (Prueba de Chi-Cuadrado) confirmó con un p-valor < .001 que existe una fuerte relación entre la mejora de ingresos y la mejora de vivienda.</p>
-                </div>
-                <p class="text-slate-600">La tabla de contingencia muestra que la tendencia dominante (550 encuestados) es experimentar una mejora conjunta. Esto confirma que el progreso económico se está traduciendo en <b>movilidad social material</b>.</p>
-                <div class="table-wrapper text-sm mt-4">
+                <h2 class="text-3xl font-bold text-santoto-dark mb-4">Análisis del IIE Global</h2>
+                <p class="text-lg text-slate-600 mb-6">La mayor discrepancia se observa en el resultado global. Nuestra reconstrucción alcanza un <strong>67.5%</strong> del valor esperado, mientras que los estudios originales reportan un <strong>72%</strong>. Esta diferencia es consecuencia directa de las grandes brechas en los componentes de <strong>Formación Disciplinar</strong> y <strong>Movilidad Social</strong>.</p>
+                <div class="table-wrapper">
                     <table>
-                        <thead><tr><th>(Ingresos Sup.) \ (Mejora Viv.)</th><th>No</th><th>Sí</th></tr></thead>
+                        <thead><tr><th>Fuente / Estudio</th><th>FD</th><th>DCI</th><th>MS</th><th>PMCV</th><th>IIE Global</th></tr></thead>
                         <tbody>
-                            <tr><th>No</th><td>218</td><td>93</td></tr>
-                            <tr><th>Sí</th><td>265</td><td class="bg-orange-100 font-bold">550</td></tr>
+                            <tr><td>Artículo Metodológico</td><td>73%</td><td>76%</td><td>61%</td><td>75%</td><td class="font-bold">72%</td></tr>
+                            <tr class="bg-orange-50"><td>Nuestra Reconstrucción</td><td class="font-bold text-red-600">50%</td><td class="font-bold text-green-600">76%</td><td class="font-bold text-yellow-600">86%*</td><td class="font-bold text-green-600">75%</td><td class="font-bold">68%</td></tr>
                         </tbody>
                     </table>
                 </div>
+                 <p class="text-sm text-slate-500 text-center mt-4">*El resultado de Movilidad Social (MS) está incompleto debido a variables no especificadas en la metodología original.</p>
             </div>
         </div>
     </section>
 
-    <!-- SLIDE 8: Interpretación 4.4.2 (Calidad de Vida) -->
-    <section id="slide-8" class="slide">
-        <div class="slide-content">
-             <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-3xl font-bold text-santoto-dark mb-4">Hallazgo: Calidad de Vida</h2>
-                <div class="info-card mb-6">
-                    <h3 class="text-xl font-bold text-santoto-dark">Estructura Unidimensional</h3>
-                    <p class="mt-2 text-slate-700">Al igual que con las competencias transversales, el análisis reveló una estructura de un solo factor para la percepción del impacto en la calidad de vida.</p>
+    <!-- SLIDE 7: Análisis FD y DCI -->
+     <section id="slide-7" class="slide">
+         <div class="slide-content">
+            <div class="max-w-5xl mx-auto p-8 grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-santoto-dark mb-4">Análisis de Formación Disciplinar (FD)</h2>
+                    <p class="text-lg text-slate-600">Aquí se encuentra la mayor inconsistencia, con un resultado de <strong>50.0%</strong>, muy por debajo del <strong>73%</strong> original.</p>
+                    <ul class="list-disc list-inside mt-4 space-y-2">
+                        <li>Problemas en la homologación de escalas.</li>
+                        <li>Tratamiento ambiguo de respuestas "No aplica".</li>
+                        <li>Ponderación de variables poco clara.</li>
+                    </ul>
                 </div>
                 <div>
-                    <p class="font-semibold text-santoto-dark">Interpretación del Factor:</p>
-                    <p class="text-slate-700 mt-2">Las variables de "incidencia" (vivienda, salud, etc.) cargaron fuertemente en un único factor, sugiriendo que los egresados perciben el impacto como un bloque unificado de mejoras. Se propone denominarlo:</p>
-                    <p class="mt-3 text-center text-xl font-bold text-santoto-orange">"Percepción de Impacto General en la Calidad de Vida"</p>
+                    <h2 class="text-3xl font-bold text-santoto-dark mb-4">Análisis de Des. de Competencias (DCI)</h2>
+                    <p class="text-lg text-slate-600">Este componente, junto con Calidad de Vida, muestra una <strong>excelente consistencia</strong> (76.3% vs. 76.0%).</p>
+                    <p class="text-lg text-slate-600 mt-4">La metodología descrita fue lo suficientemente clara para permitir una réplica precisa, validando esta parte del modelo.</p>
                 </div>
             </div>
         </div>
     </section>
-    
-    <!-- SLIDE 9: Conclusiones -->
-     <section id="slide-9" class="slide">
+
+    <!-- SLIDE 8: Análisis MS -->
+    <section id="slide-8" class="slide">
+        <div class="slide-content text-center">
+            <div class="max-w-3xl mx-auto p-8">
+                 <h2 class="text-3xl font-bold text-santoto-dark mb-4">Análisis de Movilidad Social (MS)</h2>
+                <p class="text-lg text-slate-600">El resultado de <strong>86.1%</strong> es engañoso. Parece superior al <strong>61%</strong> original, pero se debe a que nuestro modelo está **incompleto**.</p>
+                <div class="mt-6 bg-red-50 border-l-4 border-red-500 p-4 text-left">
+                    <p class="font-semibold text-red-800">La metodología original no especifica qué preguntas de la encuesta se usaron para construir 3 de sus 6 variables. Sin esta información, la reconstrucción completa del componente es imposible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 9: Problemas Metodológicos -->
+    <section id="slide-9" class="slide">
         <div class="slide-content">
              <div class="max-w-4xl mx-auto p-8">
-                <h2 class="text-4xl font-bold text-santoto-dark mb-6 text-center">Conclusión del Análisis Factorial</h2>
-                <p class="text-lg text-slate-600">El EFA nos permitió transformar el conjunto de datos crudos en un dataset analítico robusto, mediante la identificación de la estructura latente de los constructos medidos.</p>
-                 <ul class="mt-8 space-y-4 text-lg">
-                    <li class="bg-white p-4 rounded-lg shadow-sm"><b class="text-santoto-dark">Síntesis de Constructos:</b> Se identificaron y validaron 5 constructos latentes que resumen la percepción de impacto de los egresados.</li>
-                    <li class="bg-white p-4 rounded-lg shadow-sm"><b class="text-santoto-dark">Creación del Dataset Analítico:</b> Se calcularon los puntajes factoriales para cada egresado, consolidando los hallazgos en un dataset final de 959 registros con 7 indicadores clave listos para el modelado.</li>
+                <h2 class="text-3xl font-bold text-santoto-dark mb-4">Conclusión: Problemas Metodológicos</h2>
+                <p class="text-lg text-slate-600">La imposibilidad de replicar el IIE se debe a problemas fundamentales en la metodología descrita, que impiden su validación científica.</p>
+                 <ul class="mt-6 space-y-4 text-lg">
+                    <li class="bg-slate-50 p-4 rounded-lg flex items-start"><span class="text-santoto-orange font-bold mr-3">●</span><div><strong class="text-santoto-dark">Falta de Definición:</strong> Variables clave no están vinculadas a preguntas específicas de la encuesta.</div></li>
+                    <li class="bg-slate-50 p-4 rounded-lg flex items-start"><span class="text-santoto-orange font-bold mr-3">●</span><div><strong class="text-santoto-dark">Ambigüedad:</strong> No hay un protocolo claro para el tratamiento de datos atípicos o escalas de respuesta no homogéneas.</div></li>
                 </ul>
             </div>
         </div>
@@ -231,11 +192,11 @@
     <section id="slide-10" class="slide bg-santoto-dark text-white">
         <div class="slide-content text-center">
             <div class="p-8">
-                <h1 class="text-2xl font-bold text-santoto-orange">ETAPA 3</h1>
-                <h2 class="text-5xl font-bold mt-2">Hacia los Arquetipos</h2>
-                <p class="text-xl text-slate-300 mt-6 max-w-3xl mx-auto">Con este dataset analítico validado, el siguiente paso es aplicar algoritmos de clustering para descubrir los perfiles de impacto de los egresados.</p>
+                <h1 class="text-2xl font-bold text-santoto-orange">LA DECISIÓN</h1>
+                <h2 class="text-5xl font-bold mt-2">Hacia un Nuevo Enfoque</h2>
+                <p class="text-xl text-slate-300 mt-6 max-w-3xl mx-auto">Dada la falta de validez del modelo original, se decidió abandonar el intento de reconstrucción y adoptar una metodología más robusta y exploratoria: el **Análisis Factorial**.</p>
                 <div class="mt-8">
-                     <a href="arquetipos.html" class="bg-santoto-orange text-white px-8 py-3 rounded-lg hover:opacity-80 transition text-lg font-semibold">Continuar a los Arquetipos →</a>
+                     <a href="analisis_factorial.html" class="bg-santoto-orange text-white px-8 py-3 rounded-lg hover:opacity-80 transition text-lg font-semibold">Continuar al Análisis Factorial →</a>
                 </div>
             </div>
         </div>
@@ -251,13 +212,6 @@
     </div>
 
     <script>
-        mermaid.initialize({ startOnLoad: true, theme: 'base', themeVariables: {
-            primaryColor: '#f3f4f6',
-            primaryTextColor: '#1A202C',
-            lineColor: '#4A5568',
-            fontSize: '16px'
-        }});
-
         document.addEventListener('DOMContentLoaded', function () {
             let currentSlide = 1;
             const totalSlides = document.querySelectorAll('.slide').length;
@@ -288,7 +242,28 @@
                 if (e.key === 'ArrowRight') nextBtn.click();
                 if (e.key === 'ArrowLeft') prevBtn.click();
             });
-            
+
+            const ctx = document.getElementById('reconstructionChart')?.getContext('2d');
+            if(ctx) {
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['F. Disciplinar', 'D. Competencias', 'M. Social', 'C. de Vida', 'IIE Global'],
+                        datasets: [{
+                            label: 'Estudio Original', data: [73.0, 76.0, 61.0, 75.0, 72.0],
+                            backgroundColor: '#4A5568', borderRadius: 4
+                        }, {
+                            label: 'Nuestra Reconstrucción', data: [50.0, 76.3, 86.1, 74.9, 67.5],
+                            backgroundColor: '#F5A623', borderRadius: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        scales: { y: { beginAtZero: true, title: { display: true, text: '% Alcanzado' } } },
+                        plugins: { legend: { position: 'bottom' } }
+                    }
+                });
+            }
             updateSlides();
         });
     </script>

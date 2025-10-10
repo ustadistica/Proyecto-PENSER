@@ -7,13 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
+        // Configuración de colores de la marca Santo Tomás
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        'santoto-orange': '#F5A623',
-                        'santoto-dark': '#1A202C',
-                        'santoto-light-gray': '#F7FAFC',
+                        'santoto-orange': '#F5A623', // Naranja/Ocre institucional
+                        'santoto-dark': '#1A202C',   // Negro/Gris oscuro para fondos
                     }
                 }
             }
@@ -21,132 +21,68 @@
     </script>
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .info-card { background-color: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); border-left: 4px solid #F5A623; }
-        .hero-bg {
-            background-image: linear-gradient(rgba(247, 250, 252, 0.8), rgba(247, 250, 252, 1)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
-            background-size: cover;
-            background-position: center;
-        }
     </style>
 </head>
-<body class="bg-santoto-light-gray text-slate-800">
+<body class="bg-slate-100 text-slate-800">
 
-    <!-- Header -->
-    <header class="bg-santoto-dark shadow-lg sticky top-0 z-50">
+    <!-- Header con logo y fondo oscuro -->
+    <header class="bg-santoto-dark shadow-lg">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo de la Universidad -->
             <a href="#">
-                <img src="https://usantotomas.edu.co/hs-fs/hubfs/social-suggested-images/usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png?width=188&height=43" alt="Logo Universidad Santo Tomás" class="h-10">
+                <img src="https://usantotomas.edu.co/hs-fs/hubfs/social-suggested-images/usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png?width=188&height=43&name=usantotomas.edu.cohs-fshubfsLogo%20Santoto%20-%20SP%20Bogota%20Horizontal%20blanco-2.png" alt="Logo Universidad Santo Tomás" class="h-10">
             </a>
             <h1 class="text-lg font-semibold text-white hidden md:block">Estudio de Impacto de Egresados</h1>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <main class="hero-bg">
-        <div class="container mx-auto px-6 pt-24 md:pt-32 pb-16 text-center">
-            <div class="max-w-4xl mx-auto">
-                <p class="font-semibold text-santoto-orange text-lg">Un Proyecto del Consultorio de Estadística y Ciencia de Datos</p>
-                <h2 class="text-4xl md:text-6xl font-bold text-santoto-dark mt-2 mb-4">Del Índice a los Arquetipos</h2>
-                <p class="text-xl text-slate-700 mb-12">
-                    Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros egresados.
-                </p>
-            </div>
+    <main class="container mx-auto px-6 py-16 md:py-24 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-santoto-dark mb-4">Del Índice a los Arquetipos</h2>
+            <p class="text-lg text-slate-600 mb-8">
+                Presentación de un nuevo enfoque metodológico para comprender el impacto de la formación universitaria. Este estudio transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros egresados.
+            </p>
+            <!-- Línea decorativa con color institucional -->
+            <div class="w-24 h-1.5 bg-santoto-orange mx-auto mb-16 rounded"></div>
+        </div>
+
+        <!-- Navigation Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            
+            <!-- Card 1: Reconstrucción -->
+            <a href="reconstruccion.html" class="group block bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-b-4 border-transparent hover:border-santoto-orange">
+                <div class="text-slate-500 group-hover:text-santoto-orange transition-colors duration-300 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V7a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                </div>
+                <h3 class="text-xl font-bold text-santoto-dark mb-2">1. La Reconstrucción del Índice</h3>
+                <p class="text-slate-600">Un análisis crítico del modelo original y los desafíos metodológicos que motivaron la necesidad de un nuevo enfoque.</p>
+            </a>
+
+            <!-- Card 2: Análisis Factorial -->
+            <a href="analisis_factorial.html" class="group block bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-b-4 border-transparent hover:border-santoto-orange">
+                <div class="text-slate-500 group-hover:text-santoto-orange transition-colors duration-300 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                </div>
+                <h3 class="text-xl font-bold text-santoto-dark mb-2">2. El Nuevo Enfoque: Análisis Factorial</h3>
+                <p class="text-slate-600">La transición hacia una metodología avanzada para descubrir las dimensiones latentes y los verdaderos constructos que definen el impacto.</p>
+            </a>
+            
+            <!-- Card 3: Arquetipos -->
+            <a href="arquetipos.html" class="group block bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-b-4 border-transparent hover:border-santoto-orange">
+                <div class="text-slate-500 group-hover:text-santoto-orange transition-colors duration-300 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                </div>
+                <h3 class="text-xl font-bold text-santoto-dark mb-2">3. El Resultado: Los Arquetipos</h3>
+                <p class="text-slate-600">La culminación del estudio: la identificación de cinco perfiles de egresados, cada uno con una historia de impacto única y significativa.</p>
+            </a>
+
         </div>
     </main>
 
-    <!-- Navigation Cards -->
-    <section class="bg-white py-20">
-        <div class="container mx-auto px-6 text-center">
-            <div class="w-24 h-1.5 bg-santoto-orange mx-auto mb-12 rounded"></div>
-            <h3 class="text-3xl md:text-4xl font-bold text-santoto-dark mb-12">Navegación del Estudio</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                <a href="reconstruccion.html" class="group block bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-b-4 border-transparent hover:border-santoto-orange">
-                    <h3 class="text-xl font-bold text-santoto-dark mb-2">1. La Reconstrucción del Índice</h3>
-                    <p class="text-slate-600">Análisis del modelo original y los desafíos que motivaron un nuevo enfoque.</p>
-                </a>
-                <a href="analisis_factorial.html" class="group block bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-b-4 border-transparent hover:border-santoto-orange">
-                    <h3 class="text-xl font-bold text-santoto-dark mb-2">2. El Nuevo Enfoque: Análisis Factorial</h3>
-                    <p class="text-slate-600">Descubrimiento de las dimensiones latentes que definen el impacto.</p>
-                </a>
-                <a href="arquetipos.html" class="group block bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-b-4 border-transparent hover:border-santoto-orange">
-                    <h3 class="text-xl font-bold text-santoto-dark mb-2">3. El Resultado: Los Arquetipos</h3>
-                    <p class="text-slate-600">Identificación de cinco perfiles de egresados con historias de impacto únicas.</p>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Metodología y Ventajas -->
-    <section class="bg-santoto-light-gray py-20">
-        <div class="container mx-auto px-6">
-            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-start">
-                <div>
-                    <h3 class="text-3xl md:text-4xl font-bold text-santoto-dark mb-8">Metodología General</h3>
-                    <ol class="relative border-l border-gray-300">                  
-                        <li class="mb-12 ml-8">            
-                            <span class="absolute flex items-center justify-center w-8 h-8 bg-santoto-orange rounded-full -left-4 ring-8 ring-santoto-light-gray">
-                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M7.75 2.5a.75.75 0 00-1.5 0v1.25a.75.75 0 001.5 0V2.5zM12.25 2.5a.75.75 0 00-1.5 0v1.25a.75.75 0 001.5 0V2.5zM3.5 9.75a.75.75 0 01.75-.75h11.5a.75.75 0 010 1.5H4.25a.75.75 0 01-.75-.75zM4.373 13.528a.75.75 0 01.18 1.044l-1.06 1.68a.75.75 0 11-1.226-.774l1.06-1.68a.75.75 0 011.045-.27zM16.627 13.528a.75.75 0 011.226.774l-1.06 1.68a.75.75 0 11-1.226-.774l1.06-1.68-.001-.001zM11.5 6.25a.75.75 0 00-1.5 0v2a.75.75 0 001.5 0v-2zM8.5 6.25a.75.75 0 00-1.5 0v2a.75.75 0 001.5 0v-2z"/></svg>
-                            </span>
-                            <h4 class="flex items-center mb-2 text-xl font-semibold text-gray-900">Validación de Constructos</h4>
-                            <p class="text-base font-normal text-gray-600">Mediante Análisis Factorial Exploratorio (EFA), se identificaron las dimensiones latentes, transformando docenas de variables en 5 constructos validados.</p>
-                        </li>
-                        <li class="mb-12 ml-8">
-                            <span class="absolute flex items-center justify-center w-8 h-8 bg-santoto-orange rounded-full -left-4 ring-8 ring-santoto-light-gray">
-                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M4.5 2A2.5 2.5 0 002 4.5v11A2.5 2.5 0 004.5 18h11a2.5 2.5 0 002.5-2.5V8.843a.75.75 0 00-1.5 0V15.5a1 1 0 01-1 1H4.5a1 1 0 01-1-1V4.5a1 1 0 011-1h6.657a.75.75 0 000-1.5H4.5z"/><path d="M15.25 2.25a.75.75 0 000 1.5h1.69L7.22 13.47a.75.75 0 101.06 1.06L18 4.81v1.69a.75.75 0 001.5 0V2.25h-4.25z"/></svg>
-                            </span>
-                            <h4 class="mb-2 text-xl font-semibold text-gray-900">Segmentación (Clustering)</h4>
-                            <p class="text-base font-normal text-gray-600">Se aplicaron y compararon múltiples algoritmos para agrupar a los egresados en perfiles homogéneos basados en sus puntajes factoriales.</p>
-                        </li>
-                        <li class="ml-8">
-                            <span class="absolute flex items-center justify-center w-8 h-8 bg-santoto-orange rounded-full -left-4 ring-8 ring-santoto-light-gray">
-                               <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M17 10a.75.75 0 01-.75.75H5.612l4.158 3.96a.75.75 0 11-1.04 1.08l-5.5-5.25a.75.75 0 010-1.08l5.5-5.25a.75.75 0 111.04 1.08L5.612 9.25H16.25A.75.75 0 0117 10z" clip-rule="evenodd"/></svg>
-                            </span>
-                            <h4 class="mb-2 text-xl font-semibold text-gray-900">Creación de Arquetipos</h4>
-                            <p class="text-base font-normal text-gray-600">Se interpretaron los centroides de cada clúster para definir 5 arquetipos de egresados con narrativas de impacto distintas y accionables.</p>
-                        </li>
-                    </ol>
-                </div>
-                <div>
-                    <h3 class="text-3xl md:text-4xl font-bold text-santoto-dark mb-8">¿Por qué Arquetipos y no un Índice?</h3>
-                    <div class="space-y-6">
-                        <div class="info-card">
-                            <h4 class="font-semibold text-lg flex items-center"><svg class="w-6 h-6 mr-3 text-santoto-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>Visión Multidimensional</h4>
-                            <p class="text-slate-600 mt-2">Un solo índice oculta la complejidad. Los arquetipos revelan que existen <b>múltiples caminos de éxito</b>; un egresado puede tener un alto impacto social sin necesariamente tener el mayor éxito económico.</p>
-                        </div>
-                         <div class="info-card">
-                            <h4 class="font-semibold text-lg flex items-center"><svg class="w-6 h-6 mr-3 text-santoto-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>Estrategia Focalizada</h4>
-                            <p class="text-slate-600 mt-2">Saber que el 39% de los egresados son "Exitosos y Críticos" permite diseñar acciones de fidelización específicas para ese grupo, algo imposible con un único número.</p>
-                        </div>
-                         <div class="info-card">
-                            <h4 class="font-semibold text-lg flex items-center"><svg class="w-6 h-6 mr-3 text-santoto-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V7a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>Generación de un Índice Mejorado</h4>
-                            <p class="text-slate-600 mt-2">Si se deseara, se podría generar un índice a partir de este análisis. Sin embargo, en lugar de una suma simple, se podría crear un <b>índice ponderado por arquetipo</b>, dando más peso a los perfiles que la universidad considere más estratégicos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <!-- Próximos Pasos -->
-    <section class="bg-white py-20">
-        <div class="container mx-auto px-6 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold text-santoto-dark mb-12">Próximos Pasos y Futuras Líneas de Investigación</h3>
-            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 text-left">
-                <div class="p-8 rounded-lg border-2 border-gray-200 bg-slate-50">
-                    <h4 class="font-bold text-lg text-santoto-dark mb-2">Análisis Factorial Confirmatorio (CFA)</h4>
-                    <p class="text-slate-600">El siguiente paso metodológico es validar estadísticamente la estructura de 5 constructos que encontramos en el análisis exploratorio. El CFA nos daría una certeza aún mayor sobre la robustez de nuestro modelo.</p>
-                </div>
-                 <div class="p-8 rounded-lg border-2 border-gray-200 bg-slate-50">
-                    <h4 class="font-bold text-lg text-santoto-dark mb-2">Modelos de Ecuaciones Estructurales (SEM)</h4>
-                    <p class="text-slate-600">Una vez confirmada la estructura, se pueden construir modelos SEM para entender las <b>relaciones causales</b> entre los constructos. Por ejemplo: ¿qué tanto influye el "Desarrollo de Competencias" en la "Percepción de Calidad de Vida" para cada arquetipo?</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-santoto-dark">
-        <div class="container mx-auto px-6 py-8 text-center text-slate-300">
-            <p class="font-semibold">Un Proyecto del Consultorio de Estadística y Ciencia de Datos de la Facultad de Estadística</p>
+    <footer class="bg-white mt-12 border-t">
+        <div class="container mx-auto px-6 py-6 text-center text-slate-500">
+            <p class="font-semibold">Un Proyecto del Consultorio de estadística y ciencia de datos de la Facultad de Estadística Santototo</p>
             <p class="text-sm mt-2">Universidad Santo Tomás</p>
         </div>
     </footer>

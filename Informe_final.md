@@ -1,201 +1,224 @@
-#  Un Proyecto del Consultorio de Estadística y Ciencia de Datos  
-## **Del Índice a los Arquetipos**
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos  
+## Del Índice a los Arquetipos  
 
-> *Un nuevo modelo metodológico que pasa de un índice unidimensional a una visión más amplia y humana sobre el impacto de los egresados de la Universidad Santo Tomás.*
-
----
-
-## Introducción
-
-Este informe cuenta el proceso que seguimos para revisar y mejorar el **Índice de Impacto de Egresados (IIE)**, una herramienta del proyecto **PENSER** que busca entender cómo los estudios en la **Universidad Santo Tomás (USTA)** han influido en la vida de sus graduados.
-
-El trabajo se desarrolló en el **Consultorio de Estadística y Ciencia de Datos**, con la idea de verificar si el índice original representaba bien la realidad y si podía replicarse con nuevos datos.  
-A partir de ese análisis, construimos una versión más clara, comprensible y cercana, que muestra el impacto de la formación universitaria desde diferentes perspectivas.
-
-El proyecto tuvo tres etapas:
-
-1. **Reconstrucción del índice:** se intentó reproducir el cálculo original del IIE para revisar su claridad y consistencia.  
-2. **Nuevo enfoque metodológico:** al encontrar dificultades, se aplicó un método más moderno que permitió descubrir qué aspectos realmente explican el impacto de los egresados.  
-3. **Identificación de arquetipos:** con la información obtenida, se crearon cinco tipos o perfiles de egresados, que muestran distintas maneras de vivir el impacto de la formación universitaria.
-
-Este recorrido —desde el índice hasta los arquetipos— ofrece una mirada más completa y humana sobre los egresados, y deja las bases para fortalecer las futuras evaluaciones institucionales.
+**Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros graduados.**
 
 ---
 
-##  **1. Reconstrucción del Índice de Impacto de Egresados (IIE)**
+## Introducción  
 
-La primera etapa consistió en volver a calcular el **Índice de Impacto de Egresados** exactamente como se había hecho originalmente, para comprobar si se obtenían los mismos resultados.  
-Este ejercicio es importante porque permite saber si el modelo es **claro, consistente y reproducible**.
+Este informe presenta el trabajo realizado para revisar y mejorar el **Índice de Impacto de Egresados (IIE)**, una herramienta creada por el Proyecto **PENSER** que busca entender cómo los estudios en la **Universidad Santo Tomás** han influido en la vida personal y profesional de sus egresados.
 
-### Cómo se hizo
+El proyecto se desarrolló dentro del **Consultorio de Estadística y Ciencia de Datos**, con el objetivo de evaluar si el modelo original del índice era claro, confiable y representaba bien la realidad. A partir de ese análisis, se propuso una versión más completa y fácil de interpretar, que permitiera ver el impacto de los egresados desde diferentes perspectivas.
 
-Usamos la base de datos **“Data Depurada Santo Tomás – Estudio PENSER (mayo 2025)”**, donde están las respuestas de cientos de egresados sobre su formación, su trabajo y su vida después del grado.
+Para lograrlo, el estudio se desarrolló en tres etapas:
 
-El índice se calculaba combinando cuatro aspectos:
+1. **Reconstrucción del índice:** se replicó la metodología original del IIE para evaluar su consistencia y determinar qué tan reproducibles eran los resultados publicados.  
+2. **Análisis factorial exploratorio:** al identificar inconsistencias en la fase inicial, se adoptó un nuevo enfoque estadístico para descubrir las dimensiones que realmente definen el impacto de los egresados.  
+3. **Identificación de arquetipos:** finalmente, se agruparon los egresados según sus características y resultados, dando origen a cinco perfiles de impacto con historias únicas.
+
+En conjunto, este proceso, que va desde la revisión del índice hasta la creación de los arquetipos, ofrece una mirada más completa y real sobre el impacto de la universidad en sus egresados, y deja las bases para fortalecer futuras evaluaciones institucionales.
+
+---
+
+## 1. Reconstrucción del Índice de Impacto de Egresados (IIE)
+
+El objetivo central de esta primera etapa fue **reconstruir y verificar el IIE**, aplicando rigurosamente la metodología original con el fin de validar los resultados, identificar posibles inconsistencias y documentar las diferencias encontradas.
+
+Se trabajó con la base de datos **“Data Depurada Santo Tomás – Estudio PENSER (mayo 2025)”**, transformando las respuestas de los egresados en puntajes numéricos y calculando los subíndices según la fórmula original:
 
 \[
-\text{IIE} = (0.30 × FD) + (0.30 × DCI) + (0.20 × MS) + (0.20 × PMCV)
+IIE = (0.30 × FD) + (0.30 × DCI) + (0.20 × MS) + (0.20 × PMCV)
 \]
 
-Donde:  
-- **FD** significa *Formación Disciplinar* (lo que se aprende en la carrera).  
-- **DCI** es *Desarrollo de Competencias Interpersonales* (habilidades blandas, comunicación, liderazgo).  
-- **MS** es *Movilidad Social* (mejoras en ingresos o vivienda).  
-- **PMCV** es *Percepción de Mejoramiento de la Calidad de Vida*.
+donde cada componente representa un aspecto del impacto:
 
-Cada parte del índice refleja un tipo de impacto que la universidad podría tener en la vida de los graduados.
-
-### Qué encontramos
-
-- En dos de los cuatro componentes (**DCI** y **PMCV**) los resultados fueron muy parecidos al estudio original.  
-- En los otros dos (**FD** y **MS**) hubo dificultades, porque la descripción original no explicaba con claridad cómo se combinaban las variables ni qué hacer con respuestas ambiguas como “No aplica”.
-
-Como resultado, el nuevo cálculo arrojó un **IIE global de 67.5%**, mientras que el estudio original reportaba **72%**.  
-Esta diferencia mostró que **el modelo inicial no era completamente claro ni replicable**.
-
-### Qué aprendimos
-
-Al intentar reproducir el índice original, vimos que hacía falta una estructura más sólida y transparente.  
-Por eso, el equipo decidió cambiar de enfoque y aplicar una técnica que dejara hablar a los datos por sí mismos, sin imponer fórmulas previas.  
-Así nació la segunda etapa: el **análisis factorial exploratorio**.
+- **FD:** Formación Disciplinar  
+- **DCI:** Desarrollo de Competencias Interpersonales  
+- **MS:** Movilidad Social  
+- **PMCV:** Percepción de Mejoramiento de la Calidad de Vida  
 
 ---
 
-##  **2. Un nuevo enfoque metodológico**
+### Resultados de la reconstrucción
 
-### ¿Por qué cambiar el método?
+Durante el proceso se compararon los resultados obtenidos con los valores reportados en el estudio metodológico original.
 
-El índice original trataba de resumir toda la información en una sola cifra.  
-Sin embargo, descubrimos que el impacto de la universidad no puede representarse de manera tan simple.  
-Por eso, decidimos usar una técnica más flexible, que permitiera ver cómo las respuestas de los egresados se agrupan de forma natural.  
-Esa técnica se llama **Análisis Factorial Exploratorio (AFE)**.
+<p align="center">
+  <img width="530" height="97" alt="Figura 1. Análisis IIE Global" src="https://github.com/user-attachments/assets/133e146b-ea5e-4d43-8b59-bb62079808ef" />
+  <br>
+  <strong>Figura 1.</strong> Análisis IIE Global
+</p>
 
-### Explicado en palabras sencillas
 
-El **AFE** es una herramienta que sirve para **descubrir patrones dentro de muchos datos**.  
-En lugar de mirar cada pregunta por separado, agrupa las que están relacionadas y muestra los grandes temas que hay detrás de ellas.  
-Así se pueden identificar las ideas principales, como “habilidades”, “formación”, “calidad de vida”, etc.
 
-### Pasos del proceso
+Al realizar la reconstrucción encontramos que dos de los cuatro componentes —**Desarrollo de Competencias Interpersonales (DCI)** y **Percepción de Mejoramiento de la Calidad de Vida (PMCV)**— mostraron una excelente consistencia.  
+En estos casos, la descripción metodológica fue lo suficientemente clara como para replicar los cálculos y obtener resultados prácticamente iguales a los del estudio original.
 
-1. **Preparar los datos:**  
-   Se transformaron las respuestas escritas (por ejemplo, “Muy alto”, “De acuerdo”) en números del 1 al 5, para poder analizarlas.  
-   También se limpiaron errores y se completaron datos faltantes.
+Sin embargo, los otros dos componentes —**Formación Disciplinar (FD)** y **Movilidad Social (MS)**— presentaron dificultades importantes. En la documentación original no se explicaba con detalle cómo se asignaban los pesos a ciertas respuestas, ni se especificaba con claridad qué variables del cuestionario debían combinarse.  
+Además, algunas preguntas incluían opciones como “No aplica” y no existía una guía sobre cómo tratarlas.
 
-2. **Comprobar la calidad:**  
-   Antes de hacer el análisis, se aplicaron pruebas estadísticas para asegurarse de que los datos servían.  
-   En palabras simples, estas pruebas nos dijeron que las respuestas estaban relacionadas y eran adecuadas para el estudio.
+Como resultado, no fue posible reproducir con precisión el índice completo. Al aplicar la metodología tal como estaba descrita, el nuevo cálculo arrojó un **IIE global del 67.5%**, mientras que el estudio original reportaba un **72%**.  
+Esta diferencia significativa evidenció que el modelo inicial no contaba con la solidez suficiente para garantizar su replicabilidad.
 
-3. **Descubrir los factores:**  
-   El análisis mostró que las preguntas no estaban aisladas, sino que se organizaban naturalmente en **grandes grupos o factores**.
-
-### Principales hallazgos
-
-| Tema analizado | Qué se descubrió | Qué significa |
-|----------------|------------------|----------------|
-| **Competencias transversales** | Todas las habilidades blandas (trabajo en equipo, comunicación, resolución de problemas) se mueven juntas, como un solo gran grupo. | Los egresados perciben estas competencias como una sola capacidad general. |
-| **Formación disciplinar** | Las preguntas sobre lo aprendido se agrupan en tres dimensiones: lo que se aprende, cómo se valora y cómo se aplica. | La formación profesional tiene varias capas, no es un bloque único. |
-| **Movilidad social** | Hay una relación clara entre mejorar los ingresos y mejorar la vivienda. | Cuando a una persona le va mejor económicamente, suele mejorar también su calidad de vida. |
-| **Calidad de vida** | Todos los aspectos de la vida (salud, empleo, ingresos, bienestar) están conectados. | La formación universitaria influye en la vida de los egresados de manera integral. |
+---
 
 ### Conclusión de la etapa
 
-Con este análisis, pasamos de tener muchos datos dispersos a un modelo organizado y entendible.  
-Identificamos cinco grandes dimensiones que resumen el impacto de los graduados.  
-Esta nueva base permitió avanzar hacia una tercera etapa: **descubrir los diferentes tipos de egresados**.
+Al intentar reconstruir el índice, se evidenció que el modelo original no podía repetirse con los mismos resultados.  
+Esto mostró que la forma en que estaba planteado no era del todo clara ni precisa.  
+
+Por esa razón, el equipo decidió **cambiar de enfoque** y buscar una alternativa más confiable que permitiera entender mejor qué explica realmente el impacto de los egresados.  
+De esta manera surgió la idea de aplicar un **nuevo método: el análisis factorial exploratorio**, que permitió descubrir los aspectos que más influyen en el impacto de los graduados y avanzar hacia una visión más completa y representativa de su realidad.
 
 ---
 
-## 🧭 **3. Identificación de Arquetipos de Egresados**
+## 2. Un nuevo enfoque metodológico
 
-### 3.1 ¿Qué son los arquetipos?
+En esta segunda parte del proyecto fue necesario cambiar la forma de trabajo, porque el modelo original del índice no funcionaba bien con los datos disponibles.  
+Por eso, decidimos usar un método más flexible llamado **Análisis Factorial Exploratorio (AFE)**, que nos permitió descubrir cómo se relacionaban realmente las respuestas de los egresados.
 
-Un **arquetipo** es una forma de representar a un grupo de personas que comparten características parecidas.  
-En este caso, los arquetipos permiten ver los distintos tipos de experiencias de los egresados: cómo viven su éxito, qué valoran de la universidad y cómo ha cambiado su vida.
+En lugar de aplicar una fórmula fija, dejamos que **los propios datos "hablaran"** y mostraran su estructura, ayudándonos a entender qué aspectos explican mejor el impacto de la formación universitaria.
 
-### 3.2 Cómo se identificaron los arquetipos
-
-1. **Elegimos siete variables** que representaban lo más importante del análisis anterior:  
-   competencias, valoración del programa, logros, calidad de vida, ingresos y vivienda.  
-
-2. **Agrupamos a los egresados** según sus similitudes, sin imponer categorías previas.  
-   El análisis mostró que existían **cinco grupos naturales** dentro de la población.  
-
-3. **Validamos los resultados**, comprobando que los grupos estuvieran bien separados y que cada uno tuviera sentido desde lo social y lo humano.
-
-El resultado fueron **cinco arquetipos de egresados**, cada uno con su historia, fortalezas y retos.
+(En palabras simples, este método sirve para encontrar patrones escondidos dentro de muchas preguntas. En lugar de ver cada respuesta por separado, agrupa las que significan cosas parecidas y nos muestra las ideas principales que comparten).
 
 ---
 
-### 3.3 Los Cinco Arquetipos de Egresados
+### Metodología
 
-| Arquetipo | % de egresados | Cómo son |
-|------------|----------------|-----------|
-| **1. Profesional Exitoso y Crítico** | 39 % | Personas con gran éxito profesional y económico, pero exigentes con la universidad. |
-| **2. Graduado Agradecido** | 13 % | Aprecian profundamente la formación recibida, aunque sus logros materiales sean modestos. |
-| **3. Profesional en Transición** | 17 % | Están creciendo laboralmente; van mejorando, pero aún no alcanzan estabilidad total. |
-| **4. Líder de Alto Desempeño** | 12 % | Son referentes en su campo, con logros sobresalientes, aunque suelen ser muy autoexigentes. |
-| **5. Subjetivamente Satisfecho** | 19 % | No destacan en logros materiales, pero viven felices y equilibrados. |
+El siguiente diagrama muestra las etapas seguidas para aplicar el análisis factorial exploratorio:
 
----
 
-### 3.4 Descripción de los arquetipos
+<p align="center">
+  <img width="192" height="410" alt="Figura 2. Diagrama explicativo metodología" src="https://github.com/user-attachments/assets/28b4f844-5b1a-4b73-8063-415cca8f8f40" />
+  <br>
+  <strong>Figura 2.</strong> Diagrama explicativo metodología
+</p>
 
-####  1. El Profesional Exitoso y Crítico
-Es el grupo más numeroso.  
-Han mejorado sus ingresos y condiciones de vida, y ocupan puestos de responsabilidad.  
-Aunque reconocen el valor de su formación, también son exigentes y piensan que la universidad podría adaptarse más a las demandas actuales.  
-**Ven su éxito como fruto tanto de la formación como del esfuerzo personal.**
 
-####  2. El Graduado Agradecido
-Valoran profundamente lo que aprendieron.  
-No todos tienen grandes logros económicos, pero sienten que su paso por la universidad transformó su vida y la de su familia.  
-Expresan gratitud, compromiso y sentido de pertenencia institucional.
 
-####  3. El Profesional en Transición
-Representa a quienes están en proceso de crecimiento.  
-Han mejorado sus ingresos, pero aún no logran estabilidad.  
-Ven la formación universitaria como una base importante y mantienen un deseo constante de aprender y avanzar.
+Primero limpiamos y transformamos los datos para que pudieran analizarse correctamente.  
+Convertimos las respuestas escritas en texto como “Muy alto”, “De acuerdo” o “Sí” en números del 1 al 5 (donde 5 es nivel alto y 1 es nivel bajo).  
+También corregimos errores de escritura, espacios vacíos y respuestas duplicadas para dejar una base coherente.
 
-####  4. El Líder de Alto Desempeño
-Son los egresados más destacados: ocupan posiciones de liderazgo, han recibido reconocimientos y son referentes en su entorno.  
-Aun así, suelen ser muy exigentes consigo mismos y no siempre sienten equilibrio entre el éxito profesional y el bienestar personal.
+Luego aplicamos dos pruebas estadísticas que nos indicaron si los datos servían para este tipo de análisis:
 
-####  5. El Subjetivamente Satisfecho
-Son personas que se sienten felices y realizadas, aunque sus ingresos o logros no sean los más altos.  
-Para ellos, el éxito se mide más por el bienestar emocional, la estabilidad familiar y las relaciones sociales.
+- **Prueba de Bartlett:** verifica si las preguntas están relacionadas entre sí (resultado: significativo, p < 0.001).  
+- **KMO (Kaiser-Meyer-Olkin):** mide la calidad de los datos (resultados: 0.93, 0.86 y 0.88, lo cual es excelente).  
+
+Con estos resultados confirmamos que los datos eran confiables y se podía continuar con el análisis.
 
 ---
 
-### 3.5 Qué nos dicen estos arquetipos
+### Resultados de la Segunda Etapa  
 
-Los cinco arquetipos muestran que **el impacto de la universidad no es uno solo, sino muchos**.  
-Algunas personas miden el éxito por los logros materiales; otras, por su bienestar o su crecimiento personal.
+#### Hallazgo 1: Competencias transversales  
 
-- Los arquetipos **1 y 4** representan el éxito profesional y económico.  
-- Los **2 y 5** representan la satisfacción emocional y el sentido de pertenencia.  
-- El **3** está en medio: es el proceso de crecimiento que viven muchos egresados jóvenes.
 
-En resumen:
-- El éxito material no siempre trae felicidad.  
-- La gratitud no depende del dinero.  
-- Cada historia de impacto es diferente y valiosa.
+<p align="center">
+  <img width="722" height="442" alt="Figura 3. Gráfico de Sedimentación para Competencias Transversales" src="https://github.com/user-attachments/assets/f1caee16-782b-477d-a575-a77b4f4adb5a" />
+  <br>
+  <strong>Figura 3.</strong> Gráfico de Sedimentación para Competencias Transversales
+</p>
+
+
+Estas competencias son las **habilidades blandas** que ayudan a las personas a relacionarse y actuar en diferentes entornos (comunicación, resolución de problemas, manejo del estrés).  
+El gráfico de sedimentación mostró que todas las competencias se agrupan en un solo gran conjunto, lo que significa que miden una misma capacidad general.  
+
+
+<p align="center">
+  <img width="367" height="187" alt="Figura 4. Tabla de cargas factoriales para Competencias Transversales" src="https://github.com/user-attachments/assets/f9e8e5e3-3404-4bea-a147-6bfa8ddd33f8" />
+  <br>
+  <strong>Figura 4.</strong> Tabla de cargas factoriales para Competencias Transversales
+</p>
+
+
+
+(Todas las variables tienen valores altos entre 0.80 y 0.89, lo cual indica una fuerte relación entre ellas).  
+Por eso lo llamamos **“Factor General de Competencias Transversales”**: cuando alguien mejora una de estas habilidades, usualmente mejora las demás también.
 
 ---
 
-### 3.6 Conclusiones finales
+#### Hallazgo 2: Formación disciplinar  
 
-1. El análisis de arquetipos cambió la forma de entender el impacto de los egresados:  
-   ya no se trata solo de una cifra, sino de historias, experiencias y trayectorias.  
-2. Cada arquetipo representa una manera legítima de éxito e impacto.  
-3. Este modelo ayudará a la universidad a **crear estrategias diferenciadas**, como:  
-   - Fortalecer la relación con los egresados exitosos y críticos.  
-   - Apoyar a los que están en transición profesional.  
-   - Reconocer el valor emocional de los agradecidos y satisfechos.  
-4. Finalmente, este trabajo deja las bases para un **seguimiento continuo y humano** del egresado, donde los datos sirven para comprender, no solo para medir.
+<p align="center">
+  <img width="601" height="365" alt="Figura 5. Gráfico de Sedimentación para Formación Disciplinar" src="https://github.com/user-attachments/assets/6c02fb2c-690f-4ede-9f8e-11307c0af649" />
+  <br>
+  <strong>Figura 5.</strong> Gráfico de Sedimentación para Formación Disciplinar
+</p>
+
+
+
+Estas competencias reflejan lo que los egresados aprendieron en su carrera: conocimientos técnicos, académicos y prácticos.  
+El análisis mostró tres grandes grupos de competencias en lugar de once variables separadas.
+
+
+<p align="center">
+  <img width="373" height="206" alt="Figura 6. Tabla de cargas factoriales para Formación Disciplinar" src="https://github.com/user-attachments/assets/dded9331-3ebc-4f62-b7e3-3c9ea82ee249" />
+  <br>
+  <strong>Figura 6.</strong> Tabla de cargas factoriales para Formación Disciplinar
+</p>
+
+
+
+Los tres grupos son:
+
+1. **Competencias académicas:** cognitivas, digitales, inglés, investigación, gestión comunitaria.  
+2. **Percepción de calidad:** qué tan pertinente y suficiente sienten la formación recibida.  
+3. **Logros profesionales:** liderazgo, premios, pertenencia a gremios.  
+
+En resumen: la formación disciplinar se organiza en tres dimensiones principales: **lo que se aprende, cómo se valora y cómo se aplica después de graduarse.**
 
 ---
 
- **Fin del Informe – “Del Índice a los Arquetipos”**  
-_Consultorio de Estadística y Ciencia de Datos – Universidad Santo Tomás_
+#### Hallazgo 3: Movilidad Social  
+
+
+<p align="center">
+  <img width="479" height="66" alt="Figura 7. Tabla de contingencia para Movilidad Social" src="https://github.com/user-attachments/assets/adec8dce-723f-4abe-b362-96a18542b167" />
+  <br>
+  <strong>Figura 7.</strong> Tabla de contingencia para Movilidad Social
+</p>
+
+
+Aquí analizamos si los egresados **ganan más dinero** que cuando estudiaban y si **su vivienda ha mejorado**.  
+La mayoría respondió “sí” en ambos casos (550 personas), lo que muestra una relación clara entre mejores ingresos y mejor vivienda.  
+La prueba de **Chi-Cuadrado** confirmó que esta relación es estadísticamente significativa.
+
+(En términos sencillos, cuando mejora la situación económica, también mejora la calidad de vida).
+
+---
+
+#### Hallazgo 4: Calidad de Vida  
+
+<p align="center">
+  <img width="601" height="365" alt="Figura 8. Gráfico de Sedimentación para Calidad de Vida" src="https://github.com/user-attachments/assets/ab0e8b1c-8e98-4e88-9dc8-cc4af67d17c2" />
+  <br>
+  <strong>Figura 8.</strong> Gráfico de Sedimentación para Calidad de Vida
+</p>
+
+
+<img width="407" height="149" alt="Figura 9. Tabla de cargas factoriales para Calidad de Vida" src="https://github.com/user-attachments/assets/d7723dd1-d8f7-4de6-a7cc-92e6094de7bc" />
+
+
+Este análisis muestra cómo la formación universitaria ha influido en distintos aspectos personales y laborales.  
+Todas las preguntas se agrupan en un solo factor, lo que significa que cuando mejora un aspecto (por ejemplo, los ingresos), tienden a mejorar también otros (empleo, salud, recreación, bienestar general).
+
+A este conjunto lo llamamos **“Percepción general de mejora en la calidad de vida”**.
+
+---
+
+### Conclusión de la etapa  
+
+Con este análisis logramos pasar de muchos datos dispersos a un modelo claro y organizado.  
+Identificamos cinco grandes factores que resumen todo el impacto de los graduados: **competencias transversales, formación disciplinar, movilidad social, calidad de vida y otros indicadores de apoyo.**
+
+Con esa información, construimos una base con **959 registros y siete variables clave**, que ahora nos permite analizar y comprender mejor los diferentes perfiles de impacto.
+
+El siguiente paso consistió en **agrupar a los egresados por similitudes**, para identificar diferentes tipos o **arquetipos** según su nivel de impacto.  
+Esto permitió pasar del análisis numérico a una visión más humana y narrativa.
+
+---
+
+(👉 Aquí seguiría la sección **3. Identificación de Arquetipos**, con sus propias figuras y descripciones detalladas de cada perfil).
 

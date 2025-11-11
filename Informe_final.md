@@ -1,11 +1,11 @@
-# 🧮 Un Proyecto del Consultorio de Estadística y Ciencia de Datos  
+#  Un Proyecto del Consultorio de Estadística y Ciencia de Datos  
 ## **Del Índice a los Arquetipos**
 
 > *Un nuevo modelo metodológico que pasa de un índice unidimensional a una visión más amplia y humana sobre el impacto de los egresados de la Universidad Santo Tomás.*
 
 ---
 
-## 📘 Introducción
+## Introducción
 
 Este informe cuenta el proceso que seguimos para revisar y mejorar el **Índice de Impacto de Egresados (IIE)**, una herramienta del proyecto **PENSER** que busca entender cómo los estudios en la **Universidad Santo Tomás (USTA)** han influido en la vida de sus graduados.
 
@@ -22,7 +22,7 @@ Este recorrido —desde el índice hasta los arquetipos— ofrece una mirada má
 
 ---
 
-## 🧩 **1. Reconstrucción del Índice de Impacto de Egresados (IIE)**
+##  **1. Reconstrucción del Índice de Impacto de Egresados (IIE)**
 
 La primera etapa consistió en volver a calcular el **Índice de Impacto de Egresados** exactamente como se había hecho originalmente, para comprobar si se obtenían los mismos resultados.  
 Este ejercicio es importante porque permite saber si el modelo es **claro, consistente y reproducible**.
@@ -61,7 +61,7 @@ Así nació la segunda etapa: el **análisis factorial exploratorio**.
 
 ---
 
-## 🔍 **2. Un nuevo enfoque metodológico**
+##  **2. Un nuevo enfoque metodológico**
 
 ### ¿Por qué cambiar el método?
 
@@ -141,27 +141,27 @@ El resultado fueron **cinco arquetipos de egresados**, cada uno con su historia,
 
 ### 3.4 Descripción de los arquetipos
 
-#### 🟦 1. El Profesional Exitoso y Crítico
+####  1. El Profesional Exitoso y Crítico
 Es el grupo más numeroso.  
 Han mejorado sus ingresos y condiciones de vida, y ocupan puestos de responsabilidad.  
 Aunque reconocen el valor de su formación, también son exigentes y piensan que la universidad podría adaptarse más a las demandas actuales.  
 **Ven su éxito como fruto tanto de la formación como del esfuerzo personal.**
 
-#### 🟩 2. El Graduado Agradecido
+####  2. El Graduado Agradecido
 Valoran profundamente lo que aprendieron.  
 No todos tienen grandes logros económicos, pero sienten que su paso por la universidad transformó su vida y la de su familia.  
 Expresan gratitud, compromiso y sentido de pertenencia institucional.
 
-#### 🟨 3. El Profesional en Transición
+####  3. El Profesional en Transición
 Representa a quienes están en proceso de crecimiento.  
 Han mejorado sus ingresos, pero aún no logran estabilidad.  
 Ven la formación universitaria como una base importante y mantienen un deseo constante de aprender y avanzar.
 
-#### 🟥 4. El Líder de Alto Desempeño
+####  4. El Líder de Alto Desempeño
 Son los egresados más destacados: ocupan posiciones de liderazgo, han recibido reconocimientos y son referentes en su entorno.  
 Aun así, suelen ser muy exigentes consigo mismos y no siempre sienten equilibrio entre el éxito profesional y el bienestar personal.
 
-#### 🟪 5. El Subjetivamente Satisfecho
+####  5. El Subjetivamente Satisfecho
 Son personas que se sienten felices y realizadas, aunque sus ingresos o logros no sean los más altos.  
 Para ellos, el éxito se mide más por el bienestar emocional, la estabilidad familiar y las relaciones sociales.
 
@@ -196,6 +196,6 @@ En resumen:
 
 ---
 
-📚 **Fin del Informe – “Del Índice a los Arquetipos”**  
+ **Fin del Informe – “Del Índice a los Arquetipos”**  
 _Consultorio de Estadística y Ciencia de Datos – Universidad Santo Tomás_
 

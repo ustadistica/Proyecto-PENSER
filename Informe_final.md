@@ -80,11 +80,9 @@ De esta manera surgió la idea de aplicar un nuevo método, **el análisis facto
 ## 2. Un nuevo enfoque metodológico
 
 En esta segunda parte del proyecto fue necesario cambiar la forma de trabajo, porque el modelo original del índice no funcionaba bien con los datos disponibles.  
-Por eso, decidimos usar un método más flexible llamado **Análisis Factorial Exploratorio (AFE)**, que nos permitió descubrir cómo se relacionaban realmente las respuestas de los egresados.
+Por eso, decidimos usar un método más flexible llamado **Análisis Factorial Exploratorio (AFE)**, que nos permitió descubrir cómo se relacionaban realmente las respuestas de los egresados. En lugar de aplicar una fórmula fija, dejamos que **los propios datos "hablaran"** y mostraran su estructura, ayudándonos a entender qué aspectos explican mejor el impacto de la formación universitaria.
 
-En lugar de aplicar una fórmula fija, dejamos que **los propios datos "hablaran"** y mostraran su estructura, ayudándonos a entender qué aspectos explican mejor el impacto de la formación universitaria.
-
-(En palabras simples, este método sirve para encontrar patrones escondidos dentro de muchas preguntas. En lugar de ver cada respuesta por separado, agrupa las que significan cosas parecidas y nos muestra las ideas principales que comparten).
+Para entender mejor este método, el análisis factorial es una herramienta que sirve para resumir mucha información y encontrar los temas que se repiten dentro de un conjunto amplio de preguntas. En vez de mirar cada pregunta por separado, este método agrupa aquellas que tienen significados o patrones similares, lo que ayuda a identificar las ideas principales que están detrás de las respuestas, como las competencias, la experiencia profesional o la calidad de vida. Elegimos este método porque nos permite construir una visión más clara, sencilla y realista de lo que piensan los graduados.
 
 ---
 
@@ -92,29 +90,49 @@ En lugar de aplicar una fórmula fija, dejamos que **los propios datos "hablaran
 
 El siguiente diagrama muestra las etapas seguidas para aplicar el análisis factorial exploratorio:
 
+<div style="display: flex; align-items: flex-start;">
 
-<p align="center">
-  <img width="192" height="410" alt="Figura 2. Diagrama explicativo metodología" src="https://github.com/user-attachments/assets/28b4f844-5b1a-4b73-8063-415cca8f8f40" />
-  <br>
-  <strong>Figura 2.</strong> Diagrama explicativo metodología
-</p>
+  <img alt="Figura 2. Diagrama explicativo metodología"
+       src="https://github.com/user-attachments/assets/28b4f844-5b1a-4b73-8063-415cca8f8f40"
+       width="260"
+       style="margin-right: 20px;">
 
+  <div>
+    <p>
+      Primero limpiamos y transformamos los datos para que pudieran analizarse correctamente.
+      Convertimos las respuestas escritas en texto, como “Muy alto”, “De acuerdo” o “Sí”,
+      en números del 1 al 5, donde 5 representa un nivel alto y 1 un nivel bajo.
+      También corregimos errores de escritura, espacios vacíos y respuestas duplicadas
+      para dejar una base coherente.
+    </p>
 
+    <p>
+      Luego aplicamos dos pruebas estadísticas para verificar si los datos eran adecuados para este tipo de análisis:
+    </p>
 
-Primero limpiamos y transformamos los datos para que pudieran analizarse correctamente.  
-Convertimos las respuestas escritas en texto como “Muy alto”, “De acuerdo” o “Sí” en números del 1 al 5 (donde 5 es nivel alto y 1 es nivel bajo).  
-También corregimos errores de escritura, espacios vacíos y respuestas duplicadas para dejar una base coherente.
+    <ul>
+      <li>
+        <b>Prueba de Bartlett:</b> verifica si las preguntas están relacionadas entre sí.
+        En nuestro caso, el valor fue menor a 0.001, lo que indica que sí existe relación entre ellas.
+      </li>
+      <li>
+        <b>KMO (Kaiser-Meyer-Olkin):</b> mide qué tan bien se pueden agrupar esas preguntas en factores.
+        Obtuvimos valores altos (0.93, 0.86 y 0.88), lo que muestra que los datos eran de buena calidad.
+      </li>
+    </ul>
 
-Luego aplicamos dos pruebas estadísticas que nos indicaron si los datos servían para este tipo de análisis:
+    <p>
+      A partir de estos resultados identificamos y nombramos los factores que surgieron, y calculamos los
+      puntajes de cada uno promediando las respuestas que pertenecían al mismo grupo. Con esos valores
+      construimos la base de datos final que usamos para el análisis y las conclusiones.
+    </p>
+  </div>
 
-- **Prueba de Bartlett:** verifica si las preguntas están relacionadas entre sí (resultado: significativo, p < 0.001).  
-- **KMO (Kaiser-Meyer-Olkin):** mide la calidad de los datos (resultados: 0.93, 0.86 y 0.88, lo cual es excelente).  
-
-Con estos resultados confirmamos que los datos eran confiables y se podía continuar con el análisis.
+</div>
 
 ---
 
-### Resultados de la Segunda Etapa  
+### Resultados Segunda Etapa  
 
 #### Hallazgo 1: Competencias transversales  
 

@@ -49,7 +49,6 @@ donde cada componente representa un aspecto del impacto:
 - **MS:** Movilidad Social  
 - **PMCV:** Percepción de Mejoramiento de la Calidad de Vida  
 
----
 
 ### Resultados de la reconstrucción
 
@@ -66,8 +65,6 @@ Al realizar la reconstrucción encontramos que dos de los cuatro componentes, **
 Sin embargo, los otros dos componentes: **Formación Disciplinar (FD)** y **Movilidad Social (MS)** presentaron dificultades importantes. En la documentación original no se explicaba con detalle cómo se asignaban los pesos a ciertas respuestas, ni se especificaba con claridad qué variables del cuestionario debían combinarse. Además, algunas preguntas incluían opciones como *“No aplica”* y no existía una guía sobre cómo tratarlas.
 
 Como resultado, no fue posible reproducir con precisión el índice completo. Al aplicar la metodología tal como estaba descrita, el nuevo cálculo arrojó un **IIE global del 67.5%**, mientras que el estudio original reportaba un **72%**. Esta diferencia significativa evidenció que el modelo inicial no contaba con la solidez suficiente para garantizar su replicabilidad.
-
----
 
 ### Conclusión de la etapa
 

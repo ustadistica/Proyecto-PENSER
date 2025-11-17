@@ -1,6 +1,6 @@
 <div align="center">
 
-# Un Proyecto del Consultorio de Estadística y Ciencia de Datos     Del Índice a los Arquetipos  
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos: Del Índice a los Arquetipos  
 
 Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
 <b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
@@ -112,28 +112,26 @@ Con esos resultados identificamos y nombramos los factores que surgieron, y calc
 
 #### Hallazgo 1: Competencias transversales  
 
+En este bloque analizamos las competencias transversales, que son las **habilidades blandas** que ayudan a las personas a relacionarse y actuar en distintos entornos, como comunicarse bien, resolver problemas o manejar el estrés. Primero comprobamos que los datos eran adecuados para este análisis, y los resultados mostraron muy buena calidad se obtuve un KMO = 0.93 y Bartlett significativo.
 
 <p align="center">
-  <img width="722" height="442" alt="Figura 3. Gráfico de Sedimentación para Competencias Transversales" src="https://github.com/user-attachments/assets/f1caee16-782b-477d-a575-a77b4f4adb5a" />
+  <img width="492" height="302" alt="Figura 3. Gráfico de Sedimentación para Competencias Transversales" src="https://github.com/user-attachments/assets/84e724e2-d1e3-4ffb-b391-aa499b488b2a" />
   <br>
   <strong>Figura 3.</strong> Gráfico de Sedimentación para Competencias Transversales
 </p>
 
+Luego observamos el gráfico de sedimentación, donde se ve una caída fuerte en el primer punto y luego la línea casi plana. Eso indica que todas las competencias se agrupan en un solo gran conjunto, por eso decidimos conservar un solo factor. 
 
-Estas competencias son las **habilidades blandas** que ayudan a las personas a relacionarse y actuar en diferentes entornos (comunicación, resolución de problemas, manejo del estrés).  
-El gráfico de sedimentación mostró que todas las competencias se agrupan en un solo gran conjunto, lo que significa que miden una misma capacidad general.  
-
-
+La tabla de cargas factoriales muestra cuánto aporta cada competencia a ese factor común.
 <p align="center">
-  <img width="367" height="187" alt="Figura 4. Tabla de cargas factoriales para Competencias Transversales" src="https://github.com/user-attachments/assets/f9e8e5e3-3404-4bea-a147-6bfa8ddd33f8" />
+  <img width="573" height="292" alt="Figura 4. Tabla de cargas factoriales para Competencias Transversales" src="https://github.com/user-attachments/assets/470f4e98-6f59-43f5-809d-c50e4b3bd29b" />
   <br>
   <strong>Figura 4.</strong> Tabla de cargas factoriales para Competencias Transversales
 </p>
 
+Los valores van de 0 a 1, y mientras más alto, más peso tiene dentro del grupo. En este caso, todas las competencias tienen valores muy altos (entre 0.80 y 0.89), lo que significa que se mueven juntas y miden prácticamente la misma habilidad general. 
 
-
-(Todas las variables tienen valores altos entre 0.80 y 0.89, lo cual indica una fuerte relación entre ellas).  
-Por eso lo llamamos **“Factor General de Competencias Transversales”**: cuando alguien mejora una de estas habilidades, usualmente mejora las demás también.
+Con estos resultados podemos decir que los graduados perciben estas habilidades como una sola capacidad general. Por eso lo llamamos **Factor General de Competencias Transversales**. Esto nos indica que cuando una persona fortalece una de estas habilidades, normalmente también mejora las demás, ya que todas están conectadas y forman un mismo conjunto
 
 ---
 

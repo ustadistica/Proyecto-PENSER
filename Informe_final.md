@@ -7,17 +7,17 @@
 
 ## Introducción  
 
-Este informe presenta el trabajo realizado para revisar y mejorar el **Índice de Impacto de Egresados (IIE)**, una herramienta creada por el Proyecto **PENSER** que busca entender cómo los estudios en la **Universidad Santo Tomás** han influido en la vida personal y profesional de sus egresados.
+Este informe presenta el trabajo realizado para revisar y mejorar el Índice de Impacto de Egresados (IIE), una herramienta creada por el Proyecto PENSER que busca entender cómo los estudios en la Universidad Santo Tomás han influido en la vida personal y profesional de sus graduados.
 
-El proyecto se desarrolló dentro del **Consultorio de Estadística y Ciencia de Datos**, con el objetivo de evaluar si el modelo original del índice era claro, confiable y representaba bien la realidad. A partir de ese análisis, se propuso una versión más completa y fácil de interpretar, que permitiera ver el impacto de los egresados desde diferentes perspectivas.
+El proyecto se llevó a cabo dentro del Consultorio de Estadística y Ciencia de Datos, con el objetivo de evaluar si el modelo original del índice era claro, confiable y representaba bien la realidad. A partir de ese análisis, se propuso una versión más completa y fácil de interpretar, que permitiera ver el impacto de los graduados desde diferentes perspectivas.
 
 Para lograrlo, el estudio se desarrolló en tres etapas:
 
 1. **Reconstrucción del índice:** se replicó la metodología original del IIE para evaluar su consistencia y determinar qué tan reproducibles eran los resultados publicados.  
-2. **Análisis factorial exploratorio:** al identificar inconsistencias en la fase inicial, se adoptó un nuevo enfoque estadístico para descubrir las dimensiones que realmente definen el impacto de los egresados.  
-3. **Identificación de arquetipos:** finalmente, se agruparon los egresados según sus características y resultados, dando origen a cinco perfiles de impacto con historias únicas.
+2. **Análisis factorial exploratorio:** al identificar inconsistencias en la fase inicial, se adoptó un nuevo enfoque estadístico para descubrir las dimensiones latentes que realmente definen el impacto de los graduados.
+3. **Identificación de arquetipos:** finalmente, se agruparon los graduados según sus características y resultados, dando origen a cinco perfiles de impacto con historias únicas.
 
-En conjunto, este proceso, que va desde la revisión del índice hasta la creación de los arquetipos, ofrece una mirada más completa y real sobre el impacto de la universidad en sus egresados, y deja las bases para fortalecer futuras evaluaciones institucionales.
+En conjunto, este proceso, que va desde la revisión del índice hasta la creación de los arquetipos, ofrece una mirada más completa y real sobre el impacto de la universidad en sus graduados, y deja las bases para seguir fortaleciendo futuras evaluaciones institucionales.
 
 ---
 
@@ -27,9 +27,13 @@ El objetivo central de esta primera etapa fue **reconstruir y verificar el IIE**
 
 Se trabajó con la base de datos **“Data Depurada Santo Tomás – Estudio PENSER (mayo 2025)”**, transformando las respuestas de los egresados en puntajes numéricos y calculando los subíndices según la fórmula original:
 
-\[
-IIE = (0.30 × FD) + (0.30 × DCI) + (0.20 × MS) + (0.20 × PMCV)
-\]
+<p align="center">
+  <strong>
+    \[
+    IIE = (0.30 \times FD) + (0.30 \times DCI) + (0.20 \times MS) + (0.20 \times PMCV)
+    \]
+  </strong>
+</p>
 
 donde cada componente representa un aspecto del impacto:
 
@@ -50,26 +54,18 @@ Durante el proceso se compararon los resultados obtenidos con los valores report
   <strong>Figura 1.</strong> Análisis IIE Global
 </p>
 
+Al realizar la reconstrucción encontramos que dos de los cuatro componentes, **Desarrollo de Competencias Interpersonales (DCI)** y **Percepción de Mejoramiento de la Calidad de Vida (PMCV)**, mostraron una excelente consistencia.  En estos casos, la descripción metodológica fue lo suficientemente clara como para replicar los cálculos y obtener resultados prácticamente iguales a los del estudio original.
 
+Sin embargo, los otros dos componentes: **Formación Disciplinar (FD)** y **Movilidad Social (MS)** presentaron dificultades importantes. En la documentación original no se explicaba con detalle cómo se asignaban los pesos a ciertas respuestas, ni se especificaba con claridad qué variables del cuestionario debían combinarse. Además, algunas preguntas incluían opciones como *“No aplica”* y no existía una guía sobre cómo tratarlas.
 
-Al realizar la reconstrucción encontramos que dos de los cuatro componentes —**Desarrollo de Competencias Interpersonales (DCI)** y **Percepción de Mejoramiento de la Calidad de Vida (PMCV)**— mostraron una excelente consistencia.  
-En estos casos, la descripción metodológica fue lo suficientemente clara como para replicar los cálculos y obtener resultados prácticamente iguales a los del estudio original.
-
-Sin embargo, los otros dos componentes —**Formación Disciplinar (FD)** y **Movilidad Social (MS)**— presentaron dificultades importantes. En la documentación original no se explicaba con detalle cómo se asignaban los pesos a ciertas respuestas, ni se especificaba con claridad qué variables del cuestionario debían combinarse.  
-Además, algunas preguntas incluían opciones como “No aplica” y no existía una guía sobre cómo tratarlas.
-
-Como resultado, no fue posible reproducir con precisión el índice completo. Al aplicar la metodología tal como estaba descrita, el nuevo cálculo arrojó un **IIE global del 67.5%**, mientras que el estudio original reportaba un **72%**.  
-Esta diferencia significativa evidenció que el modelo inicial no contaba con la solidez suficiente para garantizar su replicabilidad.
+Como resultado, no fue posible reproducir con precisión el índice completo. Al aplicar la metodología tal como estaba descrita, el nuevo cálculo arrojó un **IIE global del 67.5%**, mientras que el estudio original reportaba un **72%**. Esta diferencia significativa evidenció que el modelo inicial no contaba con la solidez suficiente para garantizar su replicabilidad.
 
 ---
 
 ### Conclusión de la etapa
 
-Al intentar reconstruir el índice, se evidenció que el modelo original no podía repetirse con los mismos resultados.  
-Esto mostró que la forma en que estaba planteado no era del todo clara ni precisa.  
-
-Por esa razón, el equipo decidió **cambiar de enfoque** y buscar una alternativa más confiable que permitiera entender mejor qué explica realmente el impacto de los egresados.  
-De esta manera surgió la idea de aplicar un **nuevo método: el análisis factorial exploratorio**, que permitió descubrir los aspectos que más influyen en el impacto de los graduados y avanzar hacia una visión más completa y representativa de su realidad.
+Al intentar reconstruir el índice, se evidenció que el modelo original no podía repetirse con los mismos resultados. Esto mostró que la forma en que estaba planteado no era del todo clara ni precisa. Por esa razón, el equipo decidió **cambiar de enfoque** y buscar una alternativa más confiable que permitiera entender mejor qué explica realmente el impacto de los egresados.  
+De esta manera surgió la idea de aplicar un nuevo método, **el análisis factorial exploratorio**, que permitió descubrir los aspectos que más influyen en el impacto de los graduados y avanzar hacia una visión más completa y representativa de su realidad.
 
 ---
 

@@ -4,7 +4,6 @@
 
 Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
 <b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
-
 <br/>
 
 <b>Equipo:</b> Yeimy Alarcón · Karen Suarez · Maria José Galindo 
@@ -177,20 +176,25 @@ La prueba estadística de Chi-Cuadrado confirmó que el resultado fue significat
 
 #### Hallazgo 4: Calidad de Vida  
 
+En este bloque analizamos las preguntas relacionadas con la calidad de vida de los egresados, que muestran cómo su formación universitaria ha influido en distintos aspectos personales y laborales. Primero comprobamos que los datos fueran adecuados para el análisis, y los resultados fueron muy buenos obteniendo un KMO = 0.88 y Bartlett significativo.
+
 <p align="center">
-  <img width="601" height="365" alt="Figura 8. Gráfico de Sedimentación para Calidad de Vida" src="https://github.com/user-attachments/assets/ab0e8b1c-8e98-4e88-9dc8-cc4af67d17c2" />
+  <img width="758" height="459" alt="Figura 8. Gráfico de Sedimentación para Calidad de Vida" src="https://github.com/user-attachments/assets/e1a91004-ba19-4181-a953-1002b5de8444" />
   <br>
   <strong>Figura 8.</strong> Gráfico de Sedimentación para Calidad de Vida
 </p>
 
+En el gráfico de sedimentación se observa una caída muy marcada en el primer punto y luego una línea casi plana, lo que muestra que todas las variables se agrupan en un solo factor.
 
-<img width="407" height="149" alt="Figura 9. Tabla de cargas factoriales para Calidad de Vida" src="https://github.com/user-attachments/assets/d7723dd1-d8f7-4de6-a7cc-92e6094de7bc" />
+<p align="center">
+  <img width="1252" height="454" alt="Figura 9. Tabla de cargas factoriales para Calidad de Vida" src="https://github.com/user-attachments/assets/335e3ce6-ae11-453c-bbdd-a8aed45712f2" />
+  <br>
+  <strong>Figura 9.</strong> Tabla de cargas factoriales para Calidad de Vida
+</p>
 
+La tabla de resultados confirma que todas las preguntas tienen valores altos y muy parecidos (entre -0.70 y -0.79), lo que muestra que todas se mueven en la misma dirección. Cuando un egresado siente que su formación le ayudó a mejorar sus ingresos, casi siempre también nota mejoras en su empleo, vivienda, salud, educación, recreación y bienestar en general.
 
-Este análisis muestra cómo la formación universitaria ha influido en distintos aspectos personales y laborales.  
-Todas las preguntas se agrupan en un solo factor, lo que significa que cuando mejora un aspecto (por ejemplo, los ingresos), tienden a mejorar también otros (empleo, salud, recreación, bienestar general).
-
-A este conjunto lo llamamos **“Percepción general de mejora en la calidad de vida”**.
+Estos resultados muestran que los distintos aspectos de la calidad de vida están conectados y forman un solo gran conjunto, al que llamamos **“Percepción general de mejora en la calidad de vida”**. En general, la formación universitaria no solo influye en el trabajo o los ingresos, sino que también tiene un impacto positivo más amplio, que se refleja en varios ámbitos de la vida de los egresados.
 
 ---
 

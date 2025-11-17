@@ -1,7 +1,6 @@
 <div align="center">
 
-# Un Proyecto del Consultorio de Estadística y Ciencia de Datos
-## Del Índice a los Arquetipos  
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos - Del Índice a los Arquetipos  
 
 Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
 <b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
@@ -40,9 +39,9 @@ El objetivo central de esta primera etapa fue **reconstruir y verificar el IIE**
 
 Se trabajó con la base de datos **“Data Depurada Santo Tomás – Estudio PENSER (mayo 2025)”**, transformando las respuestas de los egresados en puntajes numéricos y calculando los subíndices según la fórmula original:
 
-$$
-\textbf{IIE = (0.30 \times FD) + (0.30 \times DCI) + (0.20 \times MS) + (0.20 \times PMCV)}
-$$
+<p align="center">
+  <b>IIE = (0.30×FD) + (0.30×DCI) + (0.20×MS) + (0.20×PMCV)</b>
+</p>
 
 donde cada componente representa un aspecto del impacto:
 

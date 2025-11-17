@@ -13,7 +13,7 @@ Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadís
 
 > **Estado:** En progreso · **Repositorio:** _[Link Repositorio](https://github.com/ustadistica/Proyecto-PENSER.git)_ · **Última actualización:** 2025-11-17
 
-**Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros graduados.**
+> *Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros graduados.*
 
 ---
 
@@ -84,8 +84,6 @@ Por eso, decidimos usar un método más flexible llamado **Análisis Factorial E
 
 Para entender mejor este método, el análisis factorial es una herramienta que sirve para resumir mucha información y encontrar los temas que se repiten dentro de un conjunto amplio de preguntas. En vez de mirar cada pregunta por separado, este método agrupa aquellas que tienen significados o patrones similares, lo que ayuda a identificar las ideas principales que están detrás de las respuestas, como las competencias, la experiencia profesional o la calidad de vida. Elegimos este método porque nos permite construir una visión más clara, sencilla y realista de lo que piensan los graduados.
 
----
-
 ### Metodología
 
 El siguiente diagrama muestra las etapas seguidas para aplicar el análisis factorial exploratorio:
@@ -106,8 +104,6 @@ Luego aplicamos dos pruebas estadísticas para verificar si los datos eran adecu
 
 Con esos resultados identificamos y nombramos los factores que surgieron, y calculamos los puntajes de cada uno promediando las respuestas que pertenecían al mismo grupo. Con esa información construimos la base de datos final usada para el análisis y las conclusiones.
 
----
-
 ### Resultados Segunda Etapa  
 
 #### Hallazgo 1: Competencias transversales  
@@ -115,7 +111,7 @@ Con esos resultados identificamos y nombramos los factores que surgieron, y calc
 En este bloque analizamos las competencias transversales, que son las **habilidades blandas** que ayudan a las personas a relacionarse y actuar en distintos entornos, como comunicarse bien, resolver problemas o manejar el estrés. Primero comprobamos que los datos eran adecuados para este análisis, y los resultados mostraron muy buena calidad se obtuve un KMO = 0.93 y Bartlett significativo.
 
 <p align="center">
-  <img width="492" height="302" alt="Figura 3. Gráfico de Sedimentación para Competencias Transversales" src="https://github.com/user-attachments/assets/84e724e2-d1e3-4ffb-b391-aa499b488b2a" />
+  <img width="665" height="433" alt="Figura 3. Gráfico de Sedimentación para Competencias Transversales" src="https://github.com/user-attachments/assets/a56e4978-0cba-42bd-9d22-bc002af93891" />
   <br>
   <strong>Figura 3.</strong> Gráfico de Sedimentación para Competencias Transversales
 </p>
@@ -124,7 +120,7 @@ Luego observamos el gráfico de sedimentación, donde se ve una caída fuerte en
 
 La tabla de cargas factoriales muestra cuánto aporta cada competencia a ese factor común.
 <p align="center">
-  <img width="573" height="292" alt="Figura 4. Tabla de cargas factoriales para Competencias Transversales" src="https://github.com/user-attachments/assets/470f4e98-6f59-43f5-809d-c50e4b3bd29b" />
+  <img width="1046" height="526" alt="Figura 4. Tabla de cargas factoriales para Competencias Transversales" src="https://github.com/user-attachments/assets/9501d2fb-d78c-4e57-8634-295365f81d37" />
   <br>
   <strong>Figura 4.</strong> Tabla de cargas factoriales para Competencias Transversales
 </p>
@@ -137,33 +133,28 @@ Con estos resultados podemos decir que los graduados perciben estas habilidades 
 
 #### Hallazgo 2: Formación disciplinar  
 
+En este bloque se analizaron las competencias relacionadas con la formación profesional, que son las habilidades académicas y técnicas que los egresados desarrollaron durante su paso por la universidad. Primero comprobamos que los datos fueran adecuados para el análisis, y los resultados fueron positivos obteniendo un KMO = 0.86 y Bartlett significativo. 
+
 <p align="center">
-  <img width="601" height="365" alt="Figura 5. Gráfico de Sedimentación para Formación Disciplinar" src="https://github.com/user-attachments/assets/6c02fb2c-690f-4ede-9f8e-11307c0af649" />
+  <img width="754" height="462" alt="Figura 5. Gráfico de Sedimentación para Formación Disciplinar" src="https://github.com/user-attachments/assets/9b3011c5-574c-4ca8-93a5-c32121c07492" />
   <br>
   <strong>Figura 5.</strong> Gráfico de Sedimentación para Formación Disciplinar
 </p>
 
+En el gráfico de sedimentación se observa una caída fuerte al inicio y un cambio de pendiente en el tercer punto, lo que muestra que conviene conservar tres factores. Esto quiere decir que las once preguntas sobre formación disciplinar no son once temas separados, sino tres grandes grupos de competencias.
 
-
-Estas competencias reflejan lo que los egresados aprendieron en su carrera: conocimientos técnicos, académicos y prácticos.  
-El análisis mostró tres grandes grupos de competencias en lugar de once variables separadas.
-
-
+La tabla de resultados muestra cómo se agrupan esas preguntas y cuánto aporta cada una a su respectivo factor.
 <p align="center">
-  <img width="373" height="206" alt="Figura 6. Tabla de cargas factoriales para Formación Disciplinar" src="https://github.com/user-attachments/assets/dded9331-3ebc-4f62-b7e3-3c9ea82ee249" />
+  <img width="920" height="508" alt="Figura 6. Tabla de cargas factoriales para Formación Disciplinar" src="https://github.com/user-attachments/assets/9c8f3979-d2dc-451d-881b-c438e11242df" />
   <br>
   <strong>Figura 6.</strong> Tabla de cargas factoriales para Formación Disciplinar
 </p>
 
+En la tabla, los valores sombreados en color amarillo indican las variables que tienen la mayor relación con cada grupo, o sea, las que más peso tienen dentro de cada factor. En el primer factor, marcado en amarillo, se concentran las **competencias académicas**, como las cognitivas, digitales, de inglés, de investigación y de gestión comunitaria. Este grupo refleja lo que se aprende directamente en el programa.
 
+El segundo factor reúne la **percepción de los egresados sobre la calidad del programa**, especialmente qué tan pertinente y suficiente sienten la formación recibida. Por último, el tercer factor agrupa los **logros y la proyección profesional**, como haber liderado proyectos, recibir premios o pertenecer a un gremio.
 
-Los tres grupos son:
-
-1. **Competencias académicas:** cognitivas, digitales, inglés, investigación, gestión comunitaria.  
-2. **Percepción de calidad:** qué tan pertinente y suficiente sienten la formación recibida.  
-3. **Logros profesionales:** liderazgo, premios, pertenencia a gremios.  
-
-En resumen: la formación disciplinar se organiza en tres dimensiones principales: **lo que se aprende, cómo se valora y cómo se aplica después de graduarse.**
+Podemos decir que la formación disciplinar se organiza en tres dimensiones principales: lo que se aprende, cómo se valora y cómo se aplica después de graduarse. Esta forma de agrupar la información permite entender mejor la formación profesional y resumirla en tres indicadores simples, en lugar de once variables separadas.
 
 ---
 

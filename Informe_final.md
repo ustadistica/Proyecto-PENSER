@@ -167,7 +167,11 @@ Esta tabla permite ver la relación entre dos aspectos importantes de la calidad
   <br>
   <strong>Figura 7.</strong> Tabla de contingencia para Movilidad Social
 </p>
-holaaaaa
+Lo primero que se nota es que la mayoría de las personas respondió “sí” en ambas con un total de 550 casos, lo que muestra que quienes mejoran sus ingresos también suelen tener una mejor vivienda. El segundo grupo más grande con 265 personas dijo que sí aumentó sus ingresos, pero todavía no ve una mejora en su vivienda, lo que podría significar que el cambio económico aún no se refleja por completo en sus condiciones habitacionales.
+
+Por otro lado, 218 personas respondieron “no” en ambos casos, lo que indica que no han tenido mejoras ni en ingresos ni en vivienda, y 93 personas dijeron que su vivienda mejoró, aunque sus ingresos no aumentaron, algo menos común en los resultados.
+
+La prueba estadística de Chi-Cuadrado confirmó que el resultado fue significativo, lo que muestra que sí existe una conexión real entre tener mayores ingresos y mejorar la vivienda. Cuando la situación económica de los egresados mejora, también tienden a mejorar sus condiciones de vida, especialmente en el lugar donde viven.
 
 ---
 

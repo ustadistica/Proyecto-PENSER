@@ -1,5 +1,18 @@
-# Un Proyecto del Consultorio de Estadística y Ciencia de Datos  
+<div align="center">
+
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos
 ## Del Índice a los Arquetipos  
+
+Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
+<b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
+
+<br/>
+
+<b>Equipo:</b> Yeimy Alarcón · Karen Suarez · Maria José Galindo 
+
+</div>
+
+> **Estado:** En progreso · **Repositorio:** _[Link Repositorio](https://github.com/ustadistica/Proyecto-PENSER.git)_ · **Última actualización:** 2025-11-17
 
 **Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros graduados.**
 
@@ -27,13 +40,9 @@ El objetivo central de esta primera etapa fue **reconstruir y verificar el IIE**
 
 Se trabajó con la base de datos **“Data Depurada Santo Tomás – Estudio PENSER (mayo 2025)”**, transformando las respuestas de los egresados en puntajes numéricos y calculando los subíndices según la fórmula original:
 
-<p align="center">
-  <strong>
-    \[
-    IIE = (0.30 \times FD) + (0.30 \times DCI) + (0.20 \times MS) + (0.20 \times PMCV)
-    \]
-  </strong>
-</p>
+$$
+\textbf{IIE = (0.30 \times FD) + (0.30 \times DCI) + (0.20 \times MS) + (0.20 \times PMCV)}
+$$
 
 donde cada componente representa un aspecto del impacto:
 

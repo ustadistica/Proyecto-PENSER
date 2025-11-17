@@ -90,45 +90,43 @@ Para entender mejor este método, el análisis factorial es una herramienta que 
 
 El siguiente diagrama muestra las etapas seguidas para aplicar el análisis factorial exploratorio:
 
-<div style="display: flex; align-items: flex-start;">
+<table>
+  <tr>
+    <td style="width: 260px; vertical-align: top;">
+      <img src="https://github.com/user-attachments/assets/28b4f844-5b1a-4b73-8063-415cca8f8f40" width="260">
+    </td>
+    <td style="vertical-align: top; padding-left: 20px;">
 
-  <img alt="Figura 2. Diagrama explicativo metodología"
-       src="https://github.com/user-attachments/assets/28b4f844-5b1a-4b73-8063-415cca8f8f40"
-       width="260"
-       style="margin-right: 20px;">
+      <p>
+        Primero limpiamos y transformamos los datos para que pudieran analizarse correctamente.
+        Convertimos las respuestas escritas en texto, como “Muy alto”, “De acuerdo” o “Sí”,
+        en números del 1 al 5, donde 5 representa un nivel alto y 1 un nivel bajo.
+        También corregimos errores de escritura, espacios vacíos y respuestas duplicadas
+        para dejar una base coherente.
+      </p>
 
-  <div>
-    <p>
-      Primero limpiamos y transformamos los datos para que pudieran analizarse correctamente.
-      Convertimos las respuestas escritas en texto, como “Muy alto”, “De acuerdo” o “Sí”,
-      en números del 1 al 5, donde 5 representa un nivel alto y 1 un nivel bajo.
-      También corregimos errores de escritura, espacios vacíos y respuestas duplicadas
-      para dejar una base coherente.
-    </p>
+      <p>
+        Luego aplicamos dos pruebas estadísticas para verificar si los datos eran adecuados
+        para este tipo de análisis:
+      </p>
 
-    <p>
-      Luego aplicamos dos pruebas estadísticas para verificar si los datos eran adecuados para este tipo de análisis:
-    </p>
+      <ul>
+        <li><b>Prueba de Bartlett:</b> verifica si las preguntas están relacionadas entre sí.  
+            El resultado fue menor a 0.001, lo que indica que sí lo estaban.</li>
 
-    <ul>
-      <li>
-        <b>Prueba de Bartlett:</b> verifica si las preguntas están relacionadas entre sí.
-        En nuestro caso, el valor fue menor a 0.001, lo que indica que sí existe relación entre ellas.
-      </li>
-      <li>
-        <b>KMO (Kaiser-Meyer-Olkin):</b> mide qué tan bien se pueden agrupar esas preguntas en factores.
-        Obtuvimos valores altos (0.93, 0.86 y 0.88), lo que muestra que los datos eran de buena calidad.
-      </li>
-    </ul>
+        <li><b>KMO (Kaiser-Meyer-Olkin):</b> mide qué tan bien se pueden agrupar las preguntas en factores.  
+            En nuestro caso, los valores fueron altos (0.93, 0.86 y 0.88), lo que muestra que los datos eran de buena calidad.</li>
+      </ul>
 
-    <p>
-      A partir de estos resultados identificamos y nombramos los factores que surgieron, y calculamos los
-      puntajes de cada uno promediando las respuestas que pertenecían al mismo grupo. Con esos valores
-      construimos la base de datos final que usamos para el análisis y las conclusiones.
-    </p>
-  </div>
+      <p>
+        Con esos resultados identificamos y nombramos los factores que surgieron, y calculamos los puntajes
+        de cada uno promediando las respuestas que pertenecían al mismo grupo. Con esa información construimos
+        la base de datos final usada para el análisis y las conclusiones.
+      </p>
 
-</div>
+    </td>
+  </tr>
+</table>
 
 ---
 

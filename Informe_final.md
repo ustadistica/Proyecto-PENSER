@@ -1,6 +1,6 @@
 <div align="center">
 
-# Un Proyecto del Consultorio de Estadística y Ciencia de Datos: Del Índice a los Arquetipos  
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos 📊📝🏗️ Del Índice a los Arquetipos  
 
 Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
 <b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
@@ -128,8 +128,6 @@ Los valores van de 0 a 1, y mientras más alto, más peso tiene dentro del grupo
 
 Con estos resultados podemos decir que los graduados perciben estas habilidades como una sola capacidad general. Por eso lo llamamos **Factor General de Competencias Transversales**. Esto nos indica que cuando una persona fortalece una de estas habilidades, normalmente también mejora las demás, ya que todas están conectadas y forman un mismo conjunto
 
----
-
 #### Hallazgo 2: Formación disciplinar  
 
 En este bloque se analizaron las competencias relacionadas con la formación profesional, que son las habilidades académicas y técnicas que los egresados desarrollaron durante su paso por la universidad. Primero comprobamos que los datos fueran adecuados para el análisis, y los resultados fueron positivos obteniendo un KMO = 0.86 y Bartlett significativo. 
@@ -155,8 +153,6 @@ El segundo factor reúne la **percepción de los egresados sobre la calidad del 
 
 Podemos decir que la formación disciplinar se organiza en tres dimensiones principales: lo que se aprende, cómo se valora y cómo se aplica después de graduarse. Esta forma de agrupar la información permite entender mejor la formación profesional y resumirla en tres indicadores simples, en lugar de once variables separadas.
 
----
-
 #### Hallazgo 3: Movilidad Social  
 
 Esta tabla permite ver la relación entre dos aspectos importantes de la calidad de vida los cuales son: si los egresados hoy ganan más dinero que cuando estudiaban y si su vivienda ha mejorado.
@@ -171,8 +167,6 @@ Lo primero que se nota es que la mayoría de las personas respondió “sí” e
 Por otro lado, 218 personas respondieron “no” en ambos casos, lo que indica que no han tenido mejoras ni en ingresos ni en vivienda, y 93 personas dijeron que su vivienda mejoró, aunque sus ingresos no aumentaron, algo menos común en los resultados.
 
 La prueba estadística de Chi-Cuadrado confirmó que el resultado fue significativo, lo que muestra que sí existe una conexión real entre tener mayores ingresos y mejorar la vivienda. Cuando la situación económica de los egresados mejora, también tienden a mejorar sus condiciones de vida, especialmente en el lugar donde viven.
-
----
 
 #### Hallazgo 4: Calidad de Vida  
 
@@ -196,17 +190,13 @@ La tabla de resultados confirma que todas las preguntas tienen valores altos y m
 
 Estos resultados muestran que los distintos aspectos de la calidad de vida están conectados y forman un solo gran conjunto, al que llamamos **“Percepción general de mejora en la calidad de vida”**. En general, la formación universitaria no solo influye en el trabajo o los ingresos, sino que también tiene un impacto positivo más amplio, que se refleja en varios ámbitos de la vida de los egresados.
 
----
 
 ### Conclusión de la etapa  
 
-Con este análisis logramos pasar de muchos datos dispersos a un modelo claro y organizado.  
-Identificamos cinco grandes factores que resumen todo el impacto de los graduados: **competencias transversales, formación disciplinar, movilidad social, calidad de vida y otros indicadores de apoyo.**
+Con este análisis logramos pasar de tener muchos datos sueltos a un modelo claro y organizado. Identificamos cinco grandes factores que resumen todo el impacto de los graduados: **competencias transversales, formación disciplinar, movilidad social, calidad de vida y otros indicadores de apoyo**. Con eso construimos una base final con **959 registros y siete variables clave**, que ahora nos permite analizar y tomar decisiones de una forma mucho más ordenada y precisa.
 
-Con esa información, construimos una base con **959 registros y siete variables clave**, que ahora nos permite analizar y comprender mejor los diferentes perfiles de impacto.
+Con esta última parte empezamos una nueva etapa del proyecto. Ahora que ya tenemos la base de datos limpia y los factores definidos, el siguiente paso es **agrupar a los graduados por perfiles parecidos**. Esto nos va a permitir identificar distintos tipos de graduados según su nivel de impacto y diseñar estrategias más claras para comunicarnos con ellos, hacer seguimiento o crear políticas que respondan mejor a sus realidades.
 
-El siguiente paso consistió en **agrupar a los egresados por similitudes**, para identificar diferentes tipos o **arquetipos** según su nivel de impacto.  
-Esto permitió pasar del análisis numérico a una visión más humana y narrativa.
 
 ---
 

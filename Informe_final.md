@@ -90,6 +90,9 @@ Para entender mejor este método, el análisis factorial es una herramienta que 
 
 El siguiente diagrama muestra las etapas seguidas para aplicar el análisis factorial exploratorio:
 
+| <img alt="Figura 2. Diagrama explicativo metodología" src="https://github.com/user-attachments/assets/28b4f844-5b1a-4b73-8063-415cca8f8f40" width="260"> | Primero limpiamos y transformamos los datos para que pudieran analizarse correctamente. Convertimos las respuestas escritas en texto, como “Muy alto”, “De acuerdo” o “Sí”, en números del 1 al 5, donde 5 representa un nivel alto y 1 un nivel bajo. También corregimos errores de escritura, espacios vacíos y respuestas duplicadas para dejar una base coherente.<br><br>Luego aplicamos dos pruebas estadísticas para verificar si los datos eran adecuados para este tipo de análisis:<br><br>**Prueba de Bartlett:** verifica si las preguntas están relacionadas entre sí. El resultado fue menor a 0.001, lo que indica que sí lo estaban.<br><br>**KMO (Kaiser-Meyer-Olkin):** mide qué tan bien se pueden agrupar las preguntas en factores. En nuestro caso, los valores fueron altos (0.93, 0.86 y 0.88), lo que muestra que los datos eran de buena calidad.<br><br>Con esos resultados identificamos y nombramos los factores que surgieron y calculamos los puntajes de cada uno promediando las respuestas que pertenecían al mismo grupo. Con esa información construimos la base de datos final usada para el análisis y las conclusiones. |
+| --- | --- |
+
 <table>
   <tr>
     <td style="width: 260px; vertical-align: top;">

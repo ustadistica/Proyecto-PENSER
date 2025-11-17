@@ -9,9 +9,9 @@ Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadís
 
 <b>Equipo:</b> Yeimy Alarcón · Karen Suarez · Maria José Galindo 
 
-</div>
-
 > **Estado:** En progreso · **Repositorio:** _[Link Repositorio](https://github.com/ustadistica/Proyecto-PENSER.git)_ · **Última actualización:** 2025-11-17
+
+</div>
 
 > *Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros graduados.*
 
@@ -160,19 +160,19 @@ Podemos decir que la formación disciplinar se organiza en tres dimensiones prin
 
 #### Hallazgo 3: Movilidad Social  
 
+Esta tabla permite ver la relación entre dos aspectos importantes de la calidad de vida los cuales son: si los egresados hoy ganan más dinero que cuando estudiaban y si su vivienda ha mejorado.
 
 <p align="center">
-  <img width="479" height="66" alt="Figura 7. Tabla de contingencia para Movilidad Social" src="https://github.com/user-attachments/assets/adec8dce-723f-4abe-b362-96a18542b167" />
+  <img width="1255" height="173" alt="Figura 7. Tabla de contingencia para Movilidad Social" src="https://github.com/user-attachments/assets/60f0bd86-98e1-4a2d-8351-2666e1e3a0fb" />
   <br>
   <strong>Figura 7.</strong> Tabla de contingencia para Movilidad Social
 </p>
 
+Lo primero que se nota es que la mayoría de las personas respondió “sí” en ambas con un total de 550 casos, lo que muestra que quienes mejoran sus ingresos también suelen tener una mejor vivienda. El segundo grupo más grande con 265 personas dijo que sí aumentó sus ingresos, pero todavía no ve una mejora en su vivienda, lo que podría significar que el cambio económico aún no se refleja por completo en sus condiciones habitacionales.
 
-Aquí analizamos si los egresados **ganan más dinero** que cuando estudiaban y si **su vivienda ha mejorado**.  
-La mayoría respondió “sí” en ambos casos (550 personas), lo que muestra una relación clara entre mejores ingresos y mejor vivienda.  
-La prueba de **Chi-Cuadrado** confirmó que esta relación es estadísticamente significativa.
+Por otro lado, 218 personas respondieron “no” en ambos casos, lo que indica que no han tenido mejoras ni en ingresos ni en vivienda, y 93 personas dijeron que su vivienda mejoró, aunque sus ingresos no aumentaron, algo menos común en los resultados.
 
-(En términos sencillos, cuando mejora la situación económica, también mejora la calidad de vida).
+La prueba estadística de Chi-Cuadrado confirmó que el resultado fue significativo, lo que muestra que sí existe una conexión real entre tener mayores ingresos y mejorar la vivienda. Cuando la situación económica de los egresados mejora, también tienden a mejorar sus condiciones de vida, especialmente en el lugar donde viven.
 
 ---
 

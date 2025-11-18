@@ -310,7 +310,11 @@ Estas visualizaciones facilitaron una lectura más clara del comportamiento de c
 
 _Esta gráfica permite identificar cómo varía la composición de los cinco arquetipos entre las seccionales de la Universidad Santo Tomás. Analizar estas diferencias ayuda a comprender cómo influyen los contextos regionales en el tipo de profesional que forma cada sede, orientando decisiones académicas y de acompañamiento específicas._
 
-<img width="620" height="352" alt="image" src="https://github.com/user-attachments/assets/44fef2c8-7184-447a-a85c-45b51749f4ca" />
+<p align="center">
+  <img width="620" height="352" alt="Distribución de arquetipos por seccional" src="https://github.com/user-attachments/assets/44fef2c8-7184-447a-a85c-45b51749f4ca" />
+  <br>
+  <strong>Figura X.</strong> Distribución de arquetipos por seccional
+</p>
 
 En esta gráfica se observa cómo se distribuyen los diferentes perfiles de graduados en cada seccional de la Universidad Santo Tomás. En todas las sedes predomina el Arquetipo 1 (El Profesional Exitoso y Crítico), lo que muestra una tendencia general hacia graduados con alto desarrollo de competencias y logros materiales, pero con una percepción más analítica y exigente frente al impacto de su formación.
 
@@ -322,7 +326,11 @@ La Sede Principal Bogotá y DUAD presenta la mayor diversidad de perfiles, con u
 
 _Esta comparación revela qué tan tangible ha sido el impacto de la formación universitaria en las condiciones de vida de los graduados. Relacionar el tipo de arquetipo con la mejora de ingresos y vivienda permite identificar qué grupos alcanzan mayor movilidad social y cuáles requieren más acompañamiento institucional._
 
-<img width="687" height="361" alt="image" src="https://github.com/user-attachments/assets/3f6abb8f-a051-472a-9637-febd3f410677" />
+<p align="center">
+  <img width="687" height="361" alt="Tasa de mejora (ingresos y vivienda) por arquetipo" src="https://github.com/user-attachments/assets/3f6abb8f-a051-472a-9637-febd3f410677" />
+  <br>
+  <strong>Figura X.</strong> Tasa de mejora (ingresos y vivienda) por arquetipo
+</p>
 
 Esta gráfica compara el porcentaje de graduados que reportaron haber mejorado sus ingresos y su vivienda según el arquetipo al que pertenecen. Se observa que los Profesionales Exitosos y Críticos (Arquetipo 1) y los Profesionales en Transición (Arquetipo 3) son los grupos con mejores resultados económicos: casi todos aumentaron sus ingresos, aunque el Arquetipo 3 no refleja la misma mejora en vivienda.
 
@@ -334,7 +342,11 @@ El Líder de Alto Desempeño (Arquetipo 4) también presenta altos niveles de pr
 
 _La comparación por carrera permite detectar programas donde predominan ciertos tipos de graduados, lo que ayuda a las facultades a comprender mejor los impactos diferenciados de la formación y a diseñar estrategias de mejora curricular o de acompañamiento profesional específicas._
 
-<img width="708" height="338" alt="image" src="https://github.com/user-attachments/assets/d76992b8-852e-4d13-9743-bfd987c945d3" />
+<p align="center">
+  <img width="708" height="338" alt="Distribución de arquetipos por carrera/programa" src="https://github.com/user-attachments/assets/d76992b8-852e-4d13-9743-bfd987c945d3" />
+  <br>
+  <strong>Figura X.</strong> Distribución de arquetipos por carrera/programa
+</p>
 
 Esta gráfica muestra cómo se distribuyen los distintos perfiles de graduados en las carreras con mayor participación dentro del estudio. En general, el Arquetipo 1 (Profesional Exitoso y Crítico) predomina en casi todos los programas, lo que sugiere que la mayoría de los graduados han alcanzado estabilidad económica y laboral, aunque mantienen una postura exigente frente al impacto de su formación.
 
@@ -346,8 +358,11 @@ Carreras como Administración de Empresas, Contaduría Pública e Ingeniería Ci
 
 _Permite ver tendencias en el tiempo: qué perfiles crecen o caen en las cohortes recientes. Esto orienta ajustes curriculares y de acompañamiento según cómo está cambiando la “canasta” de graduados._
 
-<img width="710" height="411" alt="image" src="https://github.com/user-attachments/assets/afccdb13-a4df-40c6-b119-2a13781f14a8" />
-
+<p align="center">
+  <img width="710" height="411" alt="Evolución de los arquetipos de graduados entre 2017 y 2024" src="https://github.com/user-attachments/assets/afccdb13-a4df-40c6-b119-2a13781f14a8" />
+  <br>
+  <strong>Figura X.</strong> Evolución de los arquetipos de graduados entre 2017 y 2024
+</p>
 
 Esta gráfica muestra cómo ha cambiado la composición de los diferentes perfiles de graduados a lo largo de los años. Se observa que el Arquetipo 1 (Profesional Exitoso y Crítico) ha mantenido una presencia dominante en casi todas las cohortes, reflejando estabilidad en los perfiles de éxito laboral y económico. Sin embargo, en los años más recientes —especialmente a partir de 2022— aumenta la proporción del Arquetipo 0 (Subjetivamente Satisfecho) y del Arquetipo 3 (Profesional en Transición), lo que indica una tendencia hacia graduados que valoran más su bienestar y se encuentran en procesos de desarrollo profesional.
 
@@ -359,8 +374,11 @@ En contraste, los Arquetipos 2 (Egresado Agradecido) y 4 (Líder de Alto Desempe
 
 _Compara el bienestar percibido entre perfiles. Ayuda a detectar grupos que, aun con logros materiales distintos, se sienten mejor/peor con su calidad de vida._
 
-<img width="795" height="417" alt="image" src="https://github.com/user-attachments/assets/77af112a-4a9a-4db7-b11e-103ed124625e" />
-
+<p align="center">
+  <img width="795" height="417" alt="Calidad de vida percibida por arquetipo" src="https://github.com/user-attachments/assets/77af112a-4a9a-4db7-b11e-103ed124625e" />
+  <br>
+  <strong>Figura X.</strong> Calidad de vida percibida por arquetipo
+</p>
 
 Esta gráfica compara cómo los diferentes arquetipos valoran el impacto de su formación en su calidad de vida. Se observa que el Arquetipo 0 (Subjetivamente Satisfecho) presenta los valores más altos, lo que indica que estos graduados, aunque no siempre tienen grandes logros materiales, se sienten emocionalmente plenos y satisfechos con su desarrollo personal.
 
@@ -369,6 +387,7 @@ En contraste, el Arquetipo 1 (Profesional Exitoso y Crítico) y el Arquetipo 4 (
 Por otro lado, el Arquetipo 3 (Profesional en Transición) y el Arquetipo 2 (Egresado Agradecido) se ubican en posiciones intermedias, destacándose el Arquetipo 3 por un equilibrio positivo entre satisfacción y crecimiento, mientras que el Arquetipo 2 combina gratitud con una percepción moderadamente favorable. En conjunto, la gráfica refleja que el bienestar subjetivo no depende únicamente del éxito material, sino de cómo cada grupo interpreta y valora el impacto de su paso por la universidad en su vida cotidiana.
 
 ---
+## Conclusiones generales del análisis de arquetipos
 
 El análisis permitió evidenciar que los graduados de la Universidad Santo Tomás presentan trayectorias diversas que van más allá de los logros académicos o económicos. Los cinco arquetipos identificados reflejan distintas formas de interpretar el éxito, la satisfacción y el impacto de la formación universitaria en la vida personal y profesional.
 

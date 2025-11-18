@@ -330,5 +330,16 @@ El Líder de Alto Desempeño (Arquetipo 4) también presenta altos niveles de pr
 
 ---
 
+## Distribución de arquetipos por carrera/programa
+
+_La comparación por carrera permite detectar programas donde predominan ciertos tipos de graduados, lo que ayuda a las facultades a comprender mejor los impactos diferenciados de la formación y a diseñar estrategias de mejora curricular o de acompañamiento profesional específicas._
+
+<img width="708" height="338" alt="image" src="https://github.com/user-attachments/assets/d76992b8-852e-4d13-9743-bfd987c945d3" />
+
+Esta gráfica muestra cómo se distribuyen los distintos perfiles de graduados en las carreras con mayor participación dentro del estudio. En general, el Arquetipo 1 (Profesional Exitoso y Crítico) predomina en casi todos los programas, lo que sugiere que la mayoría de los graduados han alcanzado estabilidad económica y laboral, aunque mantienen una postura exigente frente al impacto de su formación.
+
+Carreras como Administración de Empresas, Contaduría Pública e Ingeniería Civil presentan una fuerte concentración de este perfil, seguido del Arquetipo 3 (Profesional en Transición), que representa a graduados en proceso de consolidar su desarrollo profesional. Por otro lado, programas como Odontología y Tecnología en Laboratorio Dental muestran mayor presencia del Arquetipo 0 (Subjetivamente Satisfecho), reflejando una valoración positiva de su bienestar personal aunque sin grandes mejoras materiales.
+
+---
 
 

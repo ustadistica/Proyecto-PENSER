@@ -197,5 +197,104 @@ Con esta última parte empezamos una nueva etapa del proyecto. Ahora que ya tene
 
 ---
 
-(👉 Aquí seguiría la sección **3. Identificación de Arquetipos**, con sus propias figuras y descripciones detalladas de cada perfil).
+# 3. Identificación de Arquetipos
+
+*(Una comprensión humana y estructurada de los perfiles de nuestros graduados )*
+
+Con la base de datos depurada y las dimensiones estadísticas ya definidas, procedo a la etapa de identificación de arquetipos, cuyo propósito es caracterizar grupos de graduados que comparten patrones similares en sus trayectorias, percepciones y condiciones posteriores a la finalización de sus estudios.
+
+Los arquetipos no son categorías rígidas; más bien representan perfiles derivados directamente del comportamiento de los datos. Permiten organizar la variabilidad observada de manera clara y comprensible.
+
+---
+
+## Objetivo de esta etapa
+
+- Transformar los resultados estadísticos en perfiles interpretables.
+- Identificar grupos con características similares.
+- Describir cada arquetipo a partir de sus puntuaciones promedio en las dimensiones analizadas.
+
+---
+
+## Resumen del procedimiento (paso a paso)
+
+1. **Preparación de datos**  
+   Se seleccionaron las observaciones con información completa en las dimensiones clave. Las variables fueron estandarizadas para garantizar comparabilidad y se utilizaron las puntuaciones factoriales como insumo del agrupamiento, con el fin de trabajar con un conjunto reducido de dimensiones más estables.
+
+2. **Método de agrupamiento**  
+   Se evaluaron distintos algoritmos, incluyendo métodos particionales, jerárquicos y modelos de mezcla. La elección final se basó en la claridad interpretativa y en la coherencia interna de los grupos
+
+3. **Selección del número de clusters**  
+   Se emplearon criterios como la gráfica del codo y el índice de Silhouette para determinar una solución adecuada. La elección final buscó un equilibrio entre calidad estadística y facilidad de interpretación.
+
+4. **Validación y robustez**  
+   Se revisó la estabilidad de la clasificación con múltiples corridas del algoritmo y análisis de sensibilidad. Se prestó atención a los casos ubicados en los límites entre grupos para evitar sobreinterpretaciones..
+
+5. **Interpretación y etiquetado**  
+   Los grupos fueron descritos a partir de las medias de cada factor y de variables complementarias que permitieron dar sentido a las diferencias observadas.
+
+---
+
+## Dimensiones utilizadas
+
+El análisis se basó en las puntuaciones factoriales de las siguientes dimensiones:
+
+- **Competencias transversales** (comunicación, trabajo en equipo, pensamiento crítico, etc.)  
+- **Formación disciplinar** (y sus 3 subdimensiones operativas)  
+- **Movilidad social** (cambios en ingresos, ascensos, estabilidad laboral)  
+- **Calidad de vida** (vivienda, salud autopercibida, bienestar)  
+- **Indicadores complementarios** (tipo de vínculo laboral, informalidad, responsabilidades familiares)
+
+---
+
+## Resultado: cinco arquetipos (descripción ampliada y acciones sugeridas)
+
+### Arquetipo 1 — *El Profesional Integral y Ascendente*  
+Este grupo presenta puntuaciones altas en la mayoría de las dimensiones. Los graduados que lo conforman describen una experiencia formativa positiva, acompañada de resultados favorables tanto en el ámbito laboral como en su calidad de vida. La percepción del impacto académico tiende a ser alta y consistente.
+
+En general, este arquetipo representa trayectorias donde la formación y el desarrollo posterior muestran correspondencia clara.
+
+---
+
+### Arquetipo 2 — *El Técnico Fuerte con Crecimiento Moderado*  
+Los integrantes de este grupo destacan principalmente por su sólida formación disciplinar y capacidades técnicas. Las competencias transversales tienen valores intermedios y su trayectoria laboral muestra un crecimiento sostenido pero más gradual.
+
+Su perfil refleja un avance progresivo, donde la base académica técnica constituye el elemento más relevante en su desarrollo.
+
+---
+
+### Arquetipo 3 — *El Persistente con Limitaciones Estructurales*  
+Este arquetipo se caracteriza por presentar resultados intermedios en formación y competencias, pero niveles bajos en movilidad social. Las mejoras económicas y laborales son más lentas, influenciadas principalmente por condiciones del entorno.
+
+El grupo refleja trayectorias donde la formación no se traduce inmediatamente en cambios significativos, debido a factores externos o contextuales.
+
+---
+
+### Arquetipo 4 — *El Profesional Valioso con Reconocimiento Bajo*  
+Este grupo presenta altas competencias transversales, lo que sugiere habilidades sólidas en ámbitos como comunicación, resolución de problemas y trabajo en equipo. Sin embargo, sus valoraciones sobre la formación disciplinar son más bajas, especialmente en cuanto a su pertinencia para el entorno laboral.
+
+La percepción general es que su desempeño profesional se apoya más en sus capacidades personales que en contenidos estrictamente académicos.
+
+---
+
+### Arquetipo 5 — *El En Riesgo o Desconectado*  
+Es el grupo con los puntajes más bajos en prácticamente todas las dimensiones. La percepción del impacto formativo es limitada y predominan condiciones laborales más inestables o informales.
+
+Este arquetipo refleja trayectorias donde la conexión entre la formación y los resultados posteriores es débil o se ve afectada por restricciones externas significativas.
+
+---
+
+## Robustez y límites de la clasificación
+
+El análisis mostró una estructura relativamente estable de cinco grupos, los cuales se mantuvieron consistentes bajo variaciones del método y del conjunto de variables empleadas.Sin embargo, como en todo proceso de agrupamiento, los arquetipos representan tendencias generales y no sustituyen el análisis individual de cada caso. Existen graduados con perfiles intermedios o cambiantes que pueden situarse cerca de los límites entre dos grupos.
+
+
+---
+
+
+
+## Cierre — ¿qué aporta esta etapa?
+
+La identificación de arquetipos permite sintetizar de manera clara la diversidad de trayectorias observadas entre los graduados. Los cinco perfiles obtenidos proporcionan una comprensión más detallada del impacto de la formación y de la multiplicidad de experiencias posteriores, sin reducir la realidad a un único indicador o promedio.
+
+---
 

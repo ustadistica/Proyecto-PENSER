@@ -342,4 +342,15 @@ Carreras como Administración de Empresas, Contaduría Pública e Ingeniería Ci
 
 ---
 
+## Evolución de los arquetipos de graduados entre 2017 y 2024
 
+_Permite ver tendencias en el tiempo: qué perfiles crecen o caen en las cohortes recientes. Esto orienta ajustes curriculares y de acompañamiento según cómo está cambiando la “canasta” de graduados._
+
+<img width="710" height="411" alt="image" src="https://github.com/user-attachments/assets/afccdb13-a4df-40c6-b119-2a13781f14a8" />
+
+
+Esta gráfica muestra cómo ha cambiado la composición de los diferentes perfiles de graduados a lo largo de los años. Se observa que el Arquetipo 1 (Profesional Exitoso y Crítico) ha mantenido una presencia dominante en casi todas las cohortes, reflejando estabilidad en los perfiles de éxito laboral y económico. Sin embargo, en los años más recientes —especialmente a partir de 2022— aumenta la proporción del Arquetipo 0 (Subjetivamente Satisfecho) y del Arquetipo 3 (Profesional en Transición), lo que indica una tendencia hacia graduados que valoran más su bienestar y se encuentran en procesos de desarrollo profesional.
+
+En contraste, los Arquetipos 2 (Egresado Agradecido) y 4 (Líder de Alto Desempeño) presentan una disminución progresiva, mostrando que cada vez hay menos graduados con perfiles de fuerte gratitud institucional o con logros sobresalientes. En conjunto, la evolución temporal sugiere un cambio generacional: los graduados más recientes tienden a equilibrar la búsqueda de éxito profesional con una mayor satisfacción personal, lo que refleja transformaciones en las expectativas y valores frente al papel de la educación universitaria en su vida.
+
+---

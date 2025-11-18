@@ -298,3 +298,10 @@ La identificación de arquetipos permite sintetizar de manera clara la diversida
 
 ---
 
+# Análisis de Arquetipos de Graduados USTA
+
+En esta etapa del proyecto se desarrolló un análisis integral de los arquetipos de graduados de la Universidad Santo Tomás, con el propósito de comprender los distintos perfiles que surgen a partir del impacto de la formación universitaria en su vida profesional y personal.
+
+Estas visualizaciones facilitaron una lectura más clara del comportamiento de cada grupo, revelando patrones relevantes: la concentración de perfiles exitosos en determinadas carreras, la evolución de los arquetipos en el tiempo, y las diferencias entre bienestar material y satisfacción percibida.
+
+

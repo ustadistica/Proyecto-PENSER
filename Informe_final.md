@@ -354,3 +354,17 @@ Esta gráfica muestra cómo ha cambiado la composición de los diferentes perfil
 En contraste, los Arquetipos 2 (Egresado Agradecido) y 4 (Líder de Alto Desempeño) presentan una disminución progresiva, mostrando que cada vez hay menos graduados con perfiles de fuerte gratitud institucional o con logros sobresalientes. En conjunto, la evolución temporal sugiere un cambio generacional: los graduados más recientes tienden a equilibrar la búsqueda de éxito profesional con una mayor satisfacción personal, lo que refleja transformaciones en las expectativas y valores frente al papel de la educación universitaria en su vida.
 
 ---
+
+## Calidad de vida percibida por arquetipo
+
+_Compara el bienestar percibido entre perfiles. Ayuda a detectar grupos que, aun con logros materiales distintos, se sienten mejor/peor con su calidad de vida._
+
+<img width="795" height="417" alt="image" src="https://github.com/user-attachments/assets/77af112a-4a9a-4db7-b11e-103ed124625e" />
+
+
+Esta gráfica compara cómo los diferentes arquetipos valoran el impacto de su formación en su calidad de vida. Se observa que el Arquetipo 0 (Subjetivamente Satisfecho) presenta los valores más altos, lo que indica que estos graduados, aunque no siempre tienen grandes logros materiales, se sienten emocionalmente plenos y satisfechos con su desarrollo personal.
+
+En contraste, el Arquetipo 1 (Profesional Exitoso y Crítico) y el Arquetipo 4 (Líder de Alto Desempeño) muestran promedios más bajos. Esto sugiere que, a pesar de tener éxito económico y profesional, experimentan una percepción más exigente o incluso insatisfactoria de su bienestar general.
+
+Por otro lado, el Arquetipo 3 (Profesional en Transición) y el Arquetipo 2 (Egresado Agradecido) se ubican en posiciones intermedias, destacándose el Arquetipo 3 por un equilibrio positivo entre satisfacción y crecimiento, mientras que el Arquetipo 2 combina gratitud con una percepción moderadamente favorable. En conjunto, la gráfica refleja que el bienestar subjetivo no depende únicamente del éxito material, sino de cómo cada grupo interpreta y valora el impacto de su paso por la universidad en su vida cotidiana.
+

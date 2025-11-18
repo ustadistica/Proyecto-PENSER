@@ -304,4 +304,18 @@ En esta etapa del proyecto se desarrolló un análisis integral de los arquetipo
 
 Estas visualizaciones facilitaron una lectura más clara del comportamiento de cada grupo, revelando patrones relevantes: la concentración de perfiles exitosos en determinadas carreras, la evolución de los arquetipos en el tiempo, y las diferencias entre bienestar material y satisfacción percibida.
 
+---
+
+## Distribución de arquetipos por seccional
+
+_Esta gráfica permite identificar cómo varía la composición de los cinco arquetipos entre las seccionales de la Universidad Santo Tomás. Analizar estas diferencias ayuda a comprender cómo influyen los contextos regionales en el tipo de profesional que forma cada sede, orientando decisiones académicas y de acompañamiento específicas._
+
+<img width="620" height="352" alt="image" src="https://github.com/user-attachments/assets/44fef2c8-7184-447a-a85c-45b51749f4ca" />
+
+En esta gráfica se observa cómo se distribuyen los diferentes perfiles de graduados en cada seccional de la Universidad Santo Tomás. En todas las sedes predomina el Arquetipo 1 (El Profesional Exitoso y Crítico), lo que muestra una tendencia general hacia graduados con alto desarrollo de competencias y logros materiales, pero con una percepción más analítica y exigente frente al impacto de su formación.
+
+La Sede Principal Bogotá y DUAD presenta la mayor diversidad de perfiles, con una proporción importante del Arquetipo 0 (Subjetivamente Satisfecho) y una participación más visible del Arquetipo 4 (Líder de Alto Desempeño). En cambio, seccionales como Tunja y Villavicencio tienen una composición más concentrada en los arquetipos 1 y 3, reflejando perfiles en consolidación profesional y con percepción positiva, aunque moderada, sobre su calidad de vida.
+
+
+
 

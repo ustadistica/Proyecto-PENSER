@@ -316,6 +316,19 @@ En esta gráfica se observa cómo se distribuyen los diferentes perfiles de grad
 
 La Sede Principal Bogotá y DUAD presenta la mayor diversidad de perfiles, con una proporción importante del Arquetipo 0 (Subjetivamente Satisfecho) y una participación más visible del Arquetipo 4 (Líder de Alto Desempeño). En cambio, seccionales como Tunja y Villavicencio tienen una composición más concentrada en los arquetipos 1 y 3, reflejando perfiles en consolidación profesional y con percepción positiva, aunque moderada, sobre su calidad de vida.
 
+---
+
+## Tasa de mejora (ingresos y vivienda) por arquetipo
+
+_Esta comparación revela qué tan tangible ha sido el impacto de la formación universitaria en las condiciones de vida de los graduados. Relacionar el tipo de arquetipo con la mejora de ingresos y vivienda permite identificar qué grupos alcanzan mayor movilidad social y cuáles requieren más acompañamiento institucional._
+
+<img width="687" height="361" alt="image" src="https://github.com/user-attachments/assets/3f6abb8f-a051-472a-9637-febd3f410677" />
+
+Esta gráfica compara el porcentaje de graduados que reportaron haber mejorado sus ingresos y su vivienda según el arquetipo al que pertenecen. Se observa que los Profesionales Exitosos y Críticos (Arquetipo 1) y los Profesionales en Transición (Arquetipo 3) son los grupos con mejores resultados económicos: casi todos aumentaron sus ingresos, aunque el Arquetipo 3 no refleja la misma mejora en vivienda.
+
+El Líder de Alto Desempeño (Arquetipo 4) también presenta altos niveles de progreso material, lo que confirma su perfil de éxito y estabilidad. Por otro lado, el Egresado Agradecido (Arquetipo 2) muestra un avance moderado, con una mayoría que mejoró ingresos, pero no tanto su vivienda. Finalmente, el Subjetivamente Satisfecho (Arquetipo 0) es el grupo con menor crecimiento económico, ya que pocos reportan mejoras en estas dimensiones.
+
+---
 
 
 

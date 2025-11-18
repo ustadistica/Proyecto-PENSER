@@ -368,3 +368,8 @@ En contraste, el Arquetipo 1 (Profesional Exitoso y Crítico) y el Arquetipo 4 (
 
 Por otro lado, el Arquetipo 3 (Profesional en Transición) y el Arquetipo 2 (Egresado Agradecido) se ubican en posiciones intermedias, destacándose el Arquetipo 3 por un equilibrio positivo entre satisfacción y crecimiento, mientras que el Arquetipo 2 combina gratitud con una percepción moderadamente favorable. En conjunto, la gráfica refleja que el bienestar subjetivo no depende únicamente del éxito material, sino de cómo cada grupo interpreta y valora el impacto de su paso por la universidad en su vida cotidiana.
 
+---
+
+El análisis permitió evidenciar que los graduados de la Universidad Santo Tomás presentan trayectorias diversas que van más allá de los logros académicos o económicos. Los cinco arquetipos identificados reflejan distintas formas de interpretar el éxito, la satisfacción y el impacto de la formación universitaria en la vida personal y profesional.
+
+Si bien el Profesional Exitoso y Crítico es el perfil predominante, también destacan otros grupos que valoran más su bienestar emocional o que se encuentran en etapas de transición hacia la consolidación de sus metas. Estos resultados muestran que el desarrollo integral de los graduados no depende únicamente de los resultados materiales, sino también de su percepción de crecimiento, sentido de logro y realización personal.

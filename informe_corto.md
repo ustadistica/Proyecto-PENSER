@@ -33,9 +33,9 @@ Usamos la base de datos **“Data Depurada Santo Tomás – Estudio PENSER (mayo
 
 El índice se calculaba combinando cuatro aspectos:
 
-\[
-\text{IIE} = (0.30 × FD) + (0.30 × DCI) + (0.20 × MS) + (0.20 × PMCV)
-\]
+<p align="center">
+  <b>IIE = (0.30×FD) + (0.30×DCI) + (0.20×MS) + (0.20×PMCV)</b>
+</p>
 
 Donde:  
 - **FD** significa *Formación Disciplinar* (lo que se aprende en la carrera).  

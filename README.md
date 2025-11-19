@@ -1,41 +1,123 @@
 <div align="center">
 
-# Proyecto-PENSER📊📝- Reconstrucción del Índice de Impacto de Egresados (IIE)
-
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos 📊📝🏗️ Del Índice a los Arquetipos  
 
 Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
 <b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
-
 <br/>
 
-<b>Equipo:</b> Yeimy Alarcón · Karen Suarez · Josue Pedraza · Maria José Galindo · Paula Guevara · Kevin Baracaldo
+<b>Equipo:</b> Yeimy Alarcón · Karen Suarez · Maria José Galindo 
 
 </div>
 
-> **Estado:** En progreso · **Repositorio:** _[Link Repositorio](https://github.com/ustadistica/Proyecto-PENSER.git)_ · **Última actualización:** 2025-09-16
+> **Estado:** En progreso · **Repositorio:** _[Link Repositorio](https://github.com/ustadistica/Proyecto-PENSER.git)_ · **Última actualización:** 2025-11-19
 
-Este repositorio está dedicado a la reconstrucción del Índice de Impacto de Egresados (IIE) del proyecto PENSER. Nuestro objetivo, como equipo, es evaluar el impacto de la educación superior en el desempeño profesional de los egresados de la Universidad Santo Tomás, usando la información de la encuesta suministrada por los autores del estudio y siguiendo una metodología clara, reproducible y transparente.
-
-El IIE es un indicador sintético que resume, en un solo valor, varios aspectos relevantes de la trayectoria de los egresados. En particular, integra cuatro componentes que reflejan dimensiones clave del perfil y la inserción laboral:
-
-- *Formación Disciplinar (FD):* conocimientos y habilidades técnicas propias de la carrera y su pertinencia en el empleo.
-- *Desarrollo de Competencias Interpersonales (DCI):* habilidades “blandas” como comunicación, trabajo en equipo, liderazgo, toma de decisiones y manejo de emociones.
-- *Movilidad Social (MS):* cambios en la posición social y económica (aporte al hogar, suficiencia de ingresos, movilidad educativa frente a los padres).
-- *Percepción de Mejoramiento de la Calidad de Vida (PMCV):* evaluación del egresado sobre cómo su formación universitaria ha mejorado su bienestar y oportunidades.
-
-La metodología original presentada por los autores construye el IIE a partir de estos cuatro componentes y los combina mediante suma ponderada. Para iniciar el trabajo, recibimos de los autores:
-- Artículos donde presentan sus resultados y explican el proceso seguido para construir el índice (metodología, ponderaciones y lecturas).
-- Presentaciones (diapositivas) con información del proyecto y resúmenes clave.
-- La base de datos depurada y un tablero de Power BI con indicadores.
-
-Durante la revisión preliminar realizamos una Verificación de Consistencia entre Power BI y la Base Depurada y registramos algunas inconsistencias, ese análisis se documenta en el archivo correspondiente dentro del repositorio
+*Un nuevo modelo metodológico que transita desde la reconstrucción de un índice unidimensional hacia un modelo multidimensional que revela los perfiles complejos y diversos de nuestros graduados.*
 
 ---
 
-## 🗂️🧮 Planteamiento metodologías complementarias:
+## 1. Introducción
 
-1. *Metodología A (réplica y Cálculo con los pesos del artículo)*
-Con esta buscamos replicar el enfoque de los autores. El artículo ya trae, para cada pregunta y cada opción de respuesta, un valor numérico (los “puntajes” por opción) que aparecen en el Cuadro 1 del documento “Enfoque Metodológico para la evaluación de impacto de los y las Egresadas en el Entorno: un Estudio de Caso”, tomando exactamente esos valores, construimos cada componente sumando los valores que correspondan a las respuestas del egresado y luego combinamos los cuatro componentes con los porcentajes de bloque definidos por los autores.
-2. *Metodología B: Cálculo con pesos ajustados de las respuestas*
-En esta metodología B mantenemos la misma estructura del Índice de Impacto de Egresados (IIE), con sus cuatro componentes (FD, DCI, MS y PMCV) y los mismos porcentajes globales de ponderación por componente (30 %, 30 %, 20 % y 20 % respectivamente), con el fin de garantizar la comparabilidad con el estudio original. La diferencia con respecto a la metodología A radica en dos aspectos: (i) los pesos asignados a las opciones de respuesta de cada pregunta se ajustan bajo un esquema más equitativo y proporcional, y (ii) se propone un diseño muestral diferente, pasando del muestreo aleatorio simple al muestreo estratificado proporcional.
+Este proyecto surge en el Consultorio de Estadística y Ciencia de Datos de la Universidad Santo Tomás, con la intención de comprender cómo los estudios universitarios han influido en la vida de los graduados. La idea principal es conocer de una manera sencilla qué tanto ha aportado la formación a su bienestar, a sus oportunidades laborales y a su crecimiento personal.
+
+Durante el proceso revisamos el Índice de Impacto de Egresados que existía y tratamos de reproducirlo. Al hacerlo, notamos que tenía varios vacíos y que sus resultados no eran fáciles de replicar, así que buscamos una forma más clara y confiable de analizar la información. Esto nos llevó a descubrir nuevas maneras de entender lo que viven los graduados después de terminar su carrera.
+
+---
+
+## 2. Descripción General
+
+Este repositorio reúne el trabajo que realizamos para estudiar la experiencia de los egresados de la USTA a partir de sus respuestas, percepciones y trayectorias. A partir de una base depurada y organizada, identificamos los aspectos más importantes que reflejan cómo se sienten y qué ha pasado con ellos después de graduarse.
+
+Con esa información construimos perfiles de graduados que comparten características similares, a los que llamamos arquetipos. Estos perfiles permiten ver la diversidad de caminos que toman las personas una vez salen de la universidad y ayudan a entender cómo la formación impacta sus vidas en lo laboral, lo personal y lo emocional.
+
+---
+
+## 3. Objetivos del Proyecto
+
+### Objetivo General
+
+Comprender mejor el impacto que tiene la formación universitaria en la vida de los graduados, revisando y mejorando el índice original e identificando perfiles de egresados que compartan características y experiencias similares.
+
+### Objetivo Específicos
+
+- Revisar qué tan claro y confiable es el Índice de Impacto de Egresados, comprobando si sus resultados pueden repetirse.
+- Identificar los aspectos más importantes que describen la experiencia de los graduados, usando el análisis factorial exploratorio como herramienta para encontrar esos patrones.
+- Organizar y depurar la base de datos para trabajar con información limpia y consistente.
+- Formar grupos de graduados que compartan patrones parecidos en su bienestar, sus competencias y su situación laboral.
+- Elaborar informes y visualizaciones que ayuden a entender los resultados y a apoyar decisiones dentro de la universidad.
+
+---
+
+## 4. Estructura del Repositorio
+
+---
+
+## 5. Datos y Alcance
+
+Para este proyecto se trabajó con la información recopilada en el estudio PENSER, que reúne datos de graduados de la Universidad Santo Tomás. Estos datos permiten conocer aspectos importantes de su formación y de lo que ha pasado en su vida después de graduarse.
+
+Los principales elementos que se trabajaron fueron:
+- Respuestas de los graduados, que incluyen percepciones sobre su formación, sus competencias y su experiencia laboral.
+- Información sobre bienestar y situación personal, como mejoras en ingresos, vivienda y calidad de vida.
+- Variables organizadas en dimensiones, que permiten entender temas como competencias transversales, formación disciplinar, movilidad social y calidad de vida.
+- Una base de datos depurada, donde se revisaron errores, valores faltantes y se estandarizó la información para poder analizarla correctamente.
+
+Esta estructura permitió contar con una base clara, organizada y lista para realizar los análisis posteriores y construir los arquetipos de graduados.
+
+---
+
+## 6. Metodología utilizada en cada etapa
+
+El proyecto se desarrolló en tres etapas que permitieron entender mejor la información de los graduados y construir perfiles más claros sobre su experiencia después de terminar sus estudios. Cada etapa tuvo un propósito diferente y todas juntas ayudaron a darle sentido a los datos.
+
+### Etapa 1: Reconstrucción del Índice de Impacto de Egresados
+- Se revisó el índice que ya existía para comprobar si su cálculo era claro y si sus resultados podían repetirse.
+- Se transformaron las respuestas de los graduados en valores numéricos y se aplicó la fórmula original del índice.
+- Durante esta revisión se encontraron vacíos en la documentación y diferencias importantes frente a los resultados reportados, lo que mostró que el índice no era del todo replicable.
+
+### Etapa 2: Análisis Factorial Exploratorio
+- Se organizó y limpió toda la información para asegurar que las variables estuvieran completas y fueran comparables.
+- Se aplicaron pruebas como Bartlett y KMO que ayudaron a comprobar si los datos podían agruparse y si tenían la calidad necesaria para este tipo de análisis.
+- A partir de estas relaciones se identificaron 5 factores principales que resumen la experiencia de los graduados.
+- Con estos resultados se construyó una base final más clara y estable, que sirve como punto de partida para el agrupamiento de los arquetipos.
+
+### Etapa 3: Identificación de Arquetipos
+- Con las dimensiones obtenidas, se crearon grupos de graduados que compartían patrones similares en sus respuestas.
+- Se probaron distintos métodos de agrupamiento hasta encontrar la opción más estable y fácil de interpretar.
+- Cada grupo fue descrito como un arquetipo que reúne características comunes, permitiendo entender diferentes historias y trayectorias entre los egresados.
+
+---
+
+## 7. Arquetipos de Graduados Identificados
+
+A partir del análisis se identificaron cinco perfiles que reúnen a los graduados según las características que comparten en su formación, su experiencia laboral y su bienestar. Estos arquetipos permiten entender mejor los distintos caminos que siguen después de terminar sus estudios.
+- Arquetipo 0: El Subjetivamente Satisfecho
+- Arquetipo 1: El Profesional Exitoso y Crítico
+- Arquetipo 2: El Graduado Agradecido
+- Arquetipo 3: El Profesional en Transición
+- Arquetipo 4: El Líder de Alto Desempeño
+
+---
+
+## 8. Resultados Generales
+
+- El índice original no pudo replicarse por completo, ya que la documentación no era clara y generaba resultados diferentes a los reportados.
+- El análisis factorial ayudó a encontrar una estructura más estable y fácil de interpretar sobre la experiencia de los graduados.
+- Se construyó una base final con 959 registros y 7 variables principales que resumen los aspectos más importantes del estudio.
+- Los arquetipos mostraron diferencias claras entre logros materiales, bienestar percibido y las trayectorias laborales de los egresados.
+- El perfil más común fue el Profesional Exitoso y Crítico, seguido de grupos en transición o con logros moderados.
+
+---
+
+## 9. Cómo Reproducir el Proyecto
+
+- Clona el repositorio en tu equipo:
+git clone https://github.com/ustadistica/Proyecto-PENSER.git
+
+- Instala las librerías necesarias según los scripts en R o Python que se encuentran en la carpeta codigos/.
+
+- Ejecuta los scripts en orden, siguiendo las etapas del proyecto:
+1. Reconstrucción del índice
+2. Análisis factorial Exploratorio
+3. Identificación de arquetipos
 

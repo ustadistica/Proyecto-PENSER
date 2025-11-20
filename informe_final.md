@@ -255,7 +255,7 @@ Este grupo representa a los graduados con mayores logros materiales y estabilida
 <p align="center">
   <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
   <br>
-  <strong>Figura 11.</strong> image
+  <strong>Figura 10.</strong> image
 </p>
 
 
@@ -268,7 +268,12 @@ Debilidades: Presentan menor percepción de mejora en calidad de vida y bajos ni
 
 Estos graduados manifiestan altos niveles de satisfacción personal y bienestar, aun sin registrar mejoras económicas significativas. Su evaluación del impacto institucional se orienta a dimensiones emocionales y sociales más que materiales.
 
-<img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
+<p align="center">
+  <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
+  <br>
+  <strong>Figura 11.</strong> image
+</p>
+
 
 Fortalezas: Elevada percepción de mejora en su calidad de vida y bienestar subjetivo.
 Debilidades: No reportan incrementos de ingresos ni ascensos materiales, y presentan un nivel medio de competencias.
@@ -279,7 +284,12 @@ Debilidades: No reportan incrementos de ingresos ni ascensos materiales, y prese
 
 Este grupo se encuentra en un proceso de avance social: ya han experimentado una mejora económica, pero aún no consolidan ese progreso en otras dimensiones vitales. Su perfil refleja una etapa de desarrollo y búsqueda de estabilidad.
 
-<img width="417" height="318" alt="image" src="https://github.com/user-attachments/assets/2dae0e6c-2d93-41bc-b0fd-29b548f21843" />
+<p align="center">
+  <img width="497" height="387" alt="image" src="https://github.com/user-attachments/assets/d1b20b6a-34f1-4824-a212-95050c466bae" />
+  <br>
+  <strong>Figura 12.</strong> image
+</p>
+
 
 Fortalezas: La totalidad de este grupo reporta incremento en ingresos y mantiene una percepción positiva del impacto de su formación.
 Debilidades: Presentan niveles medios en competencias y escasa mejora en su situación habitacional.
@@ -291,7 +301,13 @@ Debilidades: Presentan niveles medios en competencias y escasa mejora en su situ
 
 Este perfil representa a quienes, a pesar de contar con menores niveles de competencias percibidas, reconocen de manera destacada el impacto de la formación recibida en su calidad de vida y oportunidades. Reflejan una visión positiva y valorativa de la experiencia universitaria.
 
-<img width="464" height="337" alt="image" src="https://github.com/user-attachments/assets/e0ffc8a1-1e85-440f-b626-299fb38c0cf1" />
+<p align="center">
+  <img width="553" height="407" alt="image" src="https://github.com/user-attachments/assets/39050121-09b5-4336-9877-0a25ab448c10" />
+  <br>
+  <strong>Figura 13.</strong> image
+</p>
+
+
 
 Fortalezas: Alta percepción de impacto en calidad de vida, acompañada de movilidad social positiva (60% reporta mejora de ingresos).
 Debilidades: Puntajes bajos en competencias y valoración del programa académico.
@@ -302,7 +318,13 @@ Debilidades: Puntajes bajos en competencias y valoración del programa académic
 
 Este grupo agrupa a los graduados más sobresalientes en logros académicos, profesionales y comunitarios. Han traducido sus competencias en resultados visibles y reconocimiento, tanto dentro como fuera de su disciplina.
 
-<img width="405" height="312" alt="image" src="https://github.com/user-attachments/assets/48afe1db-a138-4123-b8d1-2f36ef3bc782" />
+<p align="center">
+  <img width="488" height="376" alt="image" src="https://github.com/user-attachments/assets/6fade4e1-6b2d-4744-97b0-2e136087fb4e" />
+  <br>
+  <strong>Figura 14.</strong> image
+</p>
+
+
 
 Fortalezas: Sobresalen por su liderazgo, participación en proyectos e impacto tangible en su entorno. Elevadas competencias y éxito material.
 Debilidades: Muestran una percepción crítica sobre el impacto de la formación en su bienestar personal.

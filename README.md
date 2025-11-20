@@ -50,8 +50,23 @@ Comprender mejor el impacto que tiene la formación universitaria en la vida de 
 
 ## 4. Estructura del Repositorio
 
-<img width="553" height="373" alt="image" src="https://github.com/user-attachments/assets/1a8541e0-950f-462b-9011-55b55e03a8b8" />
+El repositorio está organizado para que sea fácil identificar los documentos, los códigos y los insumos utilizados durante el proyecto PENSER. A continuación se presenta la estructura de la carpeta principal:
 
+Proyecto-PENSER/
+│
+├─ docs/
+│   ├─ fINF.PENSER/           <- Documentos entregados por el equipo de PENSER
+│   └─ informes/              <- Informes creados durante la consultoría
+│
+├─ Codigo/
+│   ├─ 01_implementacion_iie_penser.ipynb    
+│   ├─ 02_validacion_y_analisis_factorial.ipynb 
+│   ├─ 03_creacion_de_arquetipos.ipynb       
+│   ├─ datadepurada.py                        
+│   └─ iie_penser.py                           
+│
+├─ .gitignore
+└─ README.md
 
 
 ---

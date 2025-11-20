@@ -252,7 +252,12 @@ El análisis se basó en las puntuaciones factoriales de las siguientes dimensio
 
 Este grupo representa a los graduados con mayores logros materiales y estabilidad económica. No obstante, su percepción sobre el impacto de la formación académica es más exigente y crítica, reflejando una valoración racional de la experiencia universitaria.
 
-<img width="388" height="299" alt="image" src="https://github.com/user-attachments/assets/473c4d40-fefd-436d-8abc-edb8dd4ae5b5" />
+<p align="center">
+  <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
+  <br>
+  <strong>Figura 11.</strong> image
+</p>
+
 
 Fortalezas: Destacan por sus competencias y éxito material sostenido, evidenciado en mejoras de ingresos y vivienda.
 Debilidades: Presentan menor percepción de mejora en calidad de vida y bajos niveles de participación en logros formales (premios o proyectos).

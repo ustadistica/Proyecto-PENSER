@@ -361,7 +361,7 @@ _Permite identificar qué perfiles de egresados presentan mejor inserción labor
 <p align="center">
   <img alt="Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e" src="https://github.com/user-attachments/assets/e03bc1e0-43bb-49f2-956b-ef148d5c1a58" />
   <br>
-  <strong>Figura 15.</strong> Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e
+  <strong>Figura 15.</strong> Tasa de empleabilidad por arquetipo
 </p>
 
 

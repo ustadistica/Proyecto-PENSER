@@ -1,6 +1,6 @@
 <div align="center">
 
-# Un Proyecto del Consultorio de Estadística y Ciencia de Datos 📊📝🏗️ Del Índice a los Arquetipos  
+# Un Proyecto del Consultorio de Estadística y Ciencia de Datos  Del Índice a los Arquetipos  
 
 Proyecto del curso <b>Consultoría e Investigación</b> – Facultad de Estadística  
 <b>Universidad Santo Tomás</b> · <b>Octavo Semestre (2025-2)</b>
@@ -215,7 +215,7 @@ Los arquetipos no son categorías rígidas; más bien representan perfiles deriv
 
 ---
 
-## Resumen del procedimiento (paso a paso)
+## Metodología
 
 1. **Preparación de datos**  
    Se seleccionaron las observaciones con información completa en las dimensiones clave. Las variables fueron estandarizadas para garantizar comparabilidad y se utilizaron las puntuaciones factoriales como insumo del agrupamiento, con el fin de trabajar con un conjunto reducido de dimensiones más estables.
@@ -248,38 +248,59 @@ El análisis se basó en las puntuaciones factoriales de las siguientes dimensio
 
 ## Resultado: cinco arquetipos (descripción ampliada y acciones sugeridas)
 
-### Arquetipo 1 — *El Profesional Integral y Ascendente*  
-Este grupo presenta puntuaciones altas en la mayoría de las dimensiones. Los graduados que lo conforman describen una experiencia formativa positiva, acompañada de resultados favorables tanto en el ámbito laboral como en su calidad de vida. La percepción del impacto académico tiende a ser alta y consistente.
+### Arquetipo 1 — *El Profesional Exitoso y Crítico (39% de la muestra)*  
 
-En general, este arquetipo representa trayectorias donde la formación y el desarrollo posterior muestran correspondencia clara.
+Este grupo representa a los graduados con mayores logros materiales y estabilidad económica. No obstante, su percepción sobre el impacto de la formación académica es más exigente y crítica, reflejando una valoración racional de la experiencia universitaria.
 
----
+<img width="388" height="299" alt="image" src="https://github.com/user-attachments/assets/473c4d40-fefd-436d-8abc-edb8dd4ae5b5" />
 
-### Arquetipo 2 — *El Técnico Fuerte con Crecimiento Moderado*  
-Los integrantes de este grupo destacan principalmente por su sólida formación disciplinar y capacidades técnicas. Las competencias transversales tienen valores intermedios y su trayectoria laboral muestra un crecimiento sostenido pero más gradual.
-
-Su perfil refleja un avance progresivo, donde la base académica técnica constituye el elemento más relevante en su desarrollo.
+Fortalezas: Destacan por sus competencias y éxito material sostenido, evidenciado en mejoras de ingresos y vivienda.
+Debilidades: Presentan menor percepción de mejora en calidad de vida y bajos niveles de participación en logros formales (premios o proyectos).
 
 ---
 
-### Arquetipo 3 — *El Persistente con Limitaciones Estructurales*  
-Este arquetipo se caracteriza por presentar resultados intermedios en formación y competencias, pero niveles bajos en movilidad social. Las mejoras económicas y laborales son más lentas, influenciadas principalmente por condiciones del entorno.
+### Arquetipo 0 — *El Subjetivamente Satisfecho (19% de la muestra)*  
 
-El grupo refleja trayectorias donde la formación no se traduce inmediatamente en cambios significativos, debido a factores externos o contextuales.
+Estos graduados manifiestan altos niveles de satisfacción personal y bienestar, aun sin registrar mejoras económicas significativas. Su evaluación del impacto institucional se orienta a dimensiones emocionales y sociales más que materiales.
 
----
+<img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
 
-### Arquetipo 4 — *El Profesional Valioso con Reconocimiento Bajo*  
-Este grupo presenta altas competencias transversales, lo que sugiere habilidades sólidas en ámbitos como comunicación, resolución de problemas y trabajo en equipo. Sin embargo, sus valoraciones sobre la formación disciplinar son más bajas, especialmente en cuanto a su pertinencia para el entorno laboral.
-
-La percepción general es que su desempeño profesional se apoya más en sus capacidades personales que en contenidos estrictamente académicos.
+Fortalezas: Elevada percepción de mejora en su calidad de vida y bienestar subjetivo.
+Debilidades: No reportan incrementos de ingresos ni ascensos materiales, y presentan un nivel medio de competencias.
 
 ---
 
-### Arquetipo 5 — *El En Riesgo o Desconectado*  
-Es el grupo con los puntajes más bajos en prácticamente todas las dimensiones. La percepción del impacto formativo es limitada y predominan condiciones laborales más inestables o informales.
+### Arquetipo 3 — *El Profesional en Transición (17% de la muestra)*
 
-Este arquetipo refleja trayectorias donde la conexión entre la formación y los resultados posteriores es débil o se ve afectada por restricciones externas significativas.
+Este grupo se encuentra en un proceso de avance social: ya han experimentado una mejora económica, pero aún no consolidan ese progreso en otras dimensiones vitales. Su perfil refleja una etapa de desarrollo y búsqueda de estabilidad.
+
+<img width="417" height="318" alt="image" src="https://github.com/user-attachments/assets/2dae0e6c-2d93-41bc-b0fd-29b548f21843" />
+
+Fortalezas: La totalidad de este grupo reporta incremento en ingresos y mantiene una percepción positiva del impacto de su formación.
+Debilidades: Presentan niveles medios en competencias y escasa mejora en su situación habitacional.
+
+---
+
+### Arquetipo 2 — *El Graduado Agradecido (13% de la muestra)*  
+
+
+Este perfil representa a quienes, a pesar de contar con menores niveles de competencias percibidas, reconocen de manera destacada el impacto de la formación recibida en su calidad de vida y oportunidades. Reflejan una visión positiva y valorativa de la experiencia universitaria.
+
+<img width="464" height="337" alt="image" src="https://github.com/user-attachments/assets/e0ffc8a1-1e85-440f-b626-299fb38c0cf1" />
+
+Fortalezas: Alta percepción de impacto en calidad de vida, acompañada de movilidad social positiva (60% reporta mejora de ingresos).
+Debilidades: Puntajes bajos en competencias y valoración del programa académico.
+
+---
+
+### Arquetipo 4 — *El Líder de Alto Desempeño (12% de la muestra)*  
+
+Este grupo agrupa a los graduados más sobresalientes en logros académicos, profesionales y comunitarios. Han traducido sus competencias en resultados visibles y reconocimiento, tanto dentro como fuera de su disciplina.
+
+<img width="405" height="312" alt="image" src="https://github.com/user-attachments/assets/48afe1db-a138-4123-b8d1-2f36ef3bc782" />
+
+Fortalezas: Sobresalen por su liderazgo, participación en proyectos e impacto tangible en su entorno. Elevadas competencias y éxito material.
+Debilidades: Muestran una percepción crítica sobre el impacto de la formación en su bienestar personal.
 
 ---
 

@@ -255,7 +255,7 @@ Este grupo representa a los graduados con mayores logros materiales y estabilida
 <p align="center">
   <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
   <br>
-  <strong>Figura 10.</strong> image
+  <strong>Figura 10.</strong> El Profesional Exitoso y Crítico (39% de la muestra)
 </p>
 
 
@@ -271,7 +271,7 @@ Estos graduados manifiestan altos niveles de satisfacción personal y bienestar,
 <p align="center">
   <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
   <br>
-  <strong>Figura 11.</strong> image
+  <strong>Figura 11.</strong> El Subjetivamente Satisfecho (19% de la muestra)
 </p>
 
 
@@ -287,7 +287,7 @@ Este grupo se encuentra en un proceso de avance social: ya han experimentado una
 <p align="center">
   <img width="497" height="387" alt="image" src="https://github.com/user-attachments/assets/d1b20b6a-34f1-4824-a212-95050c466bae" />
   <br>
-  <strong>Figura 12.</strong> image
+  <strong>Figura 12.</strong> El Profesional en Transición (17% de la muestra)
 </p>
 
 
@@ -304,7 +304,7 @@ Este perfil representa a quienes, a pesar de contar con menores niveles de compe
 <p align="center">
   <img width="553" height="407" alt="image" src="https://github.com/user-attachments/assets/39050121-09b5-4336-9877-0a25ab448c10" />
   <br>
-  <strong>Figura 13.</strong> image
+  <strong>Figura 13.</strong> El Graduado Agradecido (13% de la muestra)
 </p>
 
 
@@ -321,7 +321,7 @@ Este grupo agrupa a los graduados más sobresalientes en logros académicos, pro
 <p align="center">
   <img width="488" height="376" alt="image" src="https://github.com/user-attachments/assets/6fade4e1-6b2d-4744-97b0-2e136087fb4e" />
   <br>
-  <strong>Figura 14.</strong> image
+  <strong>Figura 14.</strong> El Líder de Alto Desempeño (12% de la muestra)
 </p>
 
 
@@ -361,7 +361,7 @@ _Permite identificar qué perfiles de egresados presentan mejor inserción labor
 <p align="center">
   <img alt="Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e" src="https://github.com/user-attachments/assets/e03bc1e0-43bb-49f2-956b-ef148d5c1a58" />
   <br>
-  <strong>Figura X.</strong> Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e
+  <strong>Figura 15.</strong> Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e
 </p>
 
 
@@ -376,7 +376,7 @@ _Esta gráfica permite identificar cómo varía la composición de los cinco arq
 <p align="center">
   <img width="620" height="352" alt="Distribución de arquetipos por seccional" src="https://github.com/user-attachments/assets/44fef2c8-7184-447a-a85c-45b51749f4ca" />
   <br>
-  <strong>Figura X.</strong> Distribución de arquetipos por seccional
+  <strong>Figura 16.</strong> Distribución de arquetipos por seccional
 </p>
 
 En esta gráfica se observa cómo se distribuyen los diferentes perfiles de graduados en cada seccional de la Universidad Santo Tomás. En todas las sedes predomina el Arquetipo 1 (El Profesional Exitoso y Crítico), lo que muestra una tendencia general hacia graduados con alto desarrollo de competencias y logros materiales, pero con una percepción más analítica y exigente frente al impacto de su formación.
@@ -392,7 +392,7 @@ _Esta comparación revela qué tan tangible ha sido el impacto de la formación 
 <p align="center">
   <img width="687" height="361" alt="Tasa de mejora (ingresos y vivienda) por arquetipo" src="https://github.com/user-attachments/assets/3f6abb8f-a051-472a-9637-febd3f410677" />
   <br>
-  <strong>Figura X.</strong> Tasa de mejora (ingresos y vivienda) por arquetipo
+  <strong>Figura 17.</strong> Tasa de mejora (ingresos y vivienda) por arquetipo
 </p>
 
 Esta gráfica compara el porcentaje de graduados que reportaron haber mejorado sus ingresos y su vivienda según el arquetipo al que pertenecen. Se observa que los Profesionales Exitosos y Críticos (Arquetipo 1) y los Profesionales en Transición (Arquetipo 3) son los grupos con mejores resultados económicos: casi todos aumentaron sus ingresos, aunque el Arquetipo 3 no refleja la misma mejora en vivienda.
@@ -408,7 +408,7 @@ _La comparación por carrera permite detectar programas donde predominan ciertos
 <p align="center">
   <img width="708" height="338" alt="Distribución de arquetipos por carrera/programa" src="https://github.com/user-attachments/assets/d76992b8-852e-4d13-9743-bfd987c945d3" />
   <br>
-  <strong>Figura X.</strong> Distribución de arquetipos por carrera/programa
+  <strong>Figura 18.</strong> Distribución de arquetipos por carrera/programa
 </p>
 
 Esta gráfica muestra cómo se distribuyen los distintos perfiles de graduados en las carreras con mayor participación dentro del estudio. En general, el Arquetipo 1 (Profesional Exitoso y Crítico) predomina en casi todos los programas, lo que sugiere que la mayoría de los graduados han alcanzado estabilidad económica y laboral, aunque mantienen una postura exigente frente al impacto de su formación.
@@ -424,7 +424,7 @@ _Permite ver tendencias en el tiempo: qué perfiles crecen o caen en las cohorte
 <p align="center">
   <img width="710" height="411" alt="Evolución de los arquetipos de graduados entre 2017 y 2024" src="https://github.com/user-attachments/assets/afccdb13-a4df-40c6-b119-2a13781f14a8" />
   <br>
-  <strong>Figura X.</strong> Evolución de los arquetipos de graduados entre 2017 y 2024
+  <strong>Figura 19.</strong> Evolución de los arquetipos de graduados entre 2017 y 2024
 </p>
 
 Esta gráfica muestra cómo ha cambiado la composición de los diferentes perfiles de graduados a lo largo de los años. Se observa que el Arquetipo 1 (Profesional Exitoso y Crítico) ha mantenido una presencia dominante en casi todas las cohortes, reflejando estabilidad en los perfiles de éxito laboral y económico. Sin embargo, en los años más recientes —especialmente a partir de 2022— aumenta la proporción del Arquetipo 0 (Subjetivamente Satisfecho) y del Arquetipo 3 (Profesional en Transición), lo que indica una tendencia hacia graduados que valoran más su bienestar y se encuentran en procesos de desarrollo profesional.
@@ -440,7 +440,7 @@ _Compara el bienestar percibido entre perfiles. Ayuda a detectar grupos que, aun
 <p align="center">
   <img width="795" height="417" alt="Calidad de vida percibida por arquetipo" src="https://github.com/user-attachments/assets/77af112a-4a9a-4db7-b11e-103ed124625e" />
   <br>
-  <strong>Figura X.</strong> Calidad de vida percibida por arquetipo
+  <strong>Figura 20.</strong> Calidad de vida percibida por arquetipo
 </p>
 
 Esta gráfica compara cómo los diferentes arquetipos valoran el impacto de su formación en su calidad de vida. Se observa que el Arquetipo 0 (Subjetivamente Satisfecho) presenta los valores más altos, lo que indica que estos graduados, aunque no siempre tienen grandes logros materiales, se sienten emocionalmente plenos y satisfechos con su desarrollo personal.

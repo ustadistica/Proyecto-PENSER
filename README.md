@@ -50,6 +50,24 @@ Comprender mejor el impacto que tiene la formación universitaria en la vida de 
 
 ## 4. Estructura del Repositorio
 
+Proyecto-PENSER/
+│
+│
+├── docs/
+│   ├── fINF.PENSER/          ← Documentos entregados por el equipo de PENSER 
+│   ├── informes/         ← Informes creados durante la consultoria 
+│   └── .Rhistory
+│
+├── Codigos/
+│
+│   ├── data_depurada/
+│   ├── iie_penser/
+│   └── implementacion_iie_penser/
+│
+├── .gitignore
+└── README.md
+
+
 ---
 
 ## 5. Datos y Alcance

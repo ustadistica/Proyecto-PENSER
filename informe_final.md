@@ -327,6 +327,21 @@ Estas visualizaciones facilitaron una lectura más clara del comportamiento de c
 
 ---
 
+# Tasa de empleabilidad por arquetipo
+
+_Permite identificar qué perfiles de egresados presentan mejor inserción laboral, ayudando a entender cómo las características de cada arquetipo influyen en sus oportunidades de empleo._
+
+<p align="center">
+  <img alt="Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e" src="https://github.com/user-attachments/assets/e03bc1e0-43bb-49f2-956b-ef148d5c1a58" />
+  <br>
+  <strong>Figura X.</strong> Imagen de WhatsApp 2025-11-19 a las 18 37 58_2f06259e
+</p>
+
+
+Se observa una diferencia marcada entre los arquetipos: el Arquetipo 1 (92.5%) y el Arquetipo 4 (91%) muestran la mayor empleabilidad, seguidos por el Arquetipo 3 (83.1%). En contraste, los arquetipos 2 (60.2%) y 0 (49.2%) están por debajo del promedio general (75.2%). Esto evidencia que ciertos perfiles tienen mayor adaptación y éxito laboral, mientras otros podrían requerir estrategias de apoyo para fortalecer sus competencias y empleabilidad.
+
+---
+
 ## Distribución de arquetipos por seccional
 
 _Esta gráfica permite identificar cómo varía la composición de los cinco arquetipos entre las seccionales de la Universidad Santo Tomás. Analizar estas diferencias ayuda a comprender cómo influyen los contextos regionales en el tipo de profesional que forma cada sede, orientando decisiones académicas y de acompañamiento específicas._

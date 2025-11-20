@@ -52,6 +52,7 @@ Comprender mejor el impacto que tiene la formación universitaria en la vida de 
 
 El repositorio está organizado para que sea fácil identificar los documentos, los códigos y los insumos utilizados durante el proyecto PENSER. A continuación se presenta la estructura de la carpeta principal:
 
+~~~text
 Proyecto-PENSER/
 │
 ├─ docs/
@@ -68,6 +69,7 @@ Proyecto-PENSER/
 ├─ .gitignore
 └─ README.md
 
+~~~
 
 ---
 

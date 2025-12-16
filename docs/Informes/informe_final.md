@@ -253,7 +253,7 @@ El análisis se basó en las puntuaciones factoriales de las siguientes dimensio
 Este grupo representa a los graduados con mayores logros materiales y estabilidad económica. No obstante, su percepción sobre el impacto de la formación académica es más exigente y crítica, reflejando una valoración racional de la experiencia universitaria.
 
 <p align="center">
-  <img width="436" height="330" alt="image" src="https://github.com/user-attachments/assets/3d130ecf-847b-4863-b1a5-1d88634e4466" />
+  <img width="480" height="325" alt="image" src="https://github.com/user-attachments/assets/20f1ea44-8252-43a2-8b75-0eb854ff8c63"" />
   <br>
   <strong>Figura 10.</strong> El Profesional Exitoso y Crítico (39% de la muestra)
 </p>
